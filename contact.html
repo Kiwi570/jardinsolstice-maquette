@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et réservation : Jardin Solstice</title>
+<meta name="description" content="Réserver une chambre ou l&#39;Assiette du jardin, commander des tisanes, organiser une visite de groupe. Accès depuis la gare de La Loupe.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://jardinsolstice-maquette.vercel.app/contact">
+<style>:root{--fond:#f1eee6;--texte:#1f2b23;--voile-fond:#233128;--ouverture-fond:#233128;--menu-fond:#f1eee6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f1eee6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jardin Solstice">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact et réservation : Jardin Solstice">
+<meta property="og:description" content="Réserver une chambre ou l&#39;Assiette du jardin, commander des tisanes, organiser une visite de groupe. Accès depuis la gare de La Loupe.">
+<meta property="og:url" content="https://jardinsolstice-maquette.vercel.app/contact">
+<meta property="og:image" content="https://jardinsolstice-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contact et accès au Jardin Solstice">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"Jardin Solstice","url":"https://jardinsolstice-maquette.vercel.app/","telephone":"+33237811582","email":"jardinsolstice@orange.fr","address":{"@type":"PostalAddress","streetAddress":"La Floudière, 5 rue de l'Hêtre","postalCode":"28240","addressLocality":"Vaupillon","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":48.4611,"longitude":0.9958},"numberOfRooms":3,"priceRange":"62 € - 77 € la nuit","checkinTime":"17:00","description":"Micro-ferme bio et chambres d'hôtes écologiques dans le Perche : trois chambres, l'Assiette du jardin et des tisanes de plantes cultivées sur place."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-soleil"></span><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <svg class="intro-arc" viewBox="0 0 400 210" fill="none" aria-hidden="true"><path class="intro-horizon" d="M8 200 H392"/><path class="intro-trajet" d="M30 200 A170 170 0 0 1 370 200" pathLength="1"/></svg>
+    <span class="intro-soleil" data-ouverture-objet></span>
+  </div>
+  <img class="intro-logo" src="/assets/images/logo-solstice-clair.png" alt="" width="567" height="89">
+  <p class="intro-ligne">Vivre au rythme de la nature</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Jardin Solstice, Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-solstice.png" alt="Jardin Solstice" width="567" height="89">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Chambres">Chambres</a></li><li><a href="/tisanes" data-libelle="Tisanes">Tisanes</a></li><li><a href="/la-ferme" data-libelle="La ferme">La ferme</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Chambres">Chambres</a></li><li style="--i:2"><a href="/tisanes" class="menu-lien" data-libelle="Tisanes">Tisanes</a></li><li style="--i:3"><a href="/la-ferme" class="menu-lien" data-libelle="La ferme">La ferme</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33237811582">Appeler 02 37 81 15 82</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ctc-ouv conteneur" id="debut">
+  <div class="ctc-ouv-texte">
+    <p class="surtitre" data-anime="gsap">Contact et réservation</p>
+    <h1 class="ctc-titre"><span class="ouv-ligne-masque"><span class="ouv-ligne">Venir à</span></span><span class="ouv-ligne-masque"><em class="ouv-ligne">La Floudière</em></span></h1>
+    <ul class="ctc-coord masque-ecran-tres-bas" data-anime="gsap">
+      <li><span>Téléphone</span><a href="tel:+33237811582">02 37 81 15 82</a></li>
+      <li class="masque-ecran-bas"><span>E-mail</span><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></li>
+      <li class="masque-ecran-bas"><span>Adresse</span>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon</li>
+    </ul>
+    <p data-anime="gsap"><a class="bouton" href="#demande" data-sans-transition data-action-principale>Faire une demande</a></p>
+    <p class="ctc-info" data-info-cle data-anime="gsap"><span data-vente>Vente à la ferme d&#39;avril à septembre, le samedi de 17 h à 19 h ; sinon sur rendez-vous</span></p>
+  </div>
+  <div class="carte-acces" data-effet="itineraire">
+    <svg class="carte-svg" viewBox="0 0 520 440" fill="none" role="img" aria-labelledby="carte-titre" data-visuel>
+      <title id="carte-titre">Plan d&#39;accès schématique depuis la gare de La Loupe jusqu&#39;à La Floudière</title>
+      <path class="carte-rail" d="M10 110 C 120 120, 200 92, 300 104 S 470 90, 512 96"/>
+      <path class="carte-route" d="M14 300 C 120 280, 180 230, 236 150 C 252 128, 270 112, 300 104" />
+      <path class="carte-route carte-route--d928" d="M300 104 C 330 170, 372 230, 420 286 S 490 372, 510 420"/>
+      <path class="carte-chemin" d="M360 218 C 330 236, 300 262, 276 300" />
+      <path class="carte-trajet" data-trajet d="M300 104 C 318 142, 340 182, 360 218 C 330 236, 300 262, 276 300" pathLength="1"/>
+      <g class="carte-gare" data-repere><circle cx="300" cy="104" r="9"/></g>
+      <g class="carte-bifurcation" data-repere><circle cx="360" cy="218" r="6"/></g>
+    </svg>
+    <span class="carte-floudiere" data-iris-centre="disque"></span>
+    <p class="carte-etiquette carte-etiquette--gare" data-repere>Gare de La Loupe</p>
+    <p class="carte-etiquette carte-etiquette--d928" data-repere>D928 vers Nogent-le-Rotrou</p>
+    <p class="carte-etiquette carte-etiquette--bif" data-repere>Les Gaudonnières : à droite</p>
+    <p class="carte-etiquette carte-etiquette--floudiere" data-repere><strong>La Floudière</strong> 3 km de la gare</p>
+    <p class="carte-etiquette carte-etiquette--rail" data-repere>Paris-Montparnasse – Le Mans</p>
+    <p class="carte-note">Plan schématique, sans échelle</p>
+  </div>
+</section>
+<section class="demande bande-sombre" id="demande">
+  <div class="conteneur demande-grille">
+    <div class="demande-tete">
+      <svg class="demande-arc" viewBox="0 0 240 110" fill="none" aria-hidden="true" data-visuel data-fx="trace"><path d="M10 104 A110 110 0 0 1 230 104" stroke="currentColor" stroke-width="2" data-fx-trait/><path d="M0 104 H240" stroke="currentColor" stroke-width="1.5" data-fx-trait/><circle class="appel-soleil" cx="190" cy="38" r="12"/></svg>
+      <p class="surtitre" data-anime>Votre demande</p>
+      <h2 data-anime="lignes">Réserver, commander, <em>demander</em></h2>
+      <p data-anime>Trois étapes : ce que vous souhaitez, les détails, vos coordonnées. Nous essayons de répondre rapidement : pensez à vérifier vos courriers indésirables.</p>
+      <ol class="etapes-annonce" data-etapes-annonce data-anime="cascade">
+        <li class="est-active">Votre demande</li><li>Les détails</li><li>Vos coordonnées</li>
+      </ol>
+      <div class="recap" aria-live="polite" data-anime>
+        <p class="recap-titre">Récapitulatif</p>
+        <p data-recap>Un séjour</p>
+      </div>
+    </div>
+    <form class="formulaire demande-form" data-formulaire data-etapes action="#" novalidate data-anime>
+      <fieldset class="etape-form" data-etape="1">
+        <legend>Votre demande</legend>
+        <div class="choix-sujets"><label class="choix-sujet"><input type="radio" name="sujet" value="sejour" checked><span><strong>Un séjour</strong>Une chambre, une ou plusieurs nuits</span></label><label class="choix-sujet"><input type="radio" name="sujet" value="table"><span><strong>L&#39;Assiette du jardin</strong>Un soir à table, 48 h à l&#39;avance</span></label><label class="choix-sujet"><input type="radio" name="sujet" value="commande"><span><strong>Une commande</strong>Tisanes et préparations, envoyées le lundi</span></label><label class="choix-sujet"><input type="radio" name="sujet" value="groupe"><span><strong>Une visite de groupe</strong>De 10 à 30 personnes, sur rendez-vous</span></label><label class="choix-sujet"><input type="radio" name="sujet" value="autre"><span><strong>Autre chose</strong>Une question, un stage, un mot</span></label></div>
+        <button type="button" class="bouton" data-suivant>Continuer</button>
+      </fieldset>
+      <fieldset class="etape-form" data-etape="2" hidden>
+        <legend>Les détails</legend>
+        <div data-pour="sejour" class="champs-grille">
+          <div class="champ"><label for="f-chambre">Chambre</label><select id="f-chambre" name="chambre"><option value="">Peu importe</option><option value="rubus">Rubus</option><option value="tilia">Tilia</option><option value="borago">Borago</option></select></div>
+          <div class="champ"><label for="f-arrivee">Date d&#39;arrivée</label><input id="f-arrivee" name="arrivee" type="date"></div>
+          <div class="champ"><label for="f-nuits">Nuits</label><input id="f-nuits" name="nuits" type="number" min="1" max="21" inputmode="numeric" value="2"></div>
+          <div class="champ"><label for="f-personnes">Personnes</label><input id="f-personnes" name="personnes" type="number" min="1" max="6" inputmode="numeric" value="2"></div>
+          <label class="estimer-option"><input type="checkbox" name="assiette" value="oui"> <span>L&#39;Assiette du jardin les soirs où elle est servie</span></label>
+        </div>
+        <div data-pour="table" class="champs-grille" hidden>
+          <div class="champ"><label for="f-soir">Soir souhaité (vendredi, dimanche ou lundi)</label><input id="f-soir" name="soir" type="date"></div>
+          <div class="champ"><label for="f-adultes">Adultes</label><input id="f-adultes" name="adultes" type="number" min="1" max="12" inputmode="numeric" value="2"></div>
+          <div class="champ"><label for="f-enfants">Enfants de moins de 12 ans</label><input id="f-enfants" name="enfants" type="number" min="0" max="10" inputmode="numeric" value="0"></div>
+          <div class="champ champ--large"><label for="f-regimes">Allergies ou régimes particuliers</label><input id="f-regimes" name="regimes"></div>
+        </div>
+        <div data-pour="commande" hidden>
+          <p class="commande-recap" data-commande-recap>Votre panier est vide : choisissez vos tisanes dans le catalogue, ou décrivez votre commande dans le message.</p>
+          <p><a href="/tisanes#catalogue" class="lien-fleche" data-libelle="Tisanes">Choisir des tisanes</a></p>
+        </div>
+        <div data-pour="groupe" class="champs-grille" hidden>
+          <div class="champ"><label for="f-groupe">Nombre de personnes (10 à 30)</label><input id="f-groupe" name="groupe" type="number" min="10" max="30" inputmode="numeric" value="12"></div>
+          <div class="champ"><label for="f-date-groupe">Date souhaitée</label><input id="f-date-groupe" name="dateGroupe" type="date"></div>
+          <p class="champ--large aide">Forfait de 50 € pour le groupe. Une date en semaine ou le week-end, selon la saison.</p>
+        </div>
+        <div data-pour="autre" hidden><p class="aide">Dites-nous tout dans le message, à l&#39;étape suivante.</p></div>
+        <div class="etape-boutons"><button type="button" class="bouton bouton--contour" data-precedent>Retour</button><button type="button" class="bouton" data-suivant>Continuer</button></div>
+      </fieldset>
+      <fieldset class="etape-form" data-etape="3" hidden>
+        <legend>Vos coordonnées</legend>
+        <div class="champs-grille">
+          <div class="champ"><label for="f-nom">Nom (obligatoire)</label><input id="f-nom" name="nom" autocomplete="family-name" required></div>
+          <div class="champ"><label for="f-prenom">Prénom</label><input id="f-prenom" name="prenom" autocomplete="given-name"></div>
+          <div class="champ"><label for="f-email">E-mail (obligatoire)</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="champ"><label for="f-tel">Téléphone</label><input id="f-tel" name="tel" type="tel" autocomplete="tel"></div>
+          <div class="champ champ--large"><label for="f-message">Votre message</label><textarea id="f-message" name="message" rows="4"></textarea></div>
+        </div>
+        <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. <span class="a-completer">Politique de confidentialité à compléter</span></p>
+        <div class="etape-boutons"><button type="button" class="bouton bouton--contour" data-precedent>Retour</button><button type="submit" class="bouton bouton--soleil">Envoyer la demande</button></div>
+      </fieldset>
+      <p data-message-envoi role="status" tabindex="-1" hidden></p>
+    </form>
+  </div>
+</section>
+<section class="acces conteneur" id="acces">
+  <div>
+    <p class="surtitre" data-anime>Accès</p>
+    <h2 data-anime="lignes">Par le train, <em>le vélo ou la route</em></h2>
+    <dl class="acces-liste" data-anime="cascade"><div><dt>En train</dt><dd>Ligne Paris-Montparnasse – Le Mans, arrêt La Loupe : 1 h 30 depuis Paris, 1 h 20 depuis Le Mans. Prise en charge à la gare selon nos disponibilités.</dd></div><div><dt>À vélo</dt><dd>3 km depuis la gare de La Loupe. Local fermé, point d&#39;eau et matériel de réparation sur place ; une étape possible sur la Véloscénie.</dd></div><div><dt>En voiture depuis Dreux</dt><dd>Direction Le Mans puis La Loupe. À La Loupe, prendre la D928 direction Nogent-le-Rotrou, faire 3 km et tourner à droite au lieu-dit Les Gaudonnières : le carrefour de La Floudière est en face.</dd></div><div><dt>En voiture depuis Chartres</dt><dd>Direction Le Mans par la N23, puis La Loupe ; ensuite, même itinéraire que depuis Dreux.</dd></div></dl>
+  </div>
+  <div class="acces-images">
+    <figure class="media acces-plan" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/plan-dessine-960.webp" srcset="/assets/images/plan-dessine-480.webp 480w, /assets/images/plan-dessine-640.webp 640w, /assets/images/plan-dessine-960.webp 960w" sizes="(max-width: 760px) 92vw, 40vw" alt="Plan dessiné à la main du lieu-dit La Floudière" width="960" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figure class="media acces-maison" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/contact-maison-960.webp" srcset="/assets/images/contact-maison-480.webp 480w, /assets/images/contact-maison-640.webp 640w, /assets/images/contact-maison-960.webp 960w" sizes="(max-width: 760px) 60vw, 20vw" alt="L&#39;allée de graviers devant la maison" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="Jardin Solstice" width="567" height="89" loading="lazy">
+      <p>Micro-ferme bio, chambres d&#39;hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.</p>
+      <p>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon<br><a href="tel:+33237811582">02 37 81 15 82</a><br><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/chambres" data-libelle="Chambres">Chambres</a></li><li><a href="/tisanes" data-libelle="Tisanes">Tisanes</a></li><li><a href="/la-ferme" data-libelle="La ferme">La ferme</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Labels et engagements</p>
+      <ul class="pied-labels"><li>Certifié Nature &amp; Progrès depuis 2022</li><li>Accueil Paysan</li><li>Valeurs Parc naturel régional du Perche</li><li>Tourisme &amp; Handicap (chambre Rubus)</li><li>Adhérents FNAB et Confédération paysanne</li></ul>
+      <p><a href="https://www.facebook.com/JardinSolstice" target="_blank" rel="noopener">Jardin Solstice sur Facebook (nouvel onglet)</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales <span class="a-completer">à compléter</span> · Politique de confidentialité <span class="a-completer">à compléter</span></p>
+    <p>Maquette de démonstration : réservations, commandes et formulaires sont simulés.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33237811582">Appeler</a>
+  <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
+</div>
+</body>
+</html>

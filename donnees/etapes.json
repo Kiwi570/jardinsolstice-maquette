@@ -1,0 +1,26 @@
+[
+ {
+  "image": "fenouil",
+  "alt": "Fenouil et plantes en buttes paillées au jardin",
+  "titre": "Cultiver",
+  "texte": "Sol peu ou pas travaillé, paillé toute l'année, plantes mélangées entre les fruitiers. Une partie de l'arrosage vient de l'eau de pluie."
+ },
+ {
+  "image": "cueillette",
+  "alt": "Cueillette à la main entre les rangs de plantes",
+  "titre": "Cueillir",
+  "texte": "Tout le travail est manuel : une quarantaine de plantes cultivées, une vingtaine cueillies sauvages, dans les haies et les prés."
+ },
+ {
+  "image": "grok/sechage",
+  "alt": "Plantes étalées sur des claies de séchage en bois",
+  "titre": "Sécher",
+  "texte": "Au soleil, dans deux séchoirs construits par Sébastien : air chaud récupéré sous le toit et ventilation, avec un appoint en saison humide."
+ },
+ {
+  "image": "famille-classiques",
+  "alt": "Sachets des tisanes Détente et Sérénité",
+  "titre": "Mélanger",
+  "texte": "Les plantes sont assemblées en tisanes, sirops, vinaigres ou hydrolats, souvent dans des pots en verre récupérés."
+ }
+]

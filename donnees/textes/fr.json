@@ -1,0 +1,399 @@
+{
+ "commun": {
+  "navigation": "Navigation principale",
+  "menu": "Menu",
+  "fermer": "Fermer",
+  "langueAutre": "English version",
+  "actionEntete": "Réserver",
+  "appeler": "Appeler",
+  "sommaire": "Sommaire",
+  "retourHaut": "Retour en haut",
+  "maquette": "Maquette de démonstration : réservations, commandes et formulaires sont simulés.",
+  "evitement": "Aller au contenu",
+  "mentionIa": "Illustration générée",
+  "pause": "Pause",
+  "lecture": "Lecture",
+  "introLigne": "Vivre au rythme de la nature",
+  "piedAccroche": "Micro-ferme bio, chambres d'hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.",
+  "labelsTitre": "Labels et engagements",
+  "facebook": "Jardin Solstice sur Facebook (nouvel onglet)",
+  "mentions": "Mentions légales",
+  "confidentialite": "Politique de confidentialité",
+  "aCompleter": "à compléter"
+ },
+ "pages": {
+  "accueil": {
+   "titre": "Jardin Solstice : chambres d'hôtes écologiques et tisanes bio dans le Perche",
+   "description": "Micro-ferme bio à Vaupillon (Eure-et-Loir) : trois chambres d'hôtes écologiques, l'Assiette du jardin et une quarantaine de plantes médicinales cultivées pour nos tisanes.",
+   "nav": "Accueil",
+   "partageAlt": "Ombelle givrée au Jardin Solstice et le titre Vivre au rythme de la nature",
+   "accroche": "Vivre au rythme de la nature"
+  },
+  "chambres": {
+   "titre": "Les trois chambres d'hôtes : Jardin Solstice",
+   "description": "Rubus, Tilia et Borago : trois chambres écologiques à Vaupillon, dans le Perche, de 62 € à 77 € la nuit, petit-déjeuner et Assiette du jardin.",
+   "nav": "Chambres",
+   "partageAlt": "La maison d'hôtes du Jardin Solstice et son massif de lavandes",
+   "accroche": "Trois chambres écologiques dans le Perche"
+  },
+  "tisanes": {
+   "titre": "Tisanes et préparations bio : Jardin Solstice",
+   "description": "35 tisanes de plantes cultivées et cueillies à Vaupillon, sirops, hydrolats et baumes. Commande, marchés et points de vente.",
+   "nav": "Tisanes",
+   "partageAlt": "Paniers de fleurs fraîchement cueillies au Jardin Solstice",
+   "accroche": "Tisanes de plantes cultivées ici"
+  },
+  "la-ferme": {
+   "titre": "La ferme : Magalie et Sébastien, paysans-herboristes",
+   "description": "Le jardin, les cultures sans mécanisation, le séchage solaire et la maison de silex et chaux du Jardin Solstice, à Vaupillon.",
+   "nav": "La ferme",
+   "partageAlt": "La prairie et la maison du Jardin Solstice",
+   "accroche": "Paysans-herboristes dans le Perche"
+  },
+  "contact": {
+   "titre": "Contact et réservation : Jardin Solstice",
+   "description": "Réserver une chambre ou l'Assiette du jardin, commander des tisanes, organiser une visite de groupe. Accès depuis la gare de La Loupe.",
+   "nav": "Contact",
+   "partageAlt": "Contact et accès au Jardin Solstice",
+   "accroche": "Réserver, commander, venir"
+  },
+  "404": {
+   "titre": "Page introuvable : Jardin Solstice",
+   "description": "Cette page n'existe pas ou plus.",
+   "nav": "Page introuvable",
+   "partageAlt": "Page introuvable",
+   "accroche": "Page introuvable"
+  }
+ },
+ "accueil": {
+  "ouv": {
+   "sur": "Micro-ferme bio · Vaupillon, dans le Perche",
+   "titre1": "Vivre au rythme",
+   "titre2": "de la nature",
+   "texte": "Nous vous accueillons au sein d'une micro-ferme bio : trois chambres écologiques, l'Assiette du jardin le soir et une quarantaine de plantes cultivées pour nos tisanes.",
+   "action": "Réserver une chambre",
+   "action2": "Les tisanes",
+   "lever": "Lever",
+   "coucher": "Coucher",
+   "jourSansJs": "Le soleil de Vaupillon, calculé pour aujourd'hui",
+   "solstice": "Solstice d'hiver le 21 décembre",
+   "alt": "Ombelle couverte de givre au jardin, un matin d'hiver"
+  },
+  "ferme": {
+   "sur": "La ferme",
+   "titre": "Deux paysans-herboristes, <em>une micro-ferme bio</em>",
+   "texte1": "Magalie et Sébastien vivent dans le Perche depuis presque vingt ans. Ils ont rénové la maison de La Floudière, planté un verger, créé un potager et un jardin de plantes médicinales.",
+   "texte2": "Ils cultivent, cueillent, sèchent et transforment eux-mêmes leurs plantes, à la main, sans mécanisation. Magalie a étudié trois ans à l'École lyonnaise de plantes médicinales.",
+   "lien": "Découvrir la ferme",
+   "alt1": "Massif fleuri du jardin sous les grands arbres",
+   "alt2": "Magalie et Sébastien au milieu des plantes médicinales"
+  },
+  "chambres": {
+   "sur": "Chambres d'hôtes",
+   "titre": "Trois chambres écologiques <em>pour un séjour à la campagne</em>",
+   "texte": "Chacune porte le nom latin d'une plante du jardin. Arrivée entre 17 h et 19 h, petit-déjeuner servi de 7 h à 10 h.",
+   "des": "dès",
+   "nuit": "la nuit",
+   "pied": "Prix pour une personne ; 67 € ou 77 € pour deux, 15 € par personne de plus de 5 ans.",
+   "lien": "Voir les chambres et les tarifs",
+   "alt": "La chambre {nom}"
+  },
+  "table": {
+   "sur": "Table d'hôtes",
+   "titre": "L'Assiette <em>du jardin</em>",
+   "texte": "Le soir, les légumes du potager en permaculture, les œufs de nos poules ou d'une ferme bio voisine, la charcuterie et les fromages de fermes bio du coin. Le menu change avec les saisons et les récoltes.",
+   "adulte": "par adulte",
+   "enfant": "par enfant de moins de 12 ans",
+   "jours": "Le vendredi, le dimanche et le lundi soir, uniquement sur réservation 48 h à l'avance. Servie dans la Maison, ou en chambre jusqu'à 20 h.",
+   "reserver": "Réserver l'Assiette du jardin",
+   "alt": "Laurier, sauge et romarin fraîchement cueillis sur une table en bois"
+  },
+  "tisanes": {
+   "sur": "Tisanes et préparations",
+   "titre": "Une sélection <em>pour l'hiver</em>",
+   "texte": "Nous cultivons, cueillons, séchons et transformons une quarantaine de plantes. Pas d'agrumes ni de cannelle : seulement ce qui pousse ici.",
+   "lien": "Les 35 tisanes",
+   "alt": "Sachets de tisanes du Jardin Solstice dans un panier en osier",
+   "region": "Sélection de tisanes, défilement horizontal"
+  },
+  "roue": {
+   "sur": "La roue de l'année",
+   "titre": "Au fil <em>des saisons</em>",
+   "tisanes": "Tisanes de saison :"
+  },
+  "marches": {
+   "sur": "Où nous trouver",
+   "titre": "Les marchés <em>de fin d'année</em>",
+   "chardonTitre": "Toute l'année au Chardon",
+   "chardonTexte": "Boutique des producteurs bio du Perche, 1 place Saint-Pol à Nogent-le-Rotrou : mardi, mercredi et vendredi 9 h 30-13 h et 14 h 30-19 h, samedi 9 h 30-14 h 30.",
+   "fermeTitre": "À la ferme",
+   "fermeTexte": "D'avril à septembre, le samedi de 17 h à 19 h ; le reste de l'année sur rendez-vous.",
+   "lien": "Tous les points de vente",
+   "alt": "Sirops de plantes du Jardin Solstice au soleil sur une terrasse en bois"
+  },
+  "maison": {
+   "sur": "Démarche écologique",
+   "titre": "Une maison <em>qui respire</em>",
+   "texte": "Les chambres ont été rénovées avec des matériaux simples et locaux : silex, chaux, chanvre, terres cuites de récupération et peintures sans COV.",
+   "lien": "La démarche en détail",
+   "alt": "Terres cuites de récupération empilées"
+  },
+  "fin": {
+   "titre": "Venez vivre <em>au rythme du Perche</em>",
+   "texte": "À 3 km de la gare de La Loupe (1 h 30 de Paris-Montparnasse) : prise en charge à la gare selon nos disponibilités, local fermé pour les vélos.",
+   "reserver": "Demander une réservation",
+   "appeler": "Appeler le",
+   "alt": "Tasse de tisane fumante près d'une fenêtre givrée"
+  }
+ },
+ "introuvable": {
+  "titre": "Ce sentier ne mène nulle part",
+  "texte": "La page que vous cherchez n'existe pas ou plus. Le panier est vide, mais le jardin est par ici.",
+  "retour": "Retour à l'accueil",
+  "alt": "Un panier de cueillette vide posé dans l'herbe givrée"
+ },
+ "chambres": {
+  "ouv": {
+   "sur": "Chambres d'hôtes",
+   "titre1": "Trois chambres",
+   "titre2": "écologiques",
+   "texte": "Dans une maison de silex et chaux rénovée avec des matériaux simples et locaux, au milieu des massifs et des plantes médicinales.",
+   "action": "Estimer mon séjour",
+   "info": "De 62 € à 77 € la nuit · petit-déjeuner de 7 h à 10 h",
+   "alt": "La maison d'hôtes, ses volets vert d'eau et le massif de lavandes"
+  },
+  "chambre": {
+   "plante": "{plante}",
+   "tarifs": "Tarifs par nuit",
+   "une": "1 personne",
+   "deux": "2 personnes",
+   "supp": "Par personne de plus de 5 ans en plus",
+   "forfait": "Forfait 2 personnes, {periode}",
+   "avecPdj": " · {prix} avec petits-déjeuners",
+   "demander": "Demander la chambre {nom}"
+  },
+  "table": {
+   "sur": "Petit-déjeuner et table d'hôtes",
+   "titre": "À table, <em>les produits du jardin</em>",
+   "pdjTitre": "Le petit-déjeuner",
+   "pdjTexte": "Servi de 7 h à 10 h dans la Maison, ou en chambre pour Rubus.",
+   "assietteTitre": "L'Assiette du jardin",
+   "assietteTexte": "Crudités et terrine locale, préparation aux légumes du jardin, fromages, dessert de saison. Le vendredi, le dimanche et le lundi soir, sur réservation 48 h à l'avance. Le samedi, nous vous conseillons les bonnes tables du Perche.",
+   "enfant": "de moins de 12 ans",
+   "boissons": "Cidre, bière, vin et jus bio en supplément. Allergies et régimes particuliers à préciser à la réservation.",
+   "alt": "Légumes d'hiver du potager sur une table de ferme"
+  },
+  "estimer": {
+   "sur": "Estimer son séjour",
+   "titre": "Votre séjour, <em>en un coup d'œil</em>",
+   "texte": "Choisissez la chambre, le nombre de nuits et de personnes : le total s'affiche aussitôt, puis la demande part avec vos choix.",
+   "chambre": "La chambre",
+   "des": "dès {prix}",
+   "nuits": "Nuits",
+   "personnes": "Personnes",
+   "moinsNuit": "Une nuit de moins",
+   "plusNuit": "Une nuit de plus",
+   "moinsPers": "Une personne de moins",
+   "plusPers": "Une personne de plus",
+   "assiette": "L'Assiette du jardin chaque soir où elle est servie (tarif adulte)",
+   "total": "Total indicatif",
+   "detailSansJs": "Rubus, 2 nuits, 2 personnes",
+   "note": "Estimation hors taxe de séjour ; l'acompte de la moitié est demandé à la réservation.",
+   "envoyer": "Envoyer cette demande"
+  },
+  "conditions": {
+   "sur": "Bon à savoir",
+   "titre": "Avant <em>de venir</em>",
+   "alt": "Linge de lit plié et brin de lavande séchée"
+  },
+  "appel": {
+   "titre": "Une question <em>avant de réserver ?</em>",
+   "texte": "Magalie et Sébastien vous répondent au téléphone ou par la demande en ligne. Pensez à vérifier vos courriers indésirables."
+  }
+ },
+ "tisanes": {
+  "ouv": {
+   "sur": "Tisanes et préparations",
+   "titre1": "Une quarantaine de plantes,",
+   "titre2": "cultivées ici",
+   "texte": "Nous cultivons, cueillons, séchons et transformons nous-mêmes toutes nos plantes, en bio, sans en acheter ailleurs. Leur disponibilité suit la saison et les récoltes.",
+   "action": "Choisir mes tisanes",
+   "info": "5,75 € les 30 à 40 g · expédition chaque lundi · port offert dès 75 €",
+   "alt": "Paniers de fleurs de souci et de mauve fraîchement cueillies",
+   "alt2": "Pots d'herbes aromatiques séchées",
+   "alt3": "Sachets de menthe verte, menthe bergamote et camomille romaine"
+  },
+  "cat": {
+   "sur": "Les 35 tisanes",
+   "titre": "Classiques, saisonnières, <em>goûteuses</em>",
+   "texte": "Mélanges de plantes ou plante simple, en sachets de 20 à 40 g selon la légèreté des plantes. Ajoutez-les au panier : il prépare votre bon de commande.",
+   "filtrer": "Filtrer par famille",
+   "toutes": "Toutes",
+   "chercher": "Chercher une plante ou une tisane",
+   "exemple": "Tilleul, menthe, sauge…",
+   "vide": "Aucune tisane ne contient cette plante. Essayez « menthe » ou « tilleul ».",
+   "simple": "La plante seule, cultivée et séchée à la ferme.",
+   "ajouter": "Ajouter",
+   "ajouterNom": "Ajouter la tisane {nom} au panier",
+   "mention": "La disponibilité évolue au cours de la saison et des récoltes. Nos tisanes ne se substituent en aucun cas à une prescription médicale."
+  },
+  "panier": {
+   "bouton": "Panier",
+   "titre": "Votre panier",
+   "vide": "Le panier est vide : ajoutez une tisane depuis le catalogue.",
+   "sousTotal": "Sous-total",
+   "port": "Port (La Poste)",
+   "total": "Total",
+   "commander": "Envoyer le bon de commande",
+   "note": "Commande simulée : rien n'est payé ici. Paiement par chèque ou virement, expédition le lundi après réception du paiement."
+  },
+  "produits": {
+   "sur": "Aussi à la ferme",
+   "titre": "Sirops, hydrolats, <em>baumes</em>",
+   "texte": "Tout ce que nous proposons, nous le produisons. Prix et disponibilités sur le bon de commande, à demander."
+  },
+  "champ": {
+   "sur": "Du champ à la tasse",
+   "titre": "Quatre gestes, <em>tous à la main</em>"
+  },
+  "trouver": {
+   "sur": "Où nous trouver",
+   "titre": "Près de chez vous, <em>dans le Perche et au-delà</em>",
+   "ferme": "D'avril à septembre, le samedi de 17 h à 19 h, ou sur rendez-vous. Visite de groupe sur rendez-vous : 50 € pour 10 à 30 personnes.",
+   "marchesTitre": "Sur les marchés",
+   "marches": "Marchés de Noël en Eure-et-Loir et dans l'Orne, du 29 novembre au 20 décembre : dates sur l'accueil.",
+   "revendeurs": "28 points de vente, 17 AMAP et 4 épiceries",
+   "alt": "La devanture du Chardon, magasin de producteurs à Nogent-le-Rotrou"
+  },
+  "questions": {
+   "sur": "Questions",
+   "titre": "Pourquoi nous faisons <em>comme ça</em>",
+   "alt": "Flacons bleus d'hydrolats du Jardin Solstice"
+  },
+  "fin": {
+   "titre": "Une commande <em>pour l'hiver ?</em>",
+   "texte": "Minimum 15 € pour un envoi, port de 6 €, offert dès 75 €. Nous n'envoyons pas de jus de pommes par la poste.",
+   "panier": "Remplir mon panier",
+   "ecrire": "Commander par message",
+   "alt": "Fleurs d'origan visitées par un papillon"
+  }
+ },
+ "ferme": {
+  "ouv": {
+   "sur": "La ferme",
+   "titre1": "Paysans-herboristes",
+   "titre2": "dans le Perche",
+   "texte": "À La Floudière, Magalie et Sébastien cultivent une micro-ferme bio : plantes médicinales, potager, verger, et trois chambres pour partager le lieu.",
+   "action": "Faire connaissance",
+   "info": "Lieu-dit La Floudière, Vaupillon (Eure-et-Loir) · 3 km de la gare de La Loupe",
+   "alt": "La prairie en fleurs devant la maison de La Floudière"
+  },
+  "nous": {
+   "sur": "Qui sommes-nous",
+   "titre": "Deux reconversions, <em>un même jardin</em>",
+   "texte": "Installés dans le Perche depuis presque vingt ans, ils ont rénové la maison eux-mêmes avant de se tourner vers l'agriculture.",
+   "magalieRole": "Paysanne-herboriste",
+   "magalie": "Trois ans d'études à l'École lyonnaise de plantes médicinales, puis une reconversion agricole. Elle a créé le potager vivrier, le verger et le jardin de plantes ; ses racines sont en partie réunionnaises.",
+   "sebastienRole": "Paysan-herboriste",
+   "sebastien": "Des modules du certificat de spécialisation en plantes à parfum, aromatiques et médicinales au CFPPA de Montmorot, puis une reconversion agricole. Il a installé des ruches, planté un verger, posé des nichoirs et construit les séchoirs.",
+   "altAbeilles": "Abeilles sur un cadre de ruche"
+  },
+  "jardin": {
+   "sur": "Le jardin",
+   "titre": "Flâner <em>dans le jardin</em>",
+   "texte": "Des massifs dessinés au fil des ans, une mare, une roseraie et un jardin médiéval de quatre carrés bordés de buis, à l'ombre d'un tilleul.",
+   "region": "Les plantes du jardin, défilement horizontal"
+  },
+  "cultures": {
+   "sur": "Les cultures",
+   "titre": "Au plus près <em>de l'état sauvage</em>",
+   "texte": "Les plantes poussent en plein champ, mélangées, sans mécanisation : les récoltes sont plus petites, mais très odorantes.",
+   "alt1": "Mise en place d'une butte en lasagne au jardin",
+   "alt2": "Fleurs de tilleul"
+  },
+  "maison": {
+   "sur": "Démarche écologique",
+   "titre": "La maison <em>qui respire</em>",
+   "texte": "Rénovée avec des matériaux simples, locaux ou récupérés, et chauffée au bois de la région.",
+   "altPlan": "Plan dessiné à la main du lieu-dit La Floudière"
+  },
+  "nuit": {
+   "titre": "Des nuits <em>vraiment noires</em>",
+   "texte": "L'éclairage extérieur, minimal, ne s'allume jamais vers le ciel : la faune nocturne et les étoiles en profitent. Des soirées d'observation du ciel ont lieu à la ferme.",
+   "alt": "Ciel étoilé au-dessus d'une haie et d'un verger"
+  },
+  "questions": {
+   "sur": "Questions",
+   "titre": "Nos choix, <em>expliqués</em>",
+   "engagements": "Labels et engagements",
+   "alt": "Pignon de la maison d'hôtes et rosiers en fleurs"
+  },
+  "appel": {
+   "titre": "Venir voir <em>la ferme</em>",
+   "texte": "Visite de groupe sur rendez-vous, en semaine ou le week-end : 50 € pour 10 à 30 personnes. Ou restez quelques nuits.",
+   "groupe": "Organiser une visite de groupe",
+   "chambres": "Voir les chambres"
+  }
+ },
+ "contact": {
+  "ouv": {
+   "sur": "Contact et réservation",
+   "titre1": "Venir à",
+   "titre2": "La Floudière",
+   "tel": "Téléphone",
+   "email": "E-mail",
+   "adresse": "Adresse",
+   "action": "Faire une demande",
+   "vente": "Vente à la ferme d'avril à septembre, le samedi de 17 h à 19 h ; sinon sur rendez-vous"
+  },
+  "carte": {
+   "titre": "Plan d'accès schématique depuis la gare de La Loupe jusqu'à La Floudière",
+   "gare": "Gare de La Loupe",
+   "d928": "D928 vers Nogent-le-Rotrou",
+   "bifurcation": "Les Gaudonnières : à droite",
+   "distance": "3 km de la gare",
+   "rail": "Paris-Montparnasse – Le Mans",
+   "note": "Plan schématique, sans échelle"
+  },
+  "demande": {
+   "sur": "Votre demande",
+   "titre": "Réserver, commander, <em>demander</em>",
+   "texte": "Trois étapes : ce que vous souhaitez, les détails, vos coordonnées. Nous essayons de répondre rapidement : pensez à vérifier vos courriers indésirables.",
+   "e1": "Votre demande",
+   "e2": "Les détails",
+   "e3": "Vos coordonnées",
+   "recap": "Récapitulatif",
+   "recapVide": "Un séjour",
+   "suivant": "Continuer",
+   "precedent": "Retour",
+   "chambre": "Chambre",
+   "indifferent": "Peu importe",
+   "arrivee": "Date d'arrivée",
+   "nuits": "Nuits",
+   "personnes": "Personnes",
+   "assiette": "L'Assiette du jardin les soirs où elle est servie",
+   "soir": "Soir souhaité (vendredi, dimanche ou lundi)",
+   "adultes": "Adultes",
+   "enfants": "Enfants de moins de 12 ans",
+   "regimes": "Allergies ou régimes particuliers",
+   "commandeVide": "Votre panier est vide : choisissez vos tisanes dans le catalogue, ou décrivez votre commande dans le message.",
+   "commandeLien": "Choisir des tisanes",
+   "groupeNombre": "Nombre de personnes (10 à 30)",
+   "groupeDate": "Date souhaitée",
+   "groupeAide": "Forfait de 50 € pour le groupe. Une date en semaine ou le week-end, selon la saison.",
+   "autreAide": "Dites-nous tout dans le message, à l'étape suivante.",
+   "nom": "Nom (obligatoire)",
+   "prenom": "Prénom",
+   "email": "E-mail (obligatoire)",
+   "tel": "Téléphone",
+   "message": "Votre message",
+   "donnees": "Vos coordonnées servent seulement à répondre à votre demande.",
+   "envoyer": "Envoyer la demande"
+  },
+  "acces": {
+   "sur": "Accès",
+   "titre": "Par le train, <em>le vélo ou la route</em>",
+   "altMaison": "L'allée de graviers devant la maison"
+  }
+ }
+}

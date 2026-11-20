@@ -1,0 +1,6 @@
+{
+  "siteActuel": "jardinsolstice.com",
+  "pagesTypes": ["/", "/chambres", "/tisanes"],
+  "effets": ["soleil", "roue", "sachets"],
+  "grille": { "dispenses": {} }
+}

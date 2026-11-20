@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BedAndBreakfast",
+  "name": "Jardin Solstice",
+  "url": "https://jardinsolstice-maquette.vercel.app/",
+  "telephone": "+33237811582",
+  "email": "jardinsolstice@orange.fr",
+  "address": { "@type": "PostalAddress", "streetAddress": "La Floudière, 5 rue de l'Hêtre", "postalCode": "28240", "addressLocality": "Vaupillon", "addressCountry": "FR" },
+  "geo": { "@type": "GeoCoordinates", "latitude": 48.4611, "longitude": 0.9958 },
+  "numberOfRooms": 3,
+  "priceRange": "62 € - 77 € la nuit",
+  "checkinTime": "17:00",
+  "description": "Micro-ferme bio et chambres d'hôtes écologiques dans le Perche : trois chambres, l'Assiette du jardin et des tisanes de plantes cultivées sur place."
+}

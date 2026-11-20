@@ -1,0 +1,254 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "hébergement"
+ ],
+ "metier": "chambre d'hôtes ferme herboriste plantes médicinales",
+ "besoin": [],
+ "ton": [
+  "chaleureux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "jardinsolstice-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "lemoy-premium-maquette",
+   "client": "pâtisserie, chocolaterie, boulangerie et traiteur rue François de Curel à Metz, commande en ligne et retrait en boutique",
+   "metier": "pâtissier chocolatier",
+   "pourquoi": "Pâtisserie à Metz : cacao, crème et or, superbes photos de produits, vitrine claire et utile, commande en ligne.",
+   "proche": [
+    "activité proche",
+    "ambiance chaleureux"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 84,
+   "en_ligne": "https://lemoy-premium-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "lemoy-premium-maquette/heros",
+     "note_section": 3,
+     "titre": "Les grands classiques, revisités.",
+     "capture": "medias/lemoy-premium-maquette/heros-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/heros.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "lemoy-premium-maquette/vitrine",
+     "note_section": 4,
+     "titre": "Sous les cloches, ce matin",
+     "capture": "medias/lemoy-premium-maquette/vitrine-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/vitrine.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app"
+    },
+    {
+     "page": "boulangerie",
+     "role": "ouverture",
+     "id": "lemoy-premium-maquette/boulangerie-tete",
+     "note_section": 3,
+     "titre": "Pains au levain, viennoiseries pur beurre",
+     "capture": "medias/lemoy-premium-maquette/boulangerie-tete-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/boulangerie-tete.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app/boulangerie"
+    },
+    {
+     "page": "carte-cadeau",
+     "role": "outil-interactif",
+     "id": "lemoy-premium-maquette/carte-cadeau-cc-titre",
+     "note_section": 4,
+     "titre": "Votre carte",
+     "capture": "medias/lemoy-premium-maquette/carte-cadeau-cc-titre-p1440.jpg",
+     "video": null,
+     "fiche": "sections/lemoy-premium-maquette/carte-cadeau-cc-titre.json",
+     "en_ligne": "https://lemoy-premium-maquette.vercel.app/carte-cadeau"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "artic-maquette",
+   "client": "conseil en hôtellerie-restauration (stratégie, transformation, transmission) d'un ancien cuisinier et directeur F&B, à Orbe",
+   "metier": "conseil en hôtellerie-restauration",
+   "pourquoi": "Conseil en hôtellerie-restauration : revue éditoriale crème et encre, rouge réservé au « ! », cycle en anneau WebGL.",
+   "proche": [
+    "activité proche",
+    "ambiance chaleureux"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 85,
+   "en_ligne": "https://artic-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "artic-maquette/debut",
+     "note_section": 4,
+     "titre": "L’Art de l’Intelligence Commerciale en Hospitalité !",
+     "capture": "medias/artic-maquette/debut-p1440.jpg",
+     "video": "medias/artic-maquette/debut-p720.mp4",
+     "fiche": "sections/artic-maquette/debut.json",
+     "en_ligne": "https://artic-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "méthode",
+     "id": "artic-maquette/cycle",
+     "note_section": 5,
+     "titre": "De la conception à la transmission",
+     "capture": "medias/artic-maquette/cycle-p1440.jpg",
+     "video": "medias/artic-maquette/cycle-p720.mp4",
+     "fiche": "sections/artic-maquette/cycle.json",
+     "en_ligne": "https://artic-maquette.vercel.app"
+    },
+    {
+     "page": "a-propos",
+     "role": "ouverture",
+     "id": "artic-maquette/a-propos-debut",
+     "note_section": 3,
+     "titre": "Michel Grand",
+     "capture": "medias/artic-maquette/a-propos-debut-p1440.jpg",
+     "video": null,
+     "fiche": "sections/artic-maquette/a-propos-debut.json",
+     "en_ligne": "https://artic-maquette.vercel.app/a-propos"
+    },
+    {
+     "page": "projets/distribotion",
+     "role": "étapes",
+     "id": "artic-maquette/projets-distribotion-produits",
+     "note_section": 5,
+     "titre": "Cinq étapes, un verre à remplir",
+     "capture": "medias/artic-maquette/projets-distribotion-produits-p1440.jpg",
+     "video": "medias/artic-maquette/projets-distribotion-produits-p720.mp4",
+     "fiche": "sections/artic-maquette/projets-distribotion-produits.json",
+     "en_ligne": "https://artic-maquette.vercel.app/projets/distribotion"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "les-plus-hautes-eaux-maquette",
+   "client": "compagnie de théâtre gestuel et clown pour tous publics, tournée dans le Grand Ouest",
+   "metier": "compagnie de théâtre",
+   "pourquoi": "Compagnie de théâtre : nuit bleue, photos bichromes qui reprennent couleur sous une nappe d'eau WebGL, échelle de crue.",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/haut",
+     "note_section": 5,
+     "titre": "Héros sous la montée des eaux",
+     "capture": "medias/les-plus-hautes-eaux-maquette/haut-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/haut-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/haut.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "les-plus-hautes-eaux-maquette/crue-1910",
+     "note_section": 4,
+     "titre": "L'origine du nom, 1910",
+     "capture": "medias/les-plus-hautes-eaux-maquette/crue-1910-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/crue-1910-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/crue-1910.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "spectacles/carnet-de-routes",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero",
+     "note_section": 4,
+     "titre": "Tête de fiche spectacle",
+     "capture": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/spectacles/carnet-de-routes"
+    },
+    {
+     "page": "agenda",
+     "role": "agenda",
+     "id": "les-plus-hautes-eaux-maquette/agenda-t-venir",
+     "note_section": 4,
+     "titre": "Prochaines représentations",
+     "capture": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/agenda-t-venir.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/agenda"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "coolcanyoning-maquette",
+   "client": "guide de canyoning, via ferrata et escalade diplômé d'État (Yann) dans le Verdon, l'arrière-pays de Nice et le Haut-Var",
+   "metier": "guide de canyoning",
+   "pourquoi": "Canyoning : illustration plate, titres géants en capitales, altimètre discret dans la marge, outils pour choisir son canyon.",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 90,
+   "en_ligne": "https://coolcanyoning-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/heros",
+     "note_section": 4,
+     "titre": "Sauter.Glisser.Descendre.",
+     "capture": "medias/coolcanyoning-maquette/heros-p1440.jpg",
+     "video": "medias/coolcanyoning-maquette/heros-p720.mp4",
+     "fiche": "sections/coolcanyoning-maquette/heros.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "coolcanyoning-maquette/le-principe",
+     "note_section": 4,
+     "titre": "La descente · −12 m",
+     "capture": "medias/coolcanyoning-maquette/le-principe-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/le-principe.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "blog-canyon-cramassouri-tempete-alex",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/blog-canyon-cramassouri-tempete-alex-ph",
+     "note_section": 3,
+     "titre": "Ouverture d'article",
+     "capture": "medias/coolcanyoning-maquette/blog-canyon-cramassouri-tempete-alex-ph-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/blog-canyon-cramassouri-tempete-alex-ph.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/blog-canyon-cramassouri-tempete-alex"
+    },
+    {
+     "page": "blog",
+     "role": "articles",
+     "id": "coolcanyoning-maquette/blog-les-articles",
+     "note_section": 4,
+     "titre": "Les articles",
+     "capture": "medias/coolcanyoning-maquette/blog-les-articles-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/blog-les-articles.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/blog"
+    }
+   ]
+  }
+ ]
+}

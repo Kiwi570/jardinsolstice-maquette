@@ -1,0 +1,34 @@
+[
+ {
+  "titre": "Les murs",
+  "items": [
+   "Maison en silex et chaux, sans fondations",
+   "Enduits chaux-sable, argile teintée de pigments naturels",
+   "Terres cuites de récupération, peintures à l'eau sans COV"
+  ]
+ },
+ {
+  "titre": "La chaleur",
+  "items": [
+   "Laine de chanvre et ouate de cellulose insufflée",
+   "Double vitrage, menuiseries en bois d'un artisan local",
+   "Poêle et chaudière à granulés de sciure de la région Centre"
+  ]
+ },
+ {
+  "titre": "L'eau",
+  "items": [
+   "Panneau solaire pour l'eau chaude",
+   "Réducteurs de débit et mousseurs",
+   "Phyto-épuration : roseaux, iris et menthes"
+  ]
+ },
+ {
+  "titre": "Le jardin",
+  "items": [
+   "Mare, verger, potager et espaces enherbés",
+   "Aucun produit phytosanitaire de synthèse",
+   "Purins et décoctions de plantes"
+  ]
+ }
+]

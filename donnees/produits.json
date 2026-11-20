@@ -1,0 +1,8 @@
+[
+  { "image": "produit-sirops", "nom": "Sirops de plantes", "texte": "Des fleurs et des feuilles du jardin, en bouteilles de verre." },
+  { "image": "produit-hydrolats", "nom": "Hydrolats et eaux florales", "texte": "Distillés à la ferme, sans conservateur." },
+  { "image": "produit-vinaigres", "nom": "Vinaigres de plantes", "texte": "Pour la cuisine, aux herbes de saison." },
+  { "image": "produit-baumes", "nom": "Baumes et cosmétiques", "texte": "Préparés avec les plantes cultivées ici." },
+  { "image": "produit-huiles", "nom": "Huiles et alcoolatures", "texte": "Plantes macérées, en petits flacons." },
+  { "image": "produit-aromates", "nom": "Herbes aromatiques", "texte": "Pour les plats, les desserts et les boissons." }
+]

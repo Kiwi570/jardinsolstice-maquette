@@ -1,0 +1,18 @@
+[
+ {
+  "titre": "En train",
+  "texte": "Ligne Paris-Montparnasse – Le Mans, arrêt La Loupe : 1 h 30 depuis Paris, 1 h 20 depuis Le Mans. Prise en charge à la gare selon nos disponibilités."
+ },
+ {
+  "titre": "À vélo",
+  "texte": "3 km depuis la gare de La Loupe. Local fermé, point d'eau et matériel de réparation sur place ; une étape possible sur la Véloscénie."
+ },
+ {
+  "titre": "En voiture depuis Dreux",
+  "texte": "Direction Le Mans puis La Loupe. À La Loupe, prendre la D928 direction Nogent-le-Rotrou, faire 3 km et tourner à droite au lieu-dit Les Gaudonnières : le carrefour de La Floudière est en face."
+ },
+ {
+  "titre": "En voiture depuis Chartres",
+  "texte": "Direction Le Mans par la N23, puis La Loupe ; ensuite, même itinéraire que depuis Dreux."
+ }
+]

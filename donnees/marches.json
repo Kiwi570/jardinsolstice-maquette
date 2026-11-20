@@ -1,0 +1,11 @@
+[
+  { "date": "2026-11-29", "jour": "Dimanche 29 novembre", "horaires": "9 h-18 h 30", "lieu": "Foire Saint-André", "ville": "Chartres (28)" },
+  { "date": "2026-12-05", "jour": "Samedi 5 décembre", "horaires": "horaires à venir", "lieu": "Rencontre au LocaLapin", "ville": "Serazereux (28)" },
+  { "date": "2026-12-06", "jour": "Dimanche 6 décembre", "horaires": "10 h-18 h", "lieu": "Marché de Noël au château", "ville": "Senonches (28)" },
+  { "date": "2026-12-12", "jour": "Samedi 12 décembre", "horaires": "9 h-13 h", "lieu": "Marché de producteurs locaux et bios, Ferme Virginia Corn", "ville": "Tremblay-les-Villages (28)" },
+  { "date": "2026-12-12", "jour": "Samedi 12 décembre", "horaires": "14 h-18 h", "lieu": "Marché de Noël", "ville": "Le Pin-la-Garenne (61)" },
+  { "date": "2026-12-13", "jour": "Dimanche 13 décembre", "horaires": "10 h-18 h", "lieu": "Marché de Noël, Ferme des Gâtines", "ville": "Rouge (28)" },
+  { "date": "2026-12-18", "jour": "Vendredi 18 décembre", "horaires": "16 h-21 h", "lieu": "Marché de Noël, Les délices du Potager", "ville": "Poinville (28)" },
+  { "date": "2026-12-19", "jour": "Samedi 19 décembre", "horaires": "14 h-18 h", "lieu": "Marché de Noël", "ville": "Bonneval (28)" },
+  { "date": "2026-12-20", "jour": "Dimanche 20 décembre", "horaires": "10 h-17 h", "lieu": "Marché de Noël", "ville": "Boissy-Maugis (61)" }
+]

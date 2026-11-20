@@ -1,0 +1,38 @@
+[
+ {
+  "titre": "Arrivée",
+  "texte": "Entre 17 h et 19 h."
+ },
+ {
+  "titre": "Départ",
+  "texte": "Avant 11 h (heure à confirmer à la réservation)."
+ },
+ {
+  "titre": "Petit-déjeuner",
+  "texte": "De 7 h à 10 h."
+ },
+ {
+  "titre": "Acompte",
+  "texte": "La moitié du séjour, par chèque ou par virement."
+ },
+ {
+  "titre": "Annulation",
+  "texte": "À moins de 5 jours de la date réservée, l'acompte est encaissé."
+ },
+ {
+  "titre": "Animaux",
+  "texte": "Admis dans certaines chambres, sur demande."
+ },
+ {
+  "titre": "Internet",
+  "texte": "Prise réseau dans les chambres, Wi-Fi activable ou non."
+ },
+ {
+  "titre": "Vélos",
+  "texte": "Local fermé, point d'eau et matériel de réparation ; VTT et VTC adultes à louer sur demande."
+ },
+ {
+  "titre": "En train",
+  "texte": "Gare de La Loupe à 3 km, prise en charge selon nos disponibilités."
+ }
+]

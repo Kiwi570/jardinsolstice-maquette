@@ -1,0 +1,47 @@
+[
+ {
+  "image": "jardin-rose",
+  "titre": "Les roses anciennes",
+  "texte": "Ghislaine de Féligonde, Mme Alfred Carrière, Pierre de Ronsard, Paul Neyron : soignées aux purins de plantes et au compost."
+ },
+ {
+  "image": "jardin-arche",
+  "titre": "L'arche parfumée",
+  "texte": "Népétas, achillées, aubriettes, lavandes et lupins poussent à son pied."
+ },
+ {
+  "image": "jardin-mare",
+  "titre": "La mare",
+  "texte": "Une flore de rive où grenouilles, tritons et libellules semblent se plaire."
+ },
+ {
+  "image": "jardin-bourrache",
+  "titre": "La bourrache",
+  "texte": "Borago, en latin : elle a donné son nom à la chambre familiale."
+ },
+ {
+  "image": "jardin-asters",
+  "titre": "Les asters",
+  "texte": "Avec les soleils, ils nourrissent les abeilles dans le massif « gîte et couvert »."
+ },
+ {
+  "image": "jardin-magnolia",
+  "titre": "Le magnolia",
+  "texte": "Les massifs se dessinent au fil des années, de part et d'autre des grands arbres."
+ },
+ {
+  "image": "jardin-pivoines",
+  "titre": "Les pivoines",
+  "texte": "Au printemps, dans les massifs fleuris autour de la maison."
+ },
+ {
+  "image": "jardin-arums",
+  "titre": "Les arums",
+  "texte": "Au bord de l'eau, où la mare rejoint le massif d'inspiration asiatique."
+ },
+ {
+  "image": "jardin-passiflore",
+  "titre": "La passiflore",
+  "texte": "Elle grimpe le long du mur de la maison."
+ }
+]

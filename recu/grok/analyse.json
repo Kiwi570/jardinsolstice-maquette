@@ -1,0 +1,512 @@
+{
+  "dossier": "/home/claude/jardinsolstice-maquette/recu/grok",
+  "date": "2026-11-20T17:25:47.383Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "g-404.jpg",
+      "nom": "g-404",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 318407,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        41
+      ],
+      "cadrage_css": "53% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 55.3,
+        "bruit": 1.02,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fffdf8fab9cc0cf4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-legumes-hiver.jpg",
+      "nom": "g-legumes-hiver",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 375246,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        51
+      ],
+      "cadrage_css": "41% 51%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 43.8,
+        "bruit": 0.87,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2121a1a10103b060",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-linge.jpg",
+      "nom": "g-linge",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 256550,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        59
+      ],
+      "cadrage_css": "45% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 35,
+        "bruit": 0.97,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "28203038cee435b8",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-nuit-perche.jpg",
+      "nom": "g-nuit-perche",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 296154,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 54.5,
+        "l": 71.9,
+        "h": 27.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        69,
+        68
+      ],
+      "cadrage_css": "69% 68%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 42.5,
+        "bruit": 1.44,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0e0e4cedffbf8d0",
+      "drapeaux": [
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "g-saison-automne.jpg",
+      "nom": "g-saison-automne",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 229026,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        59
+      ],
+      "cadrage_css": "51% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 46.5,
+        "bruit": 0.84,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f1cd9e4ccd7cce8e",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-sechage.jpg",
+      "nom": "g-sechage",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 324333,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        44
+      ],
+      "cadrage_css": "57% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 43,
+        "bruit": 1.27,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f7676676eff0e0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-tasse-hiver-mobile.jpg",
+      "nom": "g-tasse-hiver-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 334101,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 0,
+        "l": 90.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        49
+      ],
+      "cadrage_css": "60% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 33.4,
+        "bruit": 0.65,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9b9b9b99b9a0973f",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-tasse-hiver.jpg",
+      "nom": "g-tasse-hiver",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 179470,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 0,
+        "l": 81.3,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        76,
+        39
+      ],
+      "cadrage_css": "76% 39%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 32.4,
+        "bruit": 0.65,
+        "compression": 1.34,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e6e6efedddf8716f",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    }
+  ]
+}

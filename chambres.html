@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les trois chambres d&#39;hôtes : Jardin Solstice</title>
+<meta name="description" content="Rubus, Tilia et Borago : trois chambres écologiques à Vaupillon, dans le Perche, de 62 € à 77 € la nuit, petit-déjeuner et Assiette du jardin.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://jardinsolstice-maquette.vercel.app/chambres">
+<style>:root{--fond:#f1eee6;--texte:#1f2b23;--voile-fond:#233128;--ouverture-fond:#233128;--menu-fond:#f1eee6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f1eee6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jardin Solstice">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les trois chambres d&#39;hôtes : Jardin Solstice">
+<meta property="og:description" content="Rubus, Tilia et Borago : trois chambres écologiques à Vaupillon, dans le Perche, de 62 € à 77 € la nuit, petit-déjeuner et Assiette du jardin.">
+<meta property="og:url" content="https://jardinsolstice-maquette.vercel.app/chambres">
+<meta property="og:image" content="https://jardinsolstice-maquette.vercel.app/assets/partage/chambres-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La maison d&#39;hôtes du Jardin Solstice et son massif de lavandes">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"Jardin Solstice","url":"https://jardinsolstice-maquette.vercel.app/","telephone":"+33237811582","email":"jardinsolstice@orange.fr","address":{"@type":"PostalAddress","streetAddress":"La Floudière, 5 rue de l'Hêtre","postalCode":"28240","addressLocality":"Vaupillon","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":48.4611,"longitude":0.9958},"numberOfRooms":3,"priceRange":"62 € - 77 € la nuit","checkinTime":"17:00","description":"Micro-ferme bio et chambres d'hôtes écologiques dans le Perche : trois chambres, l'Assiette du jardin et des tisanes de plantes cultivées sur place."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-soleil"></span><span data-voile-libelle>Chambres</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <svg class="intro-arc" viewBox="0 0 400 210" fill="none" aria-hidden="true"><path class="intro-horizon" d="M8 200 H392"/><path class="intro-trajet" d="M30 200 A170 170 0 0 1 370 200" pathLength="1"/></svg>
+    <span class="intro-soleil" data-ouverture-objet></span>
+  </div>
+  <img class="intro-logo" src="/assets/images/logo-solstice-clair.png" alt="" width="567" height="89">
+  <p class="intro-ligne">Vivre au rythme de la nature</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Jardin Solstice, Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-solstice.png" alt="Jardin Solstice" width="567" height="89">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Chambres" aria-current="page">Chambres</a></li><li><a href="/tisanes" data-libelle="Tisanes">Tisanes</a></li><li><a href="/la-ferme" data-libelle="La ferme">La ferme</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Chambres" aria-current="page">Chambres</a></li><li style="--i:2"><a href="/tisanes" class="menu-lien" data-libelle="Tisanes">Tisanes</a></li><li style="--i:3"><a href="/la-ferme" class="menu-lien" data-libelle="La ferme">La ferme</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33237811582">Appeler 02 37 81 15 82</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="chb-ouv" id="debut">
+  <div class="chb-ouv-texte">
+    <p class="surtitre" data-anime="gsap">Chambres d&#39;hôtes</p>
+    <h1 class="chb-titre"><span class="ouv-ligne-masque"><span class="ouv-ligne">Trois chambres</span></span><span class="ouv-ligne-masque"><em class="ouv-ligne">écologiques</em></span></h1>
+    <p class="chb-ouv-intro masque-ecran-bas" data-anime="gsap">Dans une maison de silex et chaux rénovée avec des matériaux simples et locaux, au milieu des massifs et des plantes médicinales.</p>
+    <div class="chb-ouv-actions" data-anime="gsap">
+      <a href="/chambres#estimer" class="bouton" data-libelle="Chambres" data-action-principale>Estimer mon séjour</a>
+      <ul class="chb-raccourcis"><li><a href="#rubus" data-sans-transition>Rubus</a></li><li><a href="#tilia" data-sans-transition>Tilia</a></li><li><a href="#borago" data-sans-transition>Borago</a></li></ul>
+    </div>
+    <p class="chb-info" data-info-cle data-anime="gsap">De 62 € à 77 € la nuit · petit-déjeuner de 7 h à 10 h</p>
+  </div>
+  <figure class="media chb-disque" data-iris-centre data-effet="disque" style="--cadrage:55% 50%;--cadrage-mobile:50% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/chambres-ouverture-mobile-640.webp 640w, /assets/images/chambres-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 56vw">
+    <img src="/assets/images/chambres-ouverture-1280.webp" srcset="/assets/images/chambres-ouverture-640.webp 640w, /assets/images/chambres-ouverture-1280.webp 1280w, /assets/images/chambres-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 56vw" alt="La maison d&#39;hôtes, ses volets vert d&#39;eau et le massif de lavandes" width="1280" height="853" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="chambre conteneur" id="rubus">
+  <div class="chambre-images">
+    <figure class="media chambre-grande" data-anime="rideau" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/chambre-rubus-700.webp" srcset="/assets/images/chambre-rubus-480.webp 480w, /assets/images/chambre-rubus-700.webp 700w" sizes="(max-width: 760px) 92vw, 48vw" alt="La chambre Rubus" width="700" height="525" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="chambre-vignettes" data-anime="cascade"><figure class="media chambre-vignette" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/rubus-facade-960.webp" srcset="/assets/images/rubus-facade-480.webp 480w, /assets/images/rubus-facade-640.webp 640w, /assets/images/rubus-facade-960.webp 960w" sizes="(max-width: 760px) 44vw, 22vw" alt="La façade de plain-pied de la chambre Rubus" width="960" height="640" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media chambre-vignette" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/rubus-2-800.webp" srcset="/assets/images/rubus-2-480.webp 480w, /assets/images/rubus-2-640.webp 640w, /assets/images/rubus-2-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Autre vue de la chambre Rubus" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  </div>
+  <div class="chambre-texte">
+    <p class="chambre-plante-titre" data-anime>La ronce, en latin</p>
+    <h2 data-anime="lignes">Rubus</h2>
+    <p class="chambre-niveau" data-anime>De plain-pied, accessible <span class="pastille-label">Tourisme &amp; Handicap</span></p>
+    <p data-anime>Chambre de plain-pied, accessible aux personnes à mobilité réduite et labellisée Tourisme &amp; Handicap.</p>
+    <ul class="chambre-details" data-anime="cascade"><li>1 lit de 180 ou 2 lits de 90</li><li>Lit de 90 d&#39;appoint possible</li><li>Salle d&#39;eau privative : douche, lavabo, WC</li><li>Petit-déjeuner en chambre ou dans la Maison</li><li>Assiette du jardin servie en chambre possible</li></ul>
+    <table class="tarifs" data-anime>
+      <caption>Tarifs par nuit</caption>
+      <tbody>
+        <tr><th scope="row">1 personne</th><td data-prix>62 €</td></tr>
+        <tr><th scope="row">2 personnes</th><td data-prix>67 €</td></tr>
+        <tr><th scope="row">Par personne de plus de 5 ans en plus</th><td data-prix>15 €</td></tr>
+        <tr><th scope="row">Forfait 2 personnes, du lundi au vendredi</th><td data-prix>225 €</td></tr><tr><th scope="row">Forfait 2 personnes, du lundi au dimanche</th><td data-prix>275 €</td></tr>
+      </tbody>
+    </table>
+    <p data-anime><a href="/contact?sujet=sejour&amp;chambre=rubus#demande" class="bouton" data-libelle="Contact">Demander la chambre Rubus</a></p>
+  </div>
+</section><section class="chambre conteneur chambre--inverse" id="tilia">
+  <div class="chambre-images">
+    <figure class="media chambre-grande" data-anime="rideau" style="--cadrage:45% 50%">
+  <picture>
+    <img src="/assets/images/chambre-tilia-700.webp" srcset="/assets/images/chambre-tilia-480.webp 480w, /assets/images/chambre-tilia-700.webp 700w" sizes="(max-width: 760px) 92vw, 48vw" alt="La chambre Tilia" width="700" height="525" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="chambre-vignettes" data-anime="cascade"><figure class="media chambre-vignette" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/tilia-2-800.webp" srcset="/assets/images/tilia-2-480.webp 480w, /assets/images/tilia-2-640.webp 640w, /assets/images/tilia-2-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Le lit de la chambre Tilia sous la fenêtre de toit" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media chambre-vignette" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/tilia-3-800.webp" srcset="/assets/images/tilia-3-480.webp 480w, /assets/images/tilia-3-640.webp 640w, /assets/images/tilia-3-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="Coin fenêtre de la chambre Tilia" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  </div>
+  <div class="chambre-texte">
+    <p class="chambre-plante-titre" data-anime>Le tilleul, en latin</p>
+    <h2 data-anime="lignes">Tilia</h2>
+    <p class="chambre-niveau" data-anime>À l&#39;étage, sous les toits</p>
+    <p data-anime>Chambre à l&#39;étage, sous les toits, avec son bureau près de la fenêtre.</p>
+    <ul class="chambre-details" data-anime="cascade"><li>1 lit de 180 ou 2 lits de 90</li><li>Salle d&#39;eau : douche, lavabo, WC</li><li>Petit-déjeuner servi dans la Maison</li></ul>
+    <table class="tarifs" data-anime>
+      <caption>Tarifs par nuit</caption>
+      <tbody>
+        <tr><th scope="row">1 personne</th><td data-prix>62 €</td></tr>
+        <tr><th scope="row">2 personnes</th><td data-prix>67 €</td></tr>
+        <tr><th scope="row">Par personne de plus de 5 ans en plus</th><td data-prix>15 €</td></tr>
+        <tr><th scope="row">Forfait 2 personnes, du lundi au vendredi</th><td data-prix>225 €</td></tr><tr><th scope="row">Forfait 2 personnes, du lundi au dimanche</th><td data-prix>275 €</td></tr>
+      </tbody>
+    </table>
+    <p data-anime><a href="/contact?sujet=sejour&amp;chambre=tilia#demande" class="bouton" data-libelle="Contact">Demander la chambre Tilia</a></p>
+  </div>
+</section><section class="chambre conteneur" id="borago">
+  <div class="chambre-images">
+    <figure class="media chambre-grande" data-anime="rideau" style="--cadrage:55% 55%">
+  <picture>
+    <img src="/assets/images/chambre-borago-700.webp" srcset="/assets/images/chambre-borago-480.webp 480w, /assets/images/chambre-borago-700.webp 700w" sizes="(max-width: 760px) 92vw, 48vw" alt="La chambre Borago" width="700" height="525" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="chambre-vignettes" data-anime="cascade"><figure class="media chambre-vignette" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/borago-2-800.webp" srcset="/assets/images/borago-2-480.webp 480w, /assets/images/borago-2-640.webp 640w, /assets/images/borago-2-800.webp 800w" sizes="(max-width: 760px) 44vw, 22vw" alt="La mezzanine de la chambre Borago" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+  </div>
+  <div class="chambre-texte">
+    <p class="chambre-plante-titre" data-anime>La bourrache, en latin</p>
+    <h2 data-anime="lignes">Borago</h2>
+    <p class="chambre-niveau" data-anime>Familiale, avec mezzanine</p>
+    <p data-anime>La chambre familiale : mezzanine, kitchenette, poêle à granulés et terrasse sur le jardin.</p>
+    <ul class="chambre-details" data-anime="cascade"><li>Mezzanine : 1 lit de 140 et 1 lit de 90 (enfant)</li><li>Rez-de-chaussée : canapé-lit de 140 et lit bébé</li><li>Salle de bain avec baignoire, WC séparés</li><li>Kitchenette : évier, frigo, micro-ondes</li><li>Terrasse sur le jardin</li><li>Assiette du jardin servie en chambre possible</li></ul>
+    <table class="tarifs" data-anime>
+      <caption>Tarifs par nuit</caption>
+      <tbody>
+        <tr><th scope="row">1 personne</th><td data-prix>72 €</td></tr>
+        <tr><th scope="row">2 personnes</th><td data-prix>77 €</td></tr>
+        <tr><th scope="row">Par personne de plus de 5 ans en plus</th><td data-prix>15 €</td></tr>
+        <tr><th scope="row">Forfait 2 personnes, du lundi au vendredi</th><td data-prix>225 €<span class="tarif-pdj"> · 255 € avec petits-déjeuners</span></td></tr><tr><th scope="row">Forfait 2 personnes, du lundi au dimanche</th><td data-prix>325 €<span class="tarif-pdj"> · 355 € avec petits-déjeuners</span></td></tr>
+      </tbody>
+    </table>
+    <p data-anime><a href="/contact?sujet=sejour&amp;chambre=borago#demande" class="bouton" data-libelle="Contact">Demander la chambre Borago</a></p>
+  </div>
+</section>
+<section class="chb-table bande-sombre" id="table">
+  <div class="conteneur chb-table-grille">
+    <div>
+      <p class="surtitre" data-anime>Petit-déjeuner et table d&#39;hôtes</p>
+      <h2 data-anime="lignes">À table, <em>les produits du jardin</em></h2>
+      <div class="chb-table-cols" data-anime="cascade">
+        <div>
+          <h3>Le petit-déjeuner</h3>
+          <p>Servi de 7 h à 10 h dans la Maison, ou en chambre pour Rubus.</p>
+        </div>
+        <div>
+          <h3>L&#39;Assiette du jardin</h3>
+          <p>Crudités et terrine locale, préparation aux légumes du jardin, fromages, dessert de saison. Le vendredi, le dimanche et le lundi soir, sur réservation 48 h à l&#39;avance. Le samedi, nous vous conseillons les bonnes tables du Perche.</p>
+          <p class="chb-table-prix" data-prix><strong>17,50 €</strong> par adulte · <strong>10 €</strong> de moins de 12 ans</p>
+          <p>Cidre, bière, vin et jus bio en supplément. Allergies et régimes particuliers à préciser à la réservation.</p>
+        </div>
+      </div>
+      <p data-anime><a href="/contact?sujet=table#demande" class="bouton" data-libelle="Contact">Réserver l&#39;Assiette du jardin</a></p>
+    </div>
+    <figure class="media chb-table-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/legumes-hiver-784.webp" srcset="/assets/images/grok/legumes-hiver-480.webp 480w, /assets/images/grok/legumes-hiver-640.webp 640w, /assets/images/grok/legumes-hiver-784.webp 784w" sizes="(max-width: 760px) 90vw, 34vw" alt="Légumes d&#39;hiver du potager sur une table de ferme" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="estimer conteneur" id="estimer">
+  <div class="estimer-tete">
+    <p class="surtitre" data-anime>Estimer son séjour</p>
+    <h2 data-anime="lignes">Votre séjour, <em>en un coup d'œil</em></h2>
+    <p data-anime>Choisissez la chambre, le nombre de nuits et de personnes : le total s&#39;affiche aussitôt, puis la demande part avec vos choix.</p>
+  </div>
+  <form class="estimer-outil" data-estimer data-anime action="#" novalidate>
+    <fieldset class="estimer-chambres">
+      <legend>La chambre</legend>
+      <label class="choix-chambre"><input type="radio" name="chambre" value="rubus" data-p1="62" data-p2="67" data-sup="15" data-max="3" checked><img class="choix-vignette" src="/assets/images/chambre-rubus-480.webp" alt="" width="48" height="48" loading="lazy"><span><strong>Rubus</strong> dès 62 €</span></label><label class="choix-chambre"><input type="radio" name="chambre" value="tilia" data-p1="62" data-p2="67" data-sup="15" data-max="2"><img class="choix-vignette" src="/assets/images/chambre-tilia-480.webp" alt="" width="48" height="48" loading="lazy"><span><strong>Tilia</strong> dès 62 €</span></label><label class="choix-chambre"><input type="radio" name="chambre" value="borago" data-p1="72" data-p2="77" data-sup="15" data-max="5"><img class="choix-vignette" src="/assets/images/chambre-borago-480.webp" alt="" width="48" height="48" loading="lazy"><span><strong>Borago</strong> dès 72 €</span></label>
+    </fieldset>
+    <div class="estimer-compteurs">
+      <div class="compteur-champ"><span id="lib-nuits">Nuits</span><div class="compteur-boutons"><button type="button" data-moins="nuits" aria-label="Une nuit de moins">−</button><output id="v-nuits" aria-labelledby="lib-nuits" data-valeur="nuits">2</output><button type="button" data-plus="nuits" aria-label="Une nuit de plus">+</button></div></div>
+      <div class="compteur-champ"><span id="lib-pers">Personnes</span><div class="compteur-boutons"><button type="button" data-moins="personnes" aria-label="Une personne de moins">−</button><output id="v-pers" aria-labelledby="lib-pers" data-valeur="personnes">2</output><button type="button" data-plus="personnes" aria-label="Une personne de plus">+</button></div></div>
+      <label class="estimer-option"><input type="checkbox" name="assiette" value="oui"> <span>L&#39;Assiette du jardin chaque soir où elle est servie (tarif adulte)</span></label>
+    </div>
+    <div class="estimer-total" aria-live="polite">
+      <p class="estimer-total-libelle">Total indicatif</p>
+      <p class="estimer-montant" data-prix><span data-total>134</span> €</p>
+      <p class="estimer-detail" data-detail>Rubus, 2 nuits, 2 personnes</p>
+      <p class="estimer-note">Estimation hors taxe de séjour ; l&#39;acompte de la moitié est demandé à la réservation.</p>
+      <a class="bouton bouton--soleil" href="/contact?sujet=sejour#demande" data-libelle="Contact" data-estimer-lien>Envoyer cette demande</a>
+    </div>
+  </form>
+</section>
+<section class="conditions conteneur" id="conditions">
+  <figure class="media conditions-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/linge-960.webp" srcset="/assets/images/grok/linge-480.webp 480w, /assets/images/grok/linge-640.webp 640w, /assets/images/grok/linge-960.webp 960w" sizes="(max-width: 760px) 90vw, 36vw" alt="Linge de lit plié et brin de lavande séchée" width="960" height="640" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div>
+    <p class="surtitre" data-anime>Bon à savoir</p>
+    <h2 data-anime="lignes">Avant <em>de venir</em></h2>
+    <dl class="conditions-liste" data-anime="cascade"><div><dt>Arrivée</dt><dd>Entre 17 h et 19 h.</dd></div><div><dt>Départ</dt><dd>Avant 11 h (heure à confirmer à la réservation).</dd></div><div><dt>Petit-déjeuner</dt><dd>De 7 h à 10 h.</dd></div><div><dt>Acompte</dt><dd>La moitié du séjour, par chèque ou par virement.</dd></div><div><dt>Annulation</dt><dd>À moins de 5 jours de la date réservée, l&#39;acompte est encaissé.</dd></div><div><dt>Animaux</dt><dd>Admis dans certaines chambres, sur demande.</dd></div><div><dt>Internet</dt><dd>Prise réseau dans les chambres, Wi-Fi activable ou non.</dd></div><div><dt>Vélos</dt><dd>Local fermé, point d&#39;eau et matériel de réparation ; VTT et VTC adultes à louer sur demande.</dd></div><div><dt>En train</dt><dd>Gare de La Loupe à 3 km, prise en charge selon nos disponibilités.</dd></div></dl>
+  </div>
+</section>
+<section class="appel bande-sombre" id="appel">
+  <svg class="appel-arc" viewBox="0 0 600 300" fill="none" aria-hidden="true" data-visuel data-fx="trace"><path d="M30 290 A270 270 0 0 1 570 290" stroke="currentColor" stroke-width="2" data-fx-trait/><path d="M0 290 H600" stroke="currentColor" stroke-width="1.5" data-fx-trait/><circle class="appel-soleil" cx="440" cy="64" r="26"/></svg>
+  <div class="conteneur appel-texte">
+    <h2 data-anime="lignes">Une question <em>avant de réserver ?</em></h2>
+    <p data-anime>Magalie et Sébastien vous répondent au téléphone ou par la demande en ligne. Pensez à vérifier vos courriers indésirables.</p>
+    <p class="fin-actions" data-anime>
+      <a href="/contact?sujet=sejour#demande" class="bouton" data-libelle="Contact">Demander une réservation</a>
+      <a class="bouton bouton--contour" href="tel:+33237811582">Appeler le 02 37 81 15 82</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="Jardin Solstice" width="567" height="89" loading="lazy">
+      <p>Micro-ferme bio, chambres d&#39;hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.</p>
+      <p>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon<br><a href="tel:+33237811582">02 37 81 15 82</a><br><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/chambres" data-libelle="Chambres" aria-current="page">Chambres</a></li><li><a href="/tisanes" data-libelle="Tisanes">Tisanes</a></li><li><a href="/la-ferme" data-libelle="La ferme">La ferme</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Labels et engagements</p>
+      <ul class="pied-labels"><li>Certifié Nature &amp; Progrès depuis 2022</li><li>Accueil Paysan</li><li>Valeurs Parc naturel régional du Perche</li><li>Tourisme &amp; Handicap (chambre Rubus)</li><li>Adhérents FNAB et Confédération paysanne</li></ul>
+      <p><a href="https://www.facebook.com/JardinSolstice" target="_blank" rel="noopener">Jardin Solstice sur Facebook (nouvel onglet)</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales <span class="a-completer">à compléter</span> · Politique de confidentialité <span class="a-completer">à compléter</span></p>
+    <p>Maquette de démonstration : réservations, commandes et formulaires sont simulés.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33237811582">Appeler</a>
+  <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
+</div>
+</body>
+</html>

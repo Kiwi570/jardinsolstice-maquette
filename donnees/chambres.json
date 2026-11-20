@@ -1,0 +1,119 @@
+[
+ {
+  "cle": "rubus",
+  "nom": "Rubus",
+  "plante": "La ronce, en latin",
+  "image": "chambre-rubus",
+  "cadrage": "50% 55%",
+  "galerie": [
+   {
+    "image": "rubus-facade",
+    "alt": "La façade de plain-pied de la chambre Rubus"
+   },
+   {
+    "image": "rubus-2",
+    "alt": "Autre vue de la chambre Rubus"
+   }
+  ],
+  "niveau": "De plain-pied, accessible",
+  "accroche": "Chambre de plain-pied, accessible aux personnes à mobilité réduite et labellisée Tourisme & Handicap.",
+  "details": [
+   "1 lit de 180 ou 2 lits de 90",
+   "Lit de 90 d'appoint possible",
+   "Salle d'eau privative : douche, lavabo, WC",
+   "Petit-déjeuner en chambre ou dans la Maison",
+   "Assiette du jardin servie en chambre possible"
+  ],
+  "label": "Tourisme & Handicap",
+  "prix1": 62,
+  "prix2": 67,
+  "supplement": 15,
+  "forfaits": [
+   {
+    "periode": "du lundi au vendredi",
+    "prix": 225
+   },
+   {
+    "periode": "du lundi au dimanche",
+    "prix": 275
+   }
+  ]
+ },
+ {
+  "cle": "tilia",
+  "nom": "Tilia",
+  "plante": "Le tilleul, en latin",
+  "image": "chambre-tilia",
+  "cadrage": "45% 50%",
+  "galerie": [
+   {
+    "image": "tilia-2",
+    "alt": "Le lit de la chambre Tilia sous la fenêtre de toit"
+   },
+   {
+    "image": "tilia-3",
+    "alt": "Coin fenêtre de la chambre Tilia"
+   }
+  ],
+  "niveau": "À l'étage, sous les toits",
+  "accroche": "Chambre à l'étage, sous les toits, avec son bureau près de la fenêtre.",
+  "details": [
+   "1 lit de 180 ou 2 lits de 90",
+   "Salle d'eau : douche, lavabo, WC",
+   "Petit-déjeuner servi dans la Maison"
+  ],
+  "label": "",
+  "prix1": 62,
+  "prix2": 67,
+  "supplement": 15,
+  "forfaits": [
+   {
+    "periode": "du lundi au vendredi",
+    "prix": 225
+   },
+   {
+    "periode": "du lundi au dimanche",
+    "prix": 275
+   }
+  ]
+ },
+ {
+  "cle": "borago",
+  "nom": "Borago",
+  "plante": "La bourrache, en latin",
+  "image": "chambre-borago",
+  "cadrage": "55% 55%",
+  "galerie": [
+   {
+    "image": "borago-2",
+    "alt": "La mezzanine de la chambre Borago"
+   }
+  ],
+  "niveau": "Familiale, avec mezzanine",
+  "accroche": "La chambre familiale : mezzanine, kitchenette, poêle à granulés et terrasse sur le jardin.",
+  "details": [
+   "Mezzanine : 1 lit de 140 et 1 lit de 90 (enfant)",
+   "Rez-de-chaussée : canapé-lit de 140 et lit bébé",
+   "Salle de bain avec baignoire, WC séparés",
+   "Kitchenette : évier, frigo, micro-ondes",
+   "Terrasse sur le jardin",
+   "Assiette du jardin servie en chambre possible"
+  ],
+  "label": "",
+  "prix1": 72,
+  "prix2": 77,
+  "supplement": 15,
+  "forfaits": [
+   {
+    "periode": "du lundi au vendredi",
+    "prix": 225,
+    "prixPdj": 255
+   },
+   {
+    "periode": "du lundi au dimanche",
+    "prix": 325,
+    "prixPdj": 355
+   }
+  ]
+ }
+]

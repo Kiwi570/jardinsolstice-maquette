@@ -1,0 +1,27 @@
+[
+ {
+  "cle": "sejour",
+  "titre": "Un séjour",
+  "texte": "Une chambre, une ou plusieurs nuits"
+ },
+ {
+  "cle": "table",
+  "titre": "L'Assiette du jardin",
+  "texte": "Un soir à table, 48 h à l'avance"
+ },
+ {
+  "cle": "commande",
+  "titre": "Une commande",
+  "texte": "Tisanes et préparations, envoyées le lundi"
+ },
+ {
+  "cle": "groupe",
+  "titre": "Une visite de groupe",
+  "texte": "De 10 à 30 personnes, sur rendez-vous"
+ },
+ {
+  "cle": "autre",
+  "titre": "Autre chose",
+  "texte": "Une question, un stage, un mot"
+ }
+]

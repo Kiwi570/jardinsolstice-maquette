@@ -1,0 +1,275 @@
+{
+ "familles": {
+  "classiques": {
+   "nom": "Les classiques",
+   "prix": 5.75,
+   "poids": "30 à 40 g",
+   "image": "famille-classiques"
+  },
+  "saisonnieres": {
+   "nom": "Les saisonnières",
+   "prix": 5.75,
+   "poids": "30 à 40 g",
+   "image": "famille-saisonnieres"
+  },
+  "gouteuses": {
+   "nom": "Les goûteuses",
+   "prix": 5.75,
+   "poids": "30 à 40 g",
+   "image": "famille-gouteuses"
+  },
+  "simples": {
+   "nom": "Plante simple",
+   "prix": 4.75,
+   "poids": "20 à 40 g",
+   "image": "famille-simples"
+  }
+ },
+ "liste": [
+  {
+   "famille": "classiques",
+   "nom": "Souplesse",
+   "plantes": "Frêne, cassis, ortie, reine-des-prés",
+   "note": "",
+   "cle": "souplesse"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Jambes légères",
+   "plantes": "Achillée, noisetier, menthe poivrée, ronce, romarin",
+   "note": "",
+   "cle": "jambes-legeres"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Tonique",
+   "plantes": "Menthe poivrée, sarriette, ortie",
+   "note": "",
+   "cle": "tonique"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Plume",
+   "plantes": "Menthe verte, mélisse, camomille allemande, aneth, basilic",
+   "note": "",
+   "cle": "plume"
+  },
+  {
+   "famille": "classiques",
+   "nom": "En transit",
+   "plantes": "Achillée, guimauve, romarin, angélique, prunellier",
+   "note": "",
+   "cle": "en-transit"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Rêverie",
+   "plantes": "Tilleul, mélisse, camomille allemande, eschscholzia, coquelicot",
+   "note": "",
+   "cle": "reverie"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Sérénité",
+   "plantes": "Tilleul, marjolaine, basilic cannelle, rose",
+   "note": "Un moment de calme",
+   "cle": "serenite"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Détente",
+   "plantes": "Aubépine, mélisse, cassis, lavande",
+   "note": "",
+   "cle": "detente"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Douces lunes",
+   "plantes": "Sauge, achillée, framboisier, lamier blanc, camomille allemande",
+   "note": "",
+   "cle": "douces-lunes"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Alouette",
+   "plantes": "Reine-des-prés, grande camomille, cataire, coucou, menthe poivrée",
+   "note": "",
+   "cle": "alouette"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Rein'ette",
+   "plantes": "Bruyère, thym, lamier blanc, verge d'or, sureau",
+   "note": "",
+   "cle": "rein-ette"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Silhouette",
+   "plantes": "Bouleau, fenouil, verge d'or, noisetier, chiendent, géranium rosat",
+   "note": "",
+   "cle": "silhouette"
+  },
+  {
+   "famille": "classiques",
+   "nom": "Sous-Bois",
+   "plantes": "Frêne, ronce fermentée, noisetier, sureau, baies d'églantier",
+   "note": "Quotidienne, la mise en route",
+   "cle": "sous-bois"
+  },
+  {
+   "famille": "saisonnieres",
+   "nom": "Coup de froid",
+   "plantes": "Origan, lierre terrestre, thym, mauve, sureau",
+   "note": "L'hiver approche",
+   "cle": "coup-de-froid"
+  },
+  {
+   "famille": "saisonnieres",
+   "nom": "Rouge-gorge",
+   "plantes": "Ronce, origan, mauve, guimauve, sauge",
+   "note": "",
+   "cle": "rouge-gorge"
+  },
+  {
+   "famille": "saisonnieres",
+   "nom": "Souffle",
+   "plantes": "Hysope, cassis, aunée, plantain, lierre terrestre",
+   "note": "",
+   "cle": "souffle"
+  },
+  {
+   "famille": "saisonnieres",
+   "nom": "Détox",
+   "plantes": "Frêne, framboisier, pissenlit, chicorée, aubier de tilleul, fenouil",
+   "note": "",
+   "cle": "detox"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Ailleurs",
+   "plantes": "Agastache menthe, citronnelle, mûrier",
+   "note": "Évasion et créativité",
+   "cle": "ailleurs"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Citronnée",
+   "plantes": "Dracocéphale, cataire citron, basilic citron, thym citron",
+   "note": "Au goût de citron",
+   "cle": "citronnee"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Anisée",
+   "plantes": "Agastache, basilic anis, fenouil",
+   "note": "Au goût d'anis",
+   "cle": "anisee"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Menthe-Tulsi",
+   "plantes": "Menthe verte, basilic sacré",
+   "note": "",
+   "cle": "menthe-tulsi"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Solstice d'hiver",
+   "plantes": "Frêne, menthe bergamote, grande berce",
+   "note": "Au coin du feu !",
+   "cle": "solstice-d-hiver"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Festive",
+   "plantes": "Shiso bicolore, basilic citron, mélisse",
+   "note": "Pour tous les moments de fête !",
+   "cle": "festive"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Tilleul-Mélisse",
+   "plantes": "Tilleul, dracocéphale",
+   "note": "",
+   "cle": "tilleul-melisse"
+  },
+  {
+   "famille": "gouteuses",
+   "nom": "Tilleul-Menthe",
+   "plantes": "Tilleul, menthe verte",
+   "note": "Une valeur sûre",
+   "cle": "tilleul-menthe"
+  },
+  {
+   "famille": "simples",
+   "nom": "Menthe verte",
+   "plantes": "Menthe verte",
+   "note": "",
+   "cle": "menthe-verte-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Menthe bergamote",
+   "plantes": "Menthe bergamote",
+   "note": "",
+   "cle": "menthe-bergamote-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Camomille romaine",
+   "plantes": "Camomille romaine",
+   "note": "",
+   "cle": "camomille-romaine-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Tilleul",
+   "plantes": "Tilleul",
+   "note": "",
+   "cle": "tilleul-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Verveine citronnelle",
+   "plantes": "Verveine citronnelle",
+   "note": "",
+   "cle": "verveine-citronnelle-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Ortie",
+   "plantes": "Ortie",
+   "note": "",
+   "cle": "ortie-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Ronce",
+   "plantes": "Ronce",
+   "note": "",
+   "cle": "ronce-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Frêne",
+   "plantes": "Frêne",
+   "note": "",
+   "cle": "frene-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Framboisier",
+   "plantes": "Framboisier",
+   "note": "",
+   "cle": "framboisier-simple"
+  },
+  {
+   "famille": "simples",
+   "nom": "Sauge",
+   "plantes": "Sauge",
+   "note": "",
+   "cle": "sauge-simple"
+  }
+ ]
+}

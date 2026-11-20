@@ -1,0 +1,510 @@
+[
+ {
+  "source": "recu/logo.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Jardin Solstice"
+ },
+ {
+  "source": "recu/herboristerie.jpg",
+  "nom": "accueil-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "droite",
+  "alt": "Ombelle couverte de givre au jardin, un matin d'hiver",
+  "beaute": 5,
+  "page": "Accueil"
+ },
+ {
+  "source": "recu/flaner-jardin.jpg",
+  "nom": "accueil-ferme",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Massif fleuri du jardin sous les grands arbres",
+  "beaute": 4
+ },
+ {
+  "source": "recu/sebastien.jpg",
+  "nom": "magalie-sebastien",
+  "role": "portrait",
+  "ratio": "4:5",
+  "alt": "Magalie et Sébastien au milieu des plantes médicinales",
+  "beaute": 3,
+  "cadrage": [
+   55,
+   40
+  ]
+ },
+ {
+  "source": "recu/chambre-rubus-2.jpg",
+  "nom": "chambre-rubus",
+  "role": "carte-service",
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   700
+  ],
+  "alt": "La chambre Rubus : grand lit, poutres et terres cuites",
+  "beaute": 3
+ },
+ {
+  "source": "recu/chambre-tilia.jpg",
+  "nom": "chambre-tilia",
+  "role": "carte-service",
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   700
+  ],
+  "alt": "La chambre Tilia sous les toits, bureau près de la fenêtre de toit",
+  "beaute": 3
+ },
+ {
+  "source": "recu/tarifs.jpg",
+  "nom": "chambre-borago",
+  "role": "carte-service",
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   700
+  ],
+  "alt": "La chambre Borago, son poêle à granulés et la porte sur le jardin",
+  "beaute": 3
+ },
+ {
+  "source": "recu/assiette-jardin.jpg",
+  "nom": "assiette-herbes",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Laurier, sauge et romarin fraîchement cueillis sur une table en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact-5.jpg",
+  "nom": "tisanes-panier",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Sachets de tisanes du Jardin Solstice dans un panier en osier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/flaner-jardin-5.jpg",
+  "nom": "saison-hiver",
+  "role": "galerie",
+  "ratio": "1:1",
+  "alt": "Branches prises dans le givre sur un ciel bleu",
+  "beaute": 4
+ },
+ {
+  "source": "recu/flaner-jardin-7.jpg",
+  "nom": "saison-printemps",
+  "role": "galerie",
+  "ratio": "1:1",
+  "alt": "Poirier en fleurs au printemps",
+  "beaute": 4
+ },
+ {
+  "source": "recu/flaner-jardin-3.jpg",
+  "nom": "saison-ete",
+  "role": "galerie",
+  "ratio": "1:1",
+  "alt": "Lupins bleus et mauves en été",
+  "beaute": 4
+ },
+ {
+  "source": "recu/chambres-hotes.jpg",
+  "nom": "terres-cuites",
+  "role": "section-fond",
+  "alt": "Terres cuites de récupération empilées",
+  "beaute": 4
+ },
+ {
+  "source": "recu/plantes-aromatiques-medicinales-chambre.jpg",
+  "nom": "chambres-ouverture",
+  "role": "ouverture",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "alt": "La maison d'hôtes, ses volets vert d'eau et le massif de lavandes",
+  "beaute": 4,
+  "page": "Chambres"
+ },
+ {
+  "source": "recu/chambre-rubus.jpg",
+  "nom": "rubus-facade",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "La façade de plain-pied de la chambre Rubus et sa porte rouge",
+  "beaute": 3
+ },
+ {
+  "source": "recu/chambre-rubus-3.jpg",
+  "nom": "rubus-2",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Autre vue de la chambre Rubus",
+  "beaute": 2
+ },
+ {
+  "source": "recu/chambre-tilia-2.jpg",
+  "nom": "tilia-2",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Le lit de la chambre Tilia sous la fenêtre de toit",
+  "beaute": 3
+ },
+ {
+  "source": "recu/chambre-tilia-3.jpg",
+  "nom": "tilia-3",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Coin fenêtre de la chambre Tilia",
+  "beaute": 2
+ },
+ {
+  "source": "recu/tarifs-2.jpg",
+  "nom": "borago-2",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "La mezzanine de la chambre Borago",
+  "beaute": 2
+ },
+ {
+  "source": "recu/chambre-hote-ecologiques-parc.jpg",
+  "nom": "maison-parc",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Pignon de la maison d'hôtes et rosiers en fleurs",
+  "beaute": 4
+ },
+ {
+  "source": "recu/suite-estivale-activite-2.jpg",
+  "nom": "tisanes-ouverture",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "mobile": "4:5",
+  "alt": "Paniers de fleurs de souci et de mauve fraîchement cueillies",
+  "beaute": 4,
+  "page": "Tisanes",
+  "cadrage": [
+   50,
+   62
+  ]
+ },
+ {
+  "source": "recu/tisanes-melanges.jpg",
+  "nom": "famille-saisonnieres",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Sachets des tisanes Coup de froid et Rouge-gorge",
+  "beaute": 3
+ },
+ {
+  "source": "recu/100-made-eure-loir.jpg",
+  "nom": "famille-classiques",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Sachets des tisanes Détente et Sérénité",
+  "beaute": 3
+ },
+ {
+  "source": "recu/tisanes-melanges-2.jpg",
+  "nom": "famille-simples",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Sachets de menthe verte, menthe bergamote et camomille romaine",
+  "beaute": 3
+ },
+ {
+  "source": "recu/preparation.jpg",
+  "nom": "famille-gouteuses",
+  "role": "vignette",
+  "ratio": "3:2",
+  "alt": "Fleurs d'origan visitées par un papillon",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact-2.jpg",
+  "nom": "produit-sirops",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Sirops de plantes en bouteilles, au soleil sur une terrasse en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact-3.jpg",
+  "nom": "produit-hydrolats",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Flacons bleus d'hydrolats",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact-4.jpg",
+  "nom": "produit-vinaigres",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Vinaigres aux plantes",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact-6.jpg",
+  "nom": "produit-baumes",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Pots de baumes",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact-9.jpg",
+  "nom": "produit-huiles",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Huiles de soin en flacons",
+  "beaute": 4
+ },
+ {
+  "source": "recu/contact.jpg",
+  "nom": "produit-aromates",
+  "role": "produit",
+  "ratio": "4:5",
+  "alt": "Pots d'herbes aromatiques séchées",
+  "beaute": 4
+ },
+ {
+  "source": "recu/retrouvez-produits-boutique-paysanne-2.jpg",
+  "nom": "fenouil",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Fenouil et plantes en buttes paillées au jardin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/culture-cueillette-plantes-aromatiques.jpg",
+  "nom": "cueillette",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Cueillette à la main entre les rangs de plantes",
+  "beaute": 3
+ },
+ {
+  "source": "recu/retrouvez-produits-boutique-paysanne.jpg",
+  "nom": "le-chardon",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "La devanture du Chardon, magasin de producteurs à Nogent-le-Rotrou",
+  "beaute": 3
+ },
+ {
+  "source": "recu/environnement.jpg",
+  "nom": "ferme-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "bas",
+  "alt": "La prairie en fleurs devant la maison",
+  "beaute": 4,
+  "page": "La ferme"
+ },
+ {
+  "source": "recu/flaner-jardin-2.jpg",
+  "nom": "jardin-rose",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Rose ancienne du jardin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/flaner-jardin-4.jpg",
+  "nom": "jardin-arche",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Arche de rosiers blancs",
+  "beaute": 4
+ },
+ {
+  "source": "recu/suite-estivale-activite.jpg",
+  "nom": "jardin-mare",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "La mare et ses plantes de rive",
+  "beaute": 4
+ },
+ {
+  "source": "recu/flaner-jardin-13.jpg",
+  "nom": "jardin-magnolia",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Magnolia en fleurs",
+  "beaute": 3
+ },
+ {
+  "source": "recu/flaner-jardin-9.jpg",
+  "nom": "jardin-pivoines",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Pivoines rouges",
+  "beaute": 3
+ },
+ {
+  "source": "recu/flaner-jardin-10.jpg",
+  "nom": "jardin-passiflore",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Passiflore sur le mur",
+  "beaute": 3
+ },
+ {
+  "source": "recu/flaner-jardin-17.jpg",
+  "nom": "jardin-bourrache",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Bourrache bleue",
+  "beaute": 3
+ },
+ {
+  "source": "recu/flaner-jardin-22.jpg",
+  "nom": "jardin-arums",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Arums au bord de l’eau",
+  "beaute": 3
+ },
+ {
+  "source": "recu/flaner-jardin-16.jpg",
+  "nom": "jardin-asters",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Asters en automne",
+  "beaute": 3
+ },
+ {
+  "source": "recu/herboristerie-3.jpg",
+  "nom": "abeilles",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Abeilles sur un cadre de ruche",
+  "beaute": 4
+ },
+ {
+  "source": "recu/lasagne.jpg",
+  "nom": "chantier-lasagne",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Mise en place d’une butte en lasagne au jardin",
+  "beaute": 3
+ },
+ {
+  "source": "recu/decouvrir-plantes-medicinales.jpg",
+  "nom": "plan-dessine",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Plan dessiné à la main du lieu-dit La Floudière",
+  "beaute": 4
+ },
+ {
+  "source": "recu/plantes-aromatiques-medicinales.jpg",
+  "nom": "tilleul",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Fleurs de tilleul",
+  "beaute": 4
+ },
+ {
+  "source": "recu/maison-accueil.jpg",
+  "nom": "contact-maison",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "L'allée de graviers devant la maison",
+  "beaute": 3,
+  "page": "Contact"
+ },
+ {
+  "source": "recu/grok/g-tasse-hiver.jpg",
+  "source_mobile": "recu/grok/g-tasse-hiver-mobile.jpg",
+  "nom": "grok/tasse-hiver",
+  "role": "section-fond",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "fond de l'appel final",
+  "priorite": "Indispensable",
+  "alt": "Tasse de tisane fumante près d’une fenêtre givrée",
+  "beaute": 5,
+  "consigne_scene": "A glass cup of pale golden herbal tea steaming gently on a worn oak windowsill, loose dried linden flowers and a sprig of mint beside it, the window pane behind is lightly frosted at the edges and lets in low golden winter sunrise light, deep calm shadows on the left two thirds, nobody, no label, no packaging, no brand",
+  "ratio": "16:9"
+ },
+ {
+  "source": "recu/grok/g-saison-automne.jpg",
+  "nom": "grok/saison-automne",
+  "role": "galerie",
+  "ratio": "1:1",
+  "page": "Accueil",
+  "emplacement": "roue de l'année : l'automne",
+  "priorite": "Indispensable",
+  "alt": "Cynorrhodons et ombelles sèches dans la brume d’automne",
+  "beaute": 4,
+  "gabarit": "lieu",
+  "consigne_scene": "Close-up of a wild rose hedgerow in late autumn: glossy red rose hips and dry umbel seed heads covered in fine morning dew, soft blue-grey mist behind, gentle low sunlight, square composition with the subject in the centre, no buildings, no people"
+ },
+ {
+  "source": "recu/grok/g-sechage.jpg",
+  "nom": "grok/sechage",
+  "role": "galerie",
+  "ratio": "3:2",
+  "page": "Tisanes et La ferme",
+  "emplacement": "du champ à la tasse : le séchage",
+  "priorite": "Conseillée",
+  "alt": "Plantes étalées sur des claies de séchage en bois",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "consigne_scene": "Inside a small wooden solar drying shed, shallow wooden drying racks with fine mesh holding freshly picked lemon balm, mint leaves and calendula petals spread in thin layers, warm diffuse light through a translucent roof, quiet and clean, nobody, no hands"
+ },
+ {
+  "source": "recu/grok/g-legumes-hiver.jpg",
+  "nom": "grok/legumes-hiver",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "page": "Chambres",
+  "emplacement": "l'Assiette du jardin",
+  "priorite": "Conseillée",
+  "alt": "Légumes d’hiver du potager sur une table de ferme",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "consigne_scene": "Winter vegetables just harvested from an organic kitchen garden on a rustic oak farm table: leeks with soil on the roots, a small squash, beetroots, curly kale, a few eggs in a bowl, linen napkin, soft side light from a window, no plated dish, nobody, no hands"
+ },
+ {
+  "source": "recu/grok/g-linge.jpg",
+  "nom": "grok/linge",
+  "role": "galerie",
+  "ratio": "3:2",
+  "page": "Chambres",
+  "emplacement": "bon à savoir",
+  "priorite": "Conseillée",
+  "alt": "Linge de lit plié et brin de lavande séchée",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "consigne_scene": "Neatly folded thick white linen sheets and a soft sage green wool blanket on a light oak bench against a lime-plastered wall, a small bunch of dried lavender on top, morning winter light, calm and immaculate, nobody"
+ },
+ {
+  "source": "recu/grok/g-404.jpg",
+  "nom": "grok/404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "tête de page",
+  "priorite": "Conseillée",
+  "alt": "Un panier de cueillette vide posé dans l’herbe givrée",
+  "beaute": 4,
+  "consigne_scene": "An empty wicker harvesting basket left alone on frosted grass at the edge of a herb garden, a single dried sage leaf in it, low golden winter sun, gentle touch of humour, nobody"
+ },
+ {
+  "source": "recu/grok/g-nuit-perche.jpg",
+  "nom": "grok/nuit-perche",
+  "role": "section-fond",
+  "page": "La ferme",
+  "emplacement": "la maison qui respire : le ciel noir",
+  "priorite": "Facultative",
+  "alt": "Ciel étoilé au-dessus d’une haie et d’un verger",
+  "beaute": 4,
+  "gabarit": "lieu",
+  "consigne_scene": "A clear winter night sky full of stars above a dark hedgerow and a few bare orchard trees, no artificial light anywhere, no buildings, no lit windows, faint Milky Way, deep blue-black tones, wide calm composition with lots of sky"
+ }
+]

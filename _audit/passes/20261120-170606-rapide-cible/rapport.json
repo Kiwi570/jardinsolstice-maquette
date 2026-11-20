@@ -1,0 +1,1192 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/chambres-fr.jpg",
+      "etape": "fichiers",
+      "page": "chambres.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/contact-fr.jpg",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/accueil-fr.jpg",
+      "etape": "fichiers",
+      "page": "index.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/la-ferme-fr.jpg",
+      "etape": "fichiers",
+      "page": "la-ferme.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/tisanes-fr.jpg",
+      "etape": "fichiers",
+      "page": "tisanes.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-contenu > p.ouv-info:nth-of-type(3) « Solstice d'hiver le 21 décembre »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par li.chambre-carte:nth-of-type(1) > div.chambre-carte-texte > h3 > a.lien-carte « Rubus »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.chambres-cartes.fx-fini > li.chambre-carte:nth-of-type(1) > div.chambre-carte-texte > p.chambre-prix:nth-of-type(3) « dès 62 € la nuit »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par li.chambre-carte:nth-of-type(2) > div.chambre-carte-texte > h3 > a.lien-carte « Tilia »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.chambres-cartes.fx-fini > li.chambre-carte:nth-of-type(2) > div.chambre-carte-texte > p.chambre-prix:nth-of-type(3) « dès 62 € la nuit »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par li.chambre-carte:nth-of-type(3) > div.chambre-carte-texte > h3 > a.lien-carte « Borago »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.chambres-cartes.fx-fini > li.chambre-carte:nth-of-type(3) > div.chambre-carte-texte > p.chambre-prix:nth-of-type(3) « dès 72 € la nuit »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-contenu > div.ouv-actions:nth-of-type(2) > a.bouton.bouton--soleil:nth-of-type(1) « Réserver une chambre »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "4.06:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.ciel:nth-of-type(1) > div.ciel-legende:nth-of-type(2) > p.ciel-coucher:nth-of-type(3) > span « Coucher »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "3.49:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.ciel:nth-of-type(1) > div.ciel-legende:nth-of-type(2) > p.ciel-coucher:nth-of-type(3) > span « Coucher »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "3.98:1 sur les 10 % de la photo les moins favorables (minimum 4.5:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-contenu > p.ouv-sur.masque-ecran-tres-bas:nth-of-type(1) « Micro-ferme bio · Vaupillon, dans le Perche »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "span[data-audit-surimage=\"0\"] ; strong[data-ciel-lever=\"\"] ; .ciel-jour",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "span[data-audit-surimage=\"0\"] ; strong[data-ciel-lever=\"\"] ; span[data-audit-surimage=\"2\"]",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.introuvable-texte > p:nth-of-type(3) > a.bouton:nth-of-type(1) « Retour à l'accueil »",
+      "lieux": [
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.introuvable-texte > p.introuvable-info:nth-of-type(4) « 02 37 81 15 82 · jardinsolstice@orange.fr »",
+      "lieux": [
+        "844×390 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.chb-ouv-texte > p.chb-info:nth-of-type(3) « De 62 € à 77 € la nuit · petit-déjeuner de 7 h à 1 »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "grok/legumes-hiver (4/5, faible, 39 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.chb-table-grille > figure.media.chb-table-media > picture > img « Légumes d'hiver du potager sur une table de ferme »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#rubus > div.chambre-texte:nth-of-type(2) > h2 « Rubus »",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#rubus > div.chambre-texte:nth-of-type(2) > p.chambre-plante-titre:nth-of-type(1) « La ronce, en latin »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#tilia > div.chambre-texte:nth-of-type(2) > h2 « Tilia »",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#tilia > div.chambre-texte:nth-of-type(2) > p.chambre-plante-titre:nth-of-type(1) « Le tilleul, en latin »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#borago > div.chambre-texte:nth-of-type(2) > h2 « Borago »",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#borago > div.chambre-texte:nth-of-type(2) > p.chambre-plante-titre:nth-of-type(1) « La bourrache, en latin »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "chambre-rubus (3/5, faible, 29 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.chambre-images:nth-of-type(1) > figure.media.chambre-grande > picture > img « La chambre Rubus »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "chambre-borago (3/5, faible, 29 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.chambre-images:nth-of-type(1) > figure.media.chambre-grande > picture > img « La chambre Borago »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "grok/legumes-hiver (4/5, faible, 38 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.chb-table-grille > figure.media.chb-table-media > picture > img « Légumes d'hiver du potager sur une table de ferme »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.chb-ouv-texte > div.chb-ouv-actions > a.bouton « Estimer mon séjour »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ctc-ouv-texte:nth-of-type(1) > p:nth-of-type(2) > a.bouton « Faire une demande »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ctc-ouv-texte:nth-of-type(1) > p.ctc-info:nth-of-type(3) « En ce moment, vente à la ferme sur rendez-vous ; l »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément recouvert",
+      "detail": "par section#debut > div.carte-acces:nth-of-type(2) > p.carte-etiquette.carte-etiquette--bif:nth-of-type(3) « Les Gaudonnières : à droite »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.carte-acces:nth-of-type(2) > svg.carte-svg > g.carte-bifurcation:nth-of-type(2)",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.carte-acces:nth-of-type(2) > p.carte-etiquette.carte-etiquette--rail:nth-of-type(5) « Paris-Montparnasse – Le Mans »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut > div.carte-acces:nth-of-type(2) > p.carte-etiquette.carte-etiquette--gare:nth-of-type(1) « Gare de La Loupe »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ctc-ouv-texte:nth-of-type(1) > p.ctc-info:nth-of-type(3) « Vente à la ferme d'avril à septembre, le samedi de »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.carte-acces:nth-of-type(2) > p.carte-note:nth-of-type(6) « Plan schématique, sans échelle »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.carte-acces:nth-of-type(2) > p.carte-etiquette.carte-etiquette--floudiere:nth-of-type(4) > strong « La Floudière »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#debut > div.carte-acces:nth-of-type(2) > p.carte-note:nth-of-type(6) « Plan schématique, sans échelle »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.carte-acces:nth-of-type(2) > p.carte-etiquette.carte-etiquette--floudiere:nth-of-type(4) « La Floudière 3 km de la gare »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/la-ferme",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/la-ferme",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.frm-ouv-texte.conteneur > div.frm-ouv-bas > p.frm-info:nth-of-type(3) « Lieu-dit La Floudière, Vaupillon (Eure-et-Loir) ·  »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/tisanes",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.tis-ouv-texte:nth-of-type(1) > p:nth-of-type(3) > a.bouton « Choisir mes tisanes »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/tisanes",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > div.tis-ouv-texte:nth-of-type(1) > p.tis-info:nth-of-type(4) « 5,75 € les 30 à 40 g · expédition chaque lundi · p »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/tisanes",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : titre hors de l’écran",
+      "detail": "haut 438 px, bas 566 px, zone 65–503 px",
+      "etape": "mesures",
+      "page": "/tisanes",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.tis-ouv-texte:nth-of-type(1) > h1.tis-titre « Une quarantaine de plantes, cultivées ici »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "transition : élément visible, caché puis réaffiché (flash)",
+      "detail": "",
+      "etape": "films",
+      "page": "/chambres → /tisanes",
+      "taille": "1366×768",
+      "mode": "film",
+      "selecteur": "section#debut > div.etal > figure.media.etal-a",
+      "lieux": [
+        "1366×768 film",
+        "390×844 film"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "transition : élément visible, caché puis réaffiché (flash)",
+      "detail": "",
+      "etape": "films",
+      "page": "/chambres → /tisanes",
+      "taille": "1366×768",
+      "mode": "film",
+      "selecteur": "figure.media.etal-a > picture > img « Paniers de fleurs de souci et de mauve f »",
+      "lieux": [
+        "1366×768 film",
+        "390×844 film"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "transition : élément visible, caché puis réaffiché (flash)",
+      "detail": "",
+      "etape": "films",
+      "page": "/chambres → /tisanes",
+      "taille": "1366×768",
+      "mode": "film",
+      "selecteur": "section#debut > div.etal > figure.media.etal-b",
+      "lieux": [
+        "1366×768 film",
+        "390×844 film"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "transition : élément visible, caché puis réaffiché (flash)",
+      "detail": "",
+      "etape": "films",
+      "page": "/chambres → /tisanes",
+      "taille": "1366×768",
+      "mode": "film",
+      "selecteur": "figure.media.etal-b > picture > img « Pots d'herbes aromatiques séchées »",
+      "lieux": [
+        "1366×768 film",
+        "390×844 film"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "transition : élément visible, caché puis réaffiché (flash)",
+      "detail": "",
+      "etape": "films",
+      "page": "/chambres → /tisanes",
+      "taille": "1366×768",
+      "mode": "film",
+      "selecteur": "section#debut > div.etal > figure.media.etal-c",
+      "lieux": [
+        "1366×768 film",
+        "390×844 film"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "transition : élément visible, caché puis réaffiché (flash)",
+      "detail": "",
+      "etape": "films",
+      "page": "/chambres → /tisanes",
+      "taille": "1366×768",
+      "mode": "film",
+      "selecteur": "figure.media.etal-c > picture > img « Sachets de menthe verte, menthe bergamot »",
+      "lieux": [
+        "1366×768 film",
+        "390×844 film"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "clavier",
+      "detail": "le focus arrive sur un élément caché",
+      "etape": "parcours",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "selecteur": "input «  »",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "clavier",
+      "detail": "le focus arrive sur un élément caché",
+      "etape": "parcours",
+      "page": "/contact",
+      "taille": "1366×768",
+      "selecteur": "input «  »",
+      "lieux": [
+        "1366×768"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : objet d’ouverture hors du premier écran",
+      "detail": "50 × 50 px visibles : l’intro et le voile s’ouvrent depuis le centre de l’écran à cette taille",
+      "etape": "grille",
+      "page": "/",
+      "taille": "390×844",
+      "lieux": [
+        "390×844"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : objet d’ouverture hors du premier écran",
+      "detail": "48 × 48 px visibles : l’intro et le voile s’ouvrent depuis le centre de l’écran à cette taille",
+      "etape": "grille",
+      "page": "/contact",
+      "taille": "390×844",
+      "lieux": [
+        "390×844"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.roue-visuel > div.roue-photos > figure.media.roue-photo:nth-of-type(4) > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#venir > figure.media.fin-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.introuvable-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#estimer « Estimer son séjour Votre séjour, en un coup d'œil  »",
+      "lieux": [
+        "390×844 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#table > div.conteneur.chb-table-grille > figure.media.chb-table-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#conditions > figure.media.conditions-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « : »",
+      "etape": "mesures",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#estimer > form.estimer-outil > div.estimer-total:nth-of-type(2) > p.estimer-detail:nth-of-type(3) « Rubus, 2 nuits, 2 personnes : 67 € la nuit. »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#demande « Votre demande Réserver, commander, demander Trois  »",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.carte-acces:nth-of-type(2) > p.carte-note:nth-of-type(6) « Plan schématique, sans échelle »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « ; »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ctc-ouv-texte:nth-of-type(1) > p.ctc-info:nth-of-type(3) > span « En ce moment, vente à la ferme sur rendez-vous ; l »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/la-ferme",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#nuit > figure.media.nuit-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/tisanes",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ol.etapes.fx-fini > li.etape:nth-of-type(3) > figure.media.etape-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/tisanes",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#catalogue « Les 35 tisanes Classiques, saisonnières, goûteuses »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 189 ms (différence 27 %) (films/retour-arrière-1366.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "retour arrière",
+      "lieux": [
+        "1366×768 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 66 ms (différence 58 %) (films/retour-avant-1366.png)",
+      "etape": "films",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "retour avant",
+      "lieux": [
+        "1366×768 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 87 ms (différence 34 %) (films/retour-arrière-390.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "retour arrière",
+      "lieux": [
+        "390×844 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 154 ms (différence 25 %) (films/retour-arrière-390.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "retour arrière",
+      "lieux": [
+        "390×844 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour avant : changement brusque",
+      "detail": "à 75 ms (différence 49 %) (films/retour-avant-390.png)",
+      "etape": "films",
+      "page": "/chambres",
+      "taille": "390×844",
+      "mode": "retour avant",
+      "lieux": [
+        "390×844 retour avant"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (6.2 %), voir comparaisons/rechargement-*.png",
+      "etape": "parcours",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (6.6 %), voir comparaisons/rechargement-chambres-*.png",
+      "etape": "parcours",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (29.7 %), voir comparaisons/rechargement-tisanes-*.png",
+      "etape": "parcours",
+      "page": "/tisanes",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "total : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/chambres",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "span",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "sachets : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "ul.sachets-piste",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "herbier : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/la-ferme",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "ul.sachets-piste",
+      "lieux": [
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 3,
+    "mesures": 36,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 5,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens profonds": 16,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 5,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 3,
+    "souris immobile": 2,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 5 étape(s) notée(s), 24 min de travail pour 80 min de budget, 6 min d’attente de l’utilisateur.",
+    "Audit rapide : étapes lourdes sur /, /chambres, /contact, /la-ferme, /tisanes.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Balayage des largeurs : non fait en audit rapide.",
+    "Ouverture / (1366×768) : 2872 ms depuis le premier octet",
+    "Ouverture /chambres (1366×768) : 2710 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2894 ms depuis le premier octet",
+    "Ouverture /la-ferme (1366×768) : 2732 ms depuis le premier octet",
+    "Ouverture /tisanes (1366×768) : 2814 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2884 ms depuis le premier octet",
+    "Ouverture /chambres (390×844) : 2717 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2888 ms depuis le premier octet",
+    "film de l'ouverture /contact 390×844 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /la-ferme (390×844) : 2731 ms depuis le premier octet",
+    "Ouverture /tisanes (390×844) : 2791 ms depuis le premier octet",
+    "film de l'ouverture /tisanes 390×844 : réussi à la tentative 3 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "bords de l’écran /tisanes 1366×768 : réussi à la tentative 3 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 357 images d’intro, 26 de voile et 112 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /chambres : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /la-ferme : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /tisanes : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 0 % d'images lentes sur 501, tâche la plus longue 0 ms",
+    "Fluidité /chambres 1366×768 (molette) : 0 % d'images lentes sur 400, tâche la plus longue 0 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 178, tâche la plus longue 0 ms",
+    "Fluidité /la-ferme 1366×768 (molette) : 0 % d'images lentes sur 325, tâche la plus longue 0 ms",
+    "Fluidité /tisanes 1366×768 (molette) : 0 % d'images lentes sur 460, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1378, tâche la plus longue 0 ms",
+    "Fluidité /chambres 390×844 (doigt) : 0 % d'images lentes sur 1348, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1348, tâche la plus longue 0 ms",
+    "Fluidité /la-ferme 390×844 (doigt) : 0 % d'images lentes sur 1346, tâche la plus longue 0 ms",
+    "Fluidité /tisanes 390×844 (doigt) : 0 % d'images lentes sur 1344, tâche la plus longue 0 ms",
+    "Vitesse / : 0.77 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /chambres : 0.56 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.48 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /la-ferme : 0.47 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /tisanes : 0.48 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en iris"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "sans objet",
+      "detail": "aucune scène épinglée marquée ni galerie générique"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

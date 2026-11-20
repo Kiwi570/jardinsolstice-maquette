@@ -1,0 +1,106 @@
+[
+ {
+  "zone": "Autour de Nogent-le-Rotrou",
+  "lieux": [
+   "Condeau (61) : L'Angenardière",
+   "Nogent-le-Rotrou : Office de tourisme",
+   "Thiron-Gardais (28) : boutique de l'Abbaye"
+  ]
+ },
+ {
+  "zone": "Autour de Nocé",
+  "lieux": [
+   "Nocé (61) : Maison du Parc de Courboyer",
+   "Rémalard (61) : L'essentiel",
+   "Saint-Cyr-la-Rosière : écomusée du Perche",
+   "Longny-les-Villages : Barnabé l'épicier"
+  ]
+ },
+ {
+  "zone": "Autour de Vaupillon",
+  "lieux": [
+   "Senonches (28) : boutique du château",
+   "La Ferté-Vidame (28) : Le Fournil au levain"
+  ]
+ },
+ {
+  "zone": "Près de Chartres",
+  "lieux": [
+   "Pontgouin (28) : La Maison Jaune",
+   "Bonneval (28) : Localie",
+   "Maintenon (28) : Le champ libre",
+   "Épernon (28) : Matulu, librairie café",
+   "Serazereux (28) : Loca Lapin"
+  ]
+ },
+ {
+  "zone": "Sur la route du Mans",
+  "lieux": [
+   "La Ferté-Bernard (72) : Biocoop Les Iris",
+   "Mâle (61) : Le jardin d'Lys"
+  ]
+ },
+ {
+  "zone": "Au sud",
+  "lieux": [
+   "Vendôme (41) : Saveurs de la terre",
+   "Romorantin (41) : Herbensol",
+   "La Bazoche-Gouët (28) : Comptoir des infusés"
+  ]
+ },
+ {
+  "zone": "Au nord",
+  "lieux": [
+   "Dreux (28) : marché couvert, stand Amabel",
+   "Vimoutiers (61) : Les p'tits bios du coin",
+   "Muzy (27) : La ferme aux coquelicots",
+   "Broué (28) : La Brouette, boutique paysanne",
+   "Villiers-le-Morhier (28) : La ferme des îlots",
+   "Vernouillet (28) : Symbio'z"
+  ]
+ },
+ {
+  "zone": "À l'est",
+  "lieux": [
+   "Pithiviers (45) : La roseraie de Morailles",
+   "Poinville (28) : Les délices du potager"
+  ]
+ },
+ {
+  "zone": "Région parisienne",
+  "lieux": [
+   "Le collectif percheron"
+  ]
+ },
+ {
+  "zone": "AMAP et livraisons",
+  "lieux": [
+   "AMAP des 6 vallées (Nogent-le-Rotrou)",
+   "AMAP Loupéenne",
+   "La Forge (Rémalard)",
+   "Mortagne-au-Perche",
+   "Amapetitecagette (Chartres)",
+   "Le regrouptif de Mr Carotte (Bellême)",
+   "Le clos fleuri (Rambouillet)",
+   "L'amaplanete bio (Dreux)",
+   "Terre en vie (Orléans)",
+   "L'amap'tite terre (Lèves)",
+   "AMAP du Mêle-sur-Sarthe",
+   "AMAP du Chédouet",
+   "L'AmapenBioce (Serez-ville)",
+   "Popote et cie (Châteaudun)",
+   "L'Amap aux Potes (Gas)",
+   "Le petit marché de Baligande",
+   "Le 16 café de la Blaise"
+  ]
+ },
+ {
+  "zone": "Épiceries participatives et solidaires",
+  "lieux": [
+   "Épi de Luisant (participative)",
+   "Épi de Ressourc'eure (participative)",
+   "L'Ulphacette (solidaire)",
+   "Les Pains Perdus de Saint-Agil (associative, 41)"
+  ]
+ }
+]

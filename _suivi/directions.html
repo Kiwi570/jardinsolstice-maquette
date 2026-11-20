@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jardin Solstice · directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Figtree:wght@400;600&family=Gloock&family=Manrope:wght@400;600&family=Familjen+Grotesk:wght@500;700&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE  : planche de travail sobre, trois directions côte à côte, chacune dans sa propre couleur.
+   IDEA   : trois échantillons de papier posés sur une table, comme un nuancier d'atelier.
+   PICTURE: pour chaque direction, un premier écran miniature dessiné en CSS avec sa palette et sa typo.
+   COLOUR and TYPE : neutre gris pierre pour la planche ; chaque carte porte ses propres couleurs et polices.
+   LAYOUT : trois colonnes sur grand écran, empilées sur téléphone. */
+:root{color-scheme:light dark;--bg:light-dark(#e9e7e2,#1b1c1e);--ink:light-dark(#1d1e20,#ecebe7);--mute:light-dark(#55575b,#a9abae);--card:light-dark(#fff,#26282b)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Figtree",system-ui,sans-serif;overflow-x:clip}
+header{padding:clamp(24px,4vw,48px) max(5vw,16px) 8px;max-width:1320px;margin:auto}
+header h1{font:600 clamp(28px,3.4vw,42px)/1.08 "Fraunces",serif;margin:0 0 8px;text-wrap:balance}
+header p{margin:0;color:var(--mute);max-width:70ch}
+.grille{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:24px max(5vw,16px) 56px;max-width:1320px;margin:auto}
+@media(max-width:980px){.grille{grid-template-columns:minmax(0,1fr)}}
+.dir{background:var(--card);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.ecran{aspect-ratio:4/3;position:relative;overflow:hidden;padding:7%;display:flex;flex-direction:column;justify-content:flex-end}
+.ecran .nav{position:absolute;top:5%;left:7%;right:7%;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.02em}
+.ecran .t{margin:0;line-height:1.02;text-wrap:balance}
+.ecran .s{font-size:12px;margin:8px 0 0;max-width:30ch}
+.ecran .b{display:inline-block;margin-top:12px;font-size:11px;padding:7px 12px;border-radius:99px;align-self:flex-start}
+.corps{padding:18px 20px 22px;display:grid;gap:14px}
+.corps h2{margin:0;font:600 21px/1.2 "Fraunces",serif}
+.reco{font-size:13px;font-weight:600;color:#2f6b3f}
+:root[data-theme=dark] .reco{color:#8fd19c}
+.pal{display:flex;gap:6px}
+.pal span{flex:1;height:46px;border-radius:8px;display:flex;align-items:flex-end;padding:4px 6px;font:600 10px/1 ui-monospace,monospace;color:#fff;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.pal span.cl{color:#222}
+.corps dl{margin:0;display:grid;grid-template-columns:7.2em minmax(0,1fr);gap:6px 10px;font-size:14px}
+.corps dt{color:var(--mute)}
+.corps dd{margin:0}
+/* A */
+.a .ecran{background:#f1eee6;color:#1f2b23}
+.a .ecran::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(241,238,230,0) 30%,#f1eee6 78%),radial-gradient(120% 70% at 70% 30%,#c9d2c6,#8fa08c 60%,#55695a);opacity:.95}
+.a .arc{position:absolute;left:40%;right:6%;top:14%;height:34%;border:1.5px dashed #233128;border-bottom:0;border-radius:50% 50% 0 0/100% 100% 0 0;opacity:.55}
+.a .sol{position:absolute;left:78%;top:17%;width:22px;height:22px;border-radius:50%;background:#d4782f;box-shadow:0 0 0 8px rgba(212,120,47,.18)}
+.a .t{font:500 clamp(24px,2.5vw,32px)/1.02 "Fraunces",serif;position:relative}
+.a .t em{font-style:italic;color:#7a3e16}
+.a .s,.a .nav{position:relative;font-family:"Figtree"}
+.a .nav{position:absolute}
+.a .b{background:#233128;color:#f1eee6;position:relative}
+/* B */
+.b .ecran{background:radial-gradient(80% 60% at 70% 20%,#26304d,#12182a 70%);color:#efebe2}
+.b .ecran i{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.8}
+.b .maison{position:absolute;right:7%;top:16%;width:24%;height:16%;background:#0b0f1b;clip-path:polygon(0 40%,50% 0,100% 40%,100% 100%,0 100%)}
+.b .maison::after{content:"";position:absolute;left:30%;top:58%;width:12%;height:20%;background:#f0b45a;box-shadow:58px 0 0 #f0b45a;filter:drop-shadow(0 0 6px #f0b45a)}
+.b .t{font:400 clamp(24px,2.6vw,34px)/1.02 "Gloock",serif;position:relative}.b .s{max-width:26ch}
+.b .t em{color:#f0b45a;font-style:normal}
+.b .s,.b .nav{font-family:"Manrope"}
+.b .b{background:#f0b45a;color:#12182a}
+/* C */
+.c .ecran{background:#fbfaf6;color:#20302a}
+.c .ecran::before{content:"";position:absolute;right:-8%;top:10%;width:44%;aspect-ratio:1;border-radius:50%;background:#3e5aa8}
+.c .ecran::after{content:"";position:absolute;right:20%;top:24%;width:22%;aspect-ratio:1;border-radius:50% 50% 50% 0;background:#c9d46a;transform:rotate(-20deg)}
+.c .etiq{position:absolute;right:6%;top:74%;font:600 11px/1.2 "Karla";background:#fff;padding:5px 8px;border:1px solid #20302a;transform:rotate(-4deg);z-index:1}
+.c .t{font:700 clamp(22px,2.3vw,30px)/1 "Familjen Grotesk",sans-serif;position:relative;z-index:1}
+.c .t em{font-style:normal;color:#d0503a}
+.c .s{max-width:24ch!important}.c .s,.c .nav{font-family:"Karla";position:relative;z-index:1}
+.c .nav{position:absolute}
+.c .b{background:#20302a;color:#fbfaf6;position:relative;z-index:1}
+footer{max-width:1320px;margin:auto;padding:0 max(5vw,16px) 48px;color:var(--mute);font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Jardin Solstice : trois directions pour la maquette</h1>
+  <p>Premier écran de l'accueil en miniature, palette (fond dominant, second fond, accent, texte) et typographies. Les vraies photos du client remplaceront les fonds dessinés.</p>
+</header>
+<main class="grille">
+  <article class="dir a">
+    <div class="ecran">
+      <div class="nav"><span>Jardin Solstice</span><span>Chambres · Tisanes · La ferme</span></div>
+      <div class="arc"></div><div class="sol"></div>
+      <p class="t">Vivre au rythme <em>de la nature</em></p>
+      <p class="s">Micro-ferme bio et chambres d'hôtes dans le Perche. Aujourd'hui à Vaupillon : lever 8 h 23, coucher 17 h 09.</p>
+      <span class="b">Réserver une chambre</span>
+    </div>
+    <div class="corps">
+      <h2>A · Au rythme du soleil</h2>
+      <div class="reco">Recommandée</div>
+      <div class="pal"><span class="cl" style="background:#f1eee6">#F1EEE6</span><span style="background:#233128">#233128</span><span style="background:#d4782f">#D4782F</span><span style="background:#1f2b23">#1F2B23</span></div>
+      <dl>
+        <dt>Ambiance</dt><dd>Lumineuse et calme : murs à la chaux, vert de sauge, soleil bas d'hiver.</dd>
+        <dt>Typos</dt><dd>Fraunces (titres, mot en italique) et Figtree (texte).</dd>
+        <dt>L'idée</dt><dd>Le vrai soleil de Vaupillon, calculé en direct (lever, coucher, jours avant le solstice) ; la saison du jour choisit les photos et ce qui est mis en avant.</dd>
+        <dt>Accueil</dt><dd>Ouverture de saison · Magalie et Sébastien · les 3 chambres · Assiette du jardin · tisanes de saison · la roue de l'année · prochains marchés · maison de silex et chaux · appel final.</dd>
+        <dt>Animations</dt><dd>Intro : le soleil monte sur son arc et ouvre la page ; photos qui se découvrent en disque ; roue des saisons qui tourne au défilement ; bocaux qui défilent.</dd>
+        <dt>Favorite proche</dt><dd>Artic (revue claire et vert profond), Lemoy pour les produits.</dd>
+      </dl>
+    </div>
+  </article>
+  <article class="dir b">
+    <div class="ecran">
+      <i style="left:12%;top:14%"></i><i style="left:30%;top:9%"></i><i style="left:46%;top:18%"></i><i style="left:58%;top:7%"></i><i style="left:80%;top:12%"></i><i style="left:22%;top:30%"></i><i style="left:66%;top:28%"></i><i style="left:90%;top:24%"></i>
+      <div class="maison"></div>
+      <div class="nav"><span>Jardin Solstice</span><span>Chambres · Tisanes · La ferme</span></div>
+      <p class="t">La plus longue nuit <em>approche</em></p>
+      <p class="s">Une maison de silex sous le ciel noir du Perche, et des tisanes pour l'hiver.</p>
+      <span class="b">Réserver une chambre</span>
+    </div>
+    <div class="corps">
+      <h2>B · La plus longue nuit</h2>
+      <div class="pal"><span style="background:#12182a">#12182A</span><span class="cl" style="background:#efebe2">#EFEBE2</span><span class="cl" style="background:#f0b45a">#F0B45A</span><span class="cl" style="background:#efebe2;color:#12182a">texte</span></div>
+      <dl>
+        <dt>Ambiance</dt><dd>Nocturne et chaleureuse : bleu nuit, lumière des fenêtres, sections claires pour les chambres, les tisanes et la réservation.</dd>
+        <dt>Typos</dt><dd>Gloock (titres) et Manrope (texte).</dd>
+        <dt>L'idée</dt><dd>Le ciel du Perche que l'éclairage tourné vers le sol laisse noir : étoiles en direct, fenêtres de la maison qui s'allument une à une.</dd>
+        <dt>Accueil</dt><dd>Nuit étoilée · la maison · les chambres (clair) · la table du soir · tisanes d'hiver (clair) · marchés de Noël · ciel et démarche · appel final.</dd>
+        <dt>Animations</dt><dd>Intro : la nuit tombe et la maison s'allume ; étoiles qui suivent la souris ; photos qui passent de la nuit au jour.</dd>
+        <dt>Favorite proche</dt><dd>Les Plus Hautes Eaux.</dd>
+      </dl>
+    </div>
+  </article>
+  <article class="dir c">
+    <div class="ecran">
+      <div class="nav"><span>Jardin Solstice</span><span>Chambres · Tisanes · La ferme</span></div>
+      <span class="etiq">Borago officinalis · cueillie en juin</span>
+      <p class="t">Une quarantaine de plantes, <em>trois chambres</em></p>
+      <p class="s">Paysans-herboristes dans le Perche : on cultive, on cueille, on sèche, on vous accueille.</p>
+      <span class="b">Découvrir les tisanes</span>
+    </div>
+    <div class="corps">
+      <h2>C · Herbier vivant</h2>
+      <div class="pal"><span class="cl" style="background:#fbfaf6">#FBFAF6</span><span style="background:#3e5aa8">#3E5AA8</span><span style="background:#d0503a">#D0503A</span><span class="cl" style="background:#c9d46a">#C9D46A</span></div>
+      <dl>
+        <dt>Ambiance</dt><dd>Gaie et graphique : grands aplats aux couleurs des fleurs (bourrache, pavot, tilleul), plantes détourées, étiquettes.</dd>
+        <dt>Typos</dt><dd>Familjen Grotesk (titres gras) et Karla (texte).</dd>
+        <dt>L'idée</dt><dd>Les planches d'un herbier : chaque plante du jardin se pose sur la page avec son étiquette ; les tisanes se composent plante par plante.</dd>
+        <dt>Accueil</dt><dd>Planche d'ouverture · qui cultive · les tisanes en herbier · les chambres (nommées d'après des plantes) · la table · le jardin · marchés · appel final.</dd>
+        <dt>Animations</dt><dd>Plantes qui se posent et s'épinglent, étiquettes qui s'écrivent, sachet qui se remplit, aplats qui glissent d'une section à l'autre.</dd>
+        <dt>Favorite proche</dt><dd>Cool Canyoning (aplats francs, ton joueur).</dd>
+      </dl>
+    </div>
+  </article>
+</main>
+<footer>Heures de lever et de coucher données à titre d'exemple sur cette planche ; la maquette les calcule pour le jour réel.</footer>
+</body>
+</html>

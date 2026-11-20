@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-20T16:42:10.659Z",
+  "plan": "/home/claude/jardinsolstice-maquette/plan-images.json",
+  "attendus": 8,
+  "recus": 8,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [],
+  "images": [
+    {
+      "nom": "grok/tasse-hiver",
+      "attendu": "g-tasse-hiver.jpg",
+      "fichier": "g-tasse-hiver.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "grok/tasse-hiver",
+      "mobile": true,
+      "attendu": "g-tasse-hiver-mobile.jpg",
+      "fichier": "g-tasse-hiver-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/saison-automne",
+      "attendu": "g-saison-automne.jpg",
+      "fichier": "g-saison-automne.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/sechage",
+      "attendu": "g-sechage.jpg",
+      "fichier": "g-sechage.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/legumes-hiver",
+      "attendu": "g-legumes-hiver.jpg",
+      "fichier": "g-legumes-hiver.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/linge",
+      "attendu": "g-linge.jpg",
+      "fichier": "g-linge.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "grok/404",
+      "attendu": "g-404.jpg",
+      "fichier": "g-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/nuit-perche",
+      "attendu": "g-nuit-perche.jpg",
+      "fichier": "g-nuit-perche.jpg",
+      "priorite": "Facultative",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    }
+  ]
+}

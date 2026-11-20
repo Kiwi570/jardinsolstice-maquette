@@ -1,0 +1,4054 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo.png",
+    "role": "logo",
+    "alt": "Jardin Solstice",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "b943c7104c5b4c7b",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 7440,
+      "logo-480.webp": 17752
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Jardin Solstice\", sizes: '240px' })"
+  },
+  "accueil-ouverture": {
+    "nom": "accueil-ouverture",
+    "source": "recu/herboristerie.jpg",
+    "role": "ouverture",
+    "alt": "Ombelle couverte de givre au jardin, un matin d'hiver",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "c53adb189778ef90",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 39%"
+    },
+    "cadrage": "45% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 84.4,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-ouverture-640.webp",
+      "accueil-ouverture-1280.webp",
+      "accueil-ouverture-1920.webp",
+      "accueil-ouverture-mobile-640.webp",
+      "accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "accueil-ouverture-640.webp": 17882,
+      "accueil-ouverture-1280.webp": 44246,
+      "accueil-ouverture-1920.webp": 73888,
+      "accueil-ouverture-mobile-640.webp": 28216,
+      "accueil-ouverture-mobile-1080.webp": 54810
+    },
+    "media": "c.media({ nom: 'accueil-ouverture', alt: \"Ombelle couverte de givre au jardin, un matin d'hiver\", cadrage: '45% 46%', cadrageMobile: '50% 39%', sizes: '100vw', priorite: true })"
+  },
+  "accueil-ferme": {
+    "nom": "accueil-ferme",
+    "source": "recu/flaner-jardin.jpg",
+    "role": "galerie",
+    "alt": "Massif fleuri du jardin sous les grands arbres",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "bbb066efee4a1bd2",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 665,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-ferme-480.webp",
+      "accueil-ferme-640.webp",
+      "accueil-ferme-960.webp"
+    ],
+    "poids": {
+      "accueil-ferme-480.webp": 114202,
+      "accueil-ferme-640.webp": 199986,
+      "accueil-ferme-960.webp": 299294
+    },
+    "media": "c.media({ nom: 'accueil-ferme', alt: \"Massif fleuri du jardin sous les grands arbres\", cadrage: '50% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "magalie-sebastien": {
+    "nom": "magalie-sebastien",
+    "source": "recu/sebastien.jpg",
+    "role": "portrait",
+    "alt": "Magalie et Sébastien au milieu des plantes médicinales",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e2e4c4aef5240917",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "53% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.1,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 20,
+      "top": 0,
+      "width": 480,
+      "height": 600,
+      "source": [
+        500,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 784",
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 480 px après recadrage)"
+    ],
+    "fichiers": [
+      "magalie-sebastien-480.webp",
+      "magalie-sebastien-640.webp"
+    ],
+    "poids": {
+      "magalie-sebastien-480.webp": 112566,
+      "magalie-sebastien-640.webp": 158654
+    },
+    "media": "c.media({ nom: 'magalie-sebastien', alt: \"Magalie et Sébastien au milieu des plantes médicinales\", cadrage: '53% 40%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "chambre-rubus": {
+    "nom": "chambre-rubus",
+    "source": "recu/chambre-rubus-2.jpg",
+    "role": "carte-service",
+    "alt": "La chambre Rubus : grand lit, poutres et terres cuites",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cb4651948489a345",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      700
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 118,
+      "top": 0,
+      "width": 707,
+      "height": 530,
+      "source": [
+        1072,
+        530
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1072 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-rubus-480.webp",
+      "chambre-rubus-700.webp"
+    ],
+    "poids": {
+      "chambre-rubus-480.webp": 23786,
+      "chambre-rubus-700.webp": 43600
+    },
+    "media": "c.media({ nom: 'chambre-rubus', alt: \"La chambre Rubus : grand lit, poutres et terres cuites\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "chambre-tilia": {
+    "nom": "chambre-tilia",
+    "source": "recu/chambre-tilia.jpg",
+    "role": "carte-service",
+    "alt": "La chambre Tilia sous les toits, bureau près de la fenêtre de toit",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f3d28f066fb837da",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      700
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 32.6,
+      "y": 18.8,
+      "l": 59.4,
+      "h": 43.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.61,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 66,
+      "top": 0,
+      "width": 943,
+      "height": 707,
+      "source": [
+        1494,
+        707
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-tilia-480.webp",
+      "chambre-tilia-700.webp"
+    ],
+    "poids": {
+      "chambre-tilia-480.webp": 14266,
+      "chambre-tilia-700.webp": 26002
+    },
+    "media": "c.media({ nom: 'chambre-tilia', alt: \"La chambre Tilia sous les toits, bureau près de la fenêtre de toit\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "chambre-borago": {
+    "nom": "chambre-borago",
+    "source": "recu/tarifs.jpg",
+    "role": "carte-service",
+    "alt": "La chambre Borago, son poêle à granulés et la porte sur le jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "768a5b07176634a5",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      700
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.7,
+      "y": 0,
+      "l": 95.3,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 701,
+      "height": 526,
+      "source": [
+        1056,
+        526
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1056 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-borago-480.webp",
+      "chambre-borago-700.webp"
+    ],
+    "poids": {
+      "chambre-borago-480.webp": 27822,
+      "chambre-borago-700.webp": 51012
+    },
+    "media": "c.media({ nom: 'chambre-borago', alt: \"La chambre Borago, son poêle à granulés et la porte sur le jardin\", sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "assiette-herbes": {
+    "nom": "assiette-herbes",
+    "source": "recu/assiette-jardin.jpg",
+    "role": "galerie",
+    "alt": "Laurier, sauge et romarin fraîchement cueillis sur une table en bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e085319b18d1aba9",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 22.7,
+      "l": 100,
+      "h": 72.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 347,
+      "top": 0,
+      "width": 800,
+      "height": 1000,
+      "source": [
+        1494,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 800 px après recadrage)"
+    ],
+    "fichiers": [
+      "assiette-herbes-480.webp",
+      "assiette-herbes-640.webp",
+      "assiette-herbes-960.webp"
+    ],
+    "poids": {
+      "assiette-herbes-480.webp": 24698,
+      "assiette-herbes-640.webp": 35138,
+      "assiette-herbes-960.webp": 55606
+    },
+    "media": "c.media({ nom: 'assiette-herbes', alt: \"Laurier, sauge et romarin fraîchement cueillis sur une table en bois\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "tisanes-panier": {
+    "nom": "tisanes-panier",
+    "source": "recu/contact-5.jpg",
+    "role": "produit",
+    "alt": "Sachets de tisanes du Jardin Solstice dans un panier en osier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "06b444f0385147cb",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 565,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "tisanes-panier-480.webp",
+      "tisanes-panier-640.webp",
+      "tisanes-panier-1600.webp"
+    ],
+    "poids": {
+      "tisanes-panier-480.webp": 39252,
+      "tisanes-panier-640.webp": 59400,
+      "tisanes-panier-1600.webp": 183738
+    },
+    "media": "c.media({ nom: 'tisanes-panier', alt: \"Sachets de tisanes du Jardin Solstice dans un panier en osier\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "saison-hiver": {
+    "nom": "saison-hiver",
+    "source": "recu/flaner-jardin-5.jpg",
+    "role": "galerie",
+    "alt": "Branches prises dans le givre sur un ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9bd044738b995c88",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 140,
+      "top": 0,
+      "width": 1216,
+      "height": 1216,
+      "source": [
+        1824,
+        1216
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "saison-hiver-480.webp",
+      "saison-hiver-640.webp",
+      "saison-hiver-960.webp"
+    ],
+    "poids": {
+      "saison-hiver-480.webp": 21822,
+      "saison-hiver-640.webp": 34440,
+      "saison-hiver-960.webp": 65552
+    },
+    "media": "c.media({ nom: 'saison-hiver', alt: \"Branches prises dans le givre sur un ciel bleu\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "saison-printemps": {
+    "nom": "saison-printemps",
+    "source": "recu/flaner-jardin-7.jpg",
+    "role": "galerie",
+    "alt": "Poirier en fleurs au printemps",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e954278b8af1a588",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 231,
+      "top": 0,
+      "width": 1216,
+      "height": 1216,
+      "source": [
+        1824,
+        1216
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "saison-printemps-480.webp",
+      "saison-printemps-640.webp",
+      "saison-printemps-960.webp"
+    ],
+    "poids": {
+      "saison-printemps-480.webp": 38866,
+      "saison-printemps-640.webp": 58220,
+      "saison-printemps-960.webp": 98426
+    },
+    "media": "c.media({ nom: 'saison-printemps', alt: \"Poirier en fleurs au printemps\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "saison-ete": {
+    "nom": "saison-ete",
+    "source": "recu/flaner-jardin-3.jpg",
+    "role": "galerie",
+    "alt": "Lupins bleus et mauves en été",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "472745e7bc0ed0f8",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 32%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 571,
+      "top": 0,
+      "width": 1339,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "saison-ete-480.webp",
+      "saison-ete-640.webp",
+      "saison-ete-960.webp"
+    ],
+    "poids": {
+      "saison-ete-480.webp": 84716,
+      "saison-ete-640.webp": 141014,
+      "saison-ete-960.webp": 268756
+    },
+    "media": "c.media({ nom: 'saison-ete', alt: \"Lupins bleus et mauves en été\", cadrage: '50% 32%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "terres-cuites": {
+    "nom": "terres-cuites",
+    "source": "recu/chambres-hotes.jpg",
+    "role": "section-fond",
+    "alt": "Terres cuites de récupération empilées",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "56ee8424fe5d531c",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "59% 56%",
+    "sujet": {
+      "x": 3.1,
+      "y": 8.7,
+      "l": 90.6,
+      "h": 86.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 6,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "terres-cuites-640.webp",
+      "terres-cuites-1280.webp",
+      "terres-cuites-1920.webp"
+    ],
+    "poids": {
+      "terres-cuites-640.webp": 67832,
+      "terres-cuites-1280.webp": 219228,
+      "terres-cuites-1920.webp": 288686
+    },
+    "media": "c.media({ nom: 'terres-cuites', alt: \"Terres cuites de récupération empilées\", cadrage: '59% 56%', sizes: '100vw' })"
+  },
+  "chambres-ouverture": {
+    "nom": "chambres-ouverture",
+    "source": "recu/plantes-aromatiques-medicinales-chambre.jpg",
+    "role": "ouverture",
+    "alt": "La maison d'hôtes, ses volets vert d'eau et le massif de lavandes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "118dcf74aed2f6b2",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 55%"
+    },
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambres-ouverture-640.webp",
+      "chambres-ouverture-1280.webp",
+      "chambres-ouverture-1920.webp",
+      "chambres-ouverture-mobile-640.webp",
+      "chambres-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "chambres-ouverture-640.webp": 77532,
+      "chambres-ouverture-1280.webp": 303710,
+      "chambres-ouverture-1920.webp": 403036,
+      "chambres-ouverture-mobile-640.webp": 157834,
+      "chambres-ouverture-mobile-1080.webp": 287802
+    },
+    "media": "c.media({ nom: 'chambres-ouverture', alt: \"La maison d'hôtes, ses volets vert d'eau et le massif de lavandes\", cadrage: '50% 55%', cadrageMobile: '50% 55%', sizes: '100vw', priorite: true })"
+  },
+  "rubus-facade": {
+    "nom": "rubus-facade",
+    "source": "recu/chambre-rubus.jpg",
+    "role": "galerie",
+    "alt": "La façade de plain-pied de la chambre Rubus et sa porte rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2417f25f3fbaf918",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 134,
+      "top": 0,
+      "width": 1163,
+      "height": 775,
+      "source": [
+        1491,
+        775
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "rubus-facade-480.webp",
+      "rubus-facade-640.webp",
+      "rubus-facade-960.webp"
+    ],
+    "poids": {
+      "rubus-facade-480.webp": 28560,
+      "rubus-facade-640.webp": 51514,
+      "rubus-facade-960.webp": 112890
+    },
+    "media": "c.media({ nom: 'rubus-facade', alt: \"La façade de plain-pied de la chambre Rubus et sa porte rouge\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "rubus-2": {
+    "nom": "rubus-2",
+    "source": "recu/chambre-rubus-3.jpg",
+    "role": "vignette",
+    "alt": "Autre vue de la chambre Rubus",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "b7644c1fa85f578f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 46%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 96
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "rubus-2-480.webp",
+      "rubus-2-640.webp",
+      "rubus-2-800.webp"
+    ],
+    "poids": {
+      "rubus-2-480.webp": 14594,
+      "rubus-2-640.webp": 20990,
+      "rubus-2-800.webp": 27390
+    },
+    "media": "c.media({ nom: 'rubus-2', alt: \"Autre vue de la chambre Rubus\", cadrage: '54% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "tilia-2": {
+    "nom": "tilia-2",
+    "source": "recu/chambre-tilia-2.jpg",
+    "role": "vignette",
+    "alt": "Le lit de la chambre Tilia sous la fenêtre de toit",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c0dcf5e869058cb1",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 31.3,
+      "l": 100,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 72,
+      "top": 0,
+      "width": 795,
+      "height": 530,
+      "source": [
+        1068,
+        530
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1068 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "tilia-2-480.webp",
+      "tilia-2-640.webp",
+      "tilia-2-800.webp"
+    ],
+    "poids": {
+      "tilia-2-480.webp": 20468,
+      "tilia-2-640.webp": 34896,
+      "tilia-2-800.webp": 47290
+    },
+    "media": "c.media({ nom: 'tilia-2', alt: \"Le lit de la chambre Tilia sous la fenêtre de toit\", cadrage: '50% 64%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "tilia-3": {
+    "nom": "tilia-3",
+    "source": "recu/chambre-tilia-3.jpg",
+    "role": "vignette",
+    "alt": "Coin fenêtre de la chambre Tilia",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "d15b21545056bc32",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 43%",
+    "sujet": {
+      "x": 12.5,
+      "y": 0,
+      "l": 84.4,
+      "h": 96
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "tilia-3-480.webp",
+      "tilia-3-640.webp",
+      "tilia-3-800.webp"
+    ],
+    "poids": {
+      "tilia-3-480.webp": 12116,
+      "tilia-3-640.webp": 17576,
+      "tilia-3-800.webp": 23668
+    },
+    "media": "c.media({ nom: 'tilia-3', alt: \"Coin fenêtre de la chambre Tilia\", cadrage: '47% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "borago-2": {
+    "nom": "borago-2",
+    "source": "recu/tarifs-2.jpg",
+    "role": "vignette",
+    "alt": "La mezzanine de la chambre Borago",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "0a0646cbfbe354db",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "63% 52%",
+    "sujet": {
+      "x": 28.1,
+      "y": 0,
+      "l": 68.8,
+      "h": 86.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "borago-2-480.webp",
+      "borago-2-640.webp",
+      "borago-2-800.webp"
+    ],
+    "poids": {
+      "borago-2-480.webp": 12606,
+      "borago-2-640.webp": 17992,
+      "borago-2-800.webp": 24312
+    },
+    "media": "c.media({ nom: 'borago-2', alt: \"La mezzanine de la chambre Borago\", cadrage: '63% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "maison-parc": {
+    "nom": "maison-parc",
+    "source": "recu/chambre-hote-ecologiques-parc.jpg",
+    "role": "galerie",
+    "alt": "Pignon de la maison d'hôtes et rosiers en fleurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d2b1f6b13b9387af",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 93.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1040,
+      "height": 693,
+      "source": [
+        1492,
+        693
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "maison-parc-480.webp",
+      "maison-parc-640.webp",
+      "maison-parc-960.webp"
+    ],
+    "poids": {
+      "maison-parc-480.webp": 42162,
+      "maison-parc-640.webp": 75264,
+      "maison-parc-960.webp": 158698
+    },
+    "media": "c.media({ nom: 'maison-parc', alt: \"Pignon de la maison d'hôtes et rosiers en fleurs\", cadrage: '49% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "tisanes-ouverture": {
+    "nom": "tisanes-ouverture",
+    "source": "recu/suite-estivale-activite-2.jpg",
+    "role": "ouverture",
+    "alt": "Paniers de fleurs de souci et de mauve fraîchement cueillies",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0e332d78037e7443",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 59%"
+    },
+    "cadrage": "50% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 125,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "tisanes-ouverture-640.webp",
+      "tisanes-ouverture-1280.webp",
+      "tisanes-ouverture-1920.webp",
+      "tisanes-ouverture-mobile-640.webp",
+      "tisanes-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "tisanes-ouverture-640.webp": 140714,
+      "tisanes-ouverture-1280.webp": 295932,
+      "tisanes-ouverture-1920.webp": 396220,
+      "tisanes-ouverture-mobile-640.webp": 140714,
+      "tisanes-ouverture-mobile-1080.webp": 255858
+    },
+    "media": "c.media({ nom: 'tisanes-ouverture', alt: \"Paniers de fleurs de souci et de mauve fraîchement cueillies\", cadrage: '50% 59%', cadrageMobile: '50% 59%', sizes: '100vw', priorite: true })"
+  },
+  "famille-saisonnieres": {
+    "nom": "famille-saisonnieres",
+    "source": "recu/tisanes-melanges.jpg",
+    "role": "vignette",
+    "alt": "Sachets des tisanes Coup de froid et Rouge-gorge",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a761c63c53a07668",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "62% 43%",
+    "sujet": {
+      "x": 15.6,
+      "y": 0,
+      "l": 84.4,
+      "h": 96
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "famille-saisonnieres-480.webp",
+      "famille-saisonnieres-640.webp",
+      "famille-saisonnieres-800.webp"
+    ],
+    "poids": {
+      "famille-saisonnieres-480.webp": 22694,
+      "famille-saisonnieres-640.webp": 32098,
+      "famille-saisonnieres-800.webp": 41544
+    },
+    "media": "c.media({ nom: 'famille-saisonnieres', alt: \"Sachets des tisanes Coup de froid et Rouge-gorge\", cadrage: '62% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "famille-classiques": {
+    "nom": "famille-classiques",
+    "source": "recu/100-made-eure-loir.jpg",
+    "role": "vignette",
+    "alt": "Sachets des tisanes Détente et Sérénité",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "82745784fccdbb72",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "58% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "famille-classiques-480.webp",
+      "famille-classiques-640.webp",
+      "famille-classiques-800.webp"
+    ],
+    "poids": {
+      "famille-classiques-480.webp": 23810,
+      "famille-classiques-640.webp": 33848,
+      "famille-classiques-800.webp": 45018
+    },
+    "media": "c.media({ nom: 'famille-classiques', alt: \"Sachets des tisanes Détente et Sérénité\", cadrage: '58% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "famille-simples": {
+    "nom": "famille-simples",
+    "source": "recu/tisanes-melanges-2.jpg",
+    "role": "vignette",
+    "alt": "Sachets de menthe verte, menthe bergamote et camomille romaine",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cdaa3c33d0ea0efc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "62% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "famille-simples-480.webp",
+      "famille-simples-640.webp",
+      "famille-simples-800.webp"
+    ],
+    "poids": {
+      "famille-simples-480.webp": 23732,
+      "famille-simples-640.webp": 33316,
+      "famille-simples-800.webp": 43946
+    },
+    "media": "c.media({ nom: 'famille-simples', alt: \"Sachets de menthe verte, menthe bergamote et camomille romaine\", cadrage: '62% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "famille-gouteuses": {
+    "nom": "famille-gouteuses",
+    "source": "recu/preparation.jpg",
+    "role": "vignette",
+    "alt": "Fleurs d'origan visitées par un papillon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9846d631f3fbc89e",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "40% 52%",
+    "sujet": {
+      "x": 3.1,
+      "y": 4.1,
+      "l": 96.9,
+      "h": 91.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 4,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1004
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "famille-gouteuses-480.webp",
+      "famille-gouteuses-640.webp",
+      "famille-gouteuses-800.webp"
+    ],
+    "poids": {
+      "famille-gouteuses-480.webp": 27596,
+      "famille-gouteuses-640.webp": 41184,
+      "famille-gouteuses-800.webp": 55106
+    },
+    "media": "c.media({ nom: 'famille-gouteuses', alt: \"Fleurs d'origan visitées par un papillon\", cadrage: '40% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "produit-sirops": {
+    "nom": "produit-sirops",
+    "source": "recu/contact-2.jpg",
+    "role": "produit",
+    "alt": "Sirops de plantes en bouteilles, au soleil sur une terrasse en bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "248c75b34eda8b8f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 525,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-sirops-480.webp",
+      "produit-sirops-640.webp",
+      "produit-sirops-1600.webp"
+    ],
+    "poids": {
+      "produit-sirops-480.webp": 46286,
+      "produit-sirops-640.webp": 71162,
+      "produit-sirops-1600.webp": 211118
+    },
+    "media": "c.media({ nom: 'produit-sirops', alt: \"Sirops de plantes en bouteilles, au soleil sur une terrasse en bois\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "produit-hydrolats": {
+    "nom": "produit-hydrolats",
+    "source": "recu/contact-3.jpg",
+    "role": "produit",
+    "alt": "Flacons bleus d'hydrolats",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b0125d743b4f8ee4",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 385,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-hydrolats-480.webp",
+      "produit-hydrolats-640.webp",
+      "produit-hydrolats-1600.webp"
+    ],
+    "poids": {
+      "produit-hydrolats-480.webp": 23380,
+      "produit-hydrolats-640.webp": 32746,
+      "produit-hydrolats-1600.webp": 91082
+    },
+    "media": "c.media({ nom: 'produit-hydrolats', alt: \"Flacons bleus d'hydrolats\", cadrage: '50% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "produit-vinaigres": {
+    "nom": "produit-vinaigres",
+    "source": "recu/contact-4.jpg",
+    "role": "produit",
+    "alt": "Vinaigres aux plantes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4d66d1c92f6f3cdc",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 425,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-vinaigres-480.webp",
+      "produit-vinaigres-640.webp",
+      "produit-vinaigres-1600.webp"
+    ],
+    "poids": {
+      "produit-vinaigres-480.webp": 29940,
+      "produit-vinaigres-640.webp": 44226,
+      "produit-vinaigres-1600.webp": 123508
+    },
+    "media": "c.media({ nom: 'produit-vinaigres', alt: \"Vinaigres aux plantes\", cadrage: '50% 59%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "produit-baumes": {
+    "nom": "produit-baumes",
+    "source": "recu/contact-6.jpg",
+    "role": "produit",
+    "alt": "Pots de baumes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a41cbb96d331aa39",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 425,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-baumes-480.webp",
+      "produit-baumes-640.webp",
+      "produit-baumes-1600.webp"
+    ],
+    "poids": {
+      "produit-baumes-480.webp": 20406,
+      "produit-baumes-640.webp": 28954,
+      "produit-baumes-1600.webp": 88410
+    },
+    "media": "c.media({ nom: 'produit-baumes', alt: \"Pots de baumes\", cadrage: '50% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "produit-huiles": {
+    "nom": "produit-huiles",
+    "source": "recu/contact-9.jpg",
+    "role": "produit",
+    "alt": "Huiles de soin en flacons",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b684266bf9fb04f1",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 465,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-huiles-480.webp",
+      "produit-huiles-640.webp",
+      "produit-huiles-1600.webp"
+    ],
+    "poids": {
+      "produit-huiles-480.webp": 28822,
+      "produit-huiles-640.webp": 42552,
+      "produit-huiles-1600.webp": 120264
+    },
+    "media": "c.media({ nom: 'produit-huiles', alt: \"Huiles de soin en flacons\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "produit-aromates": {
+    "nom": "produit-aromates",
+    "source": "recu/contact.jpg",
+    "role": "produit",
+    "alt": "Pots d'herbes aromatiques séchées",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2b0b4dab3dbf61b4",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 505,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,49 fois (source de 1071 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-aromates-480.webp",
+      "produit-aromates-640.webp",
+      "produit-aromates-1600.webp"
+    ],
+    "poids": {
+      "produit-aromates-480.webp": 58232,
+      "produit-aromates-640.webp": 91084,
+      "produit-aromates-1600.webp": 273720
+    },
+    "media": "c.media({ nom: 'produit-aromates', alt: \"Pots d'herbes aromatiques séchées\", cadrage: '50% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "fenouil": {
+    "nom": "fenouil",
+    "source": "recu/retrouvez-produits-boutique-paysanne-2.jpg",
+    "role": "galerie",
+    "alt": "Fenouil et plantes en buttes paillées au jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "184c8d49d3b2bf57",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 379,
+      "top": 0,
+      "width": 803,
+      "height": 1004,
+      "source": [
+        1500,
+        1004
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 803 px après recadrage)"
+    ],
+    "fichiers": [
+      "fenouil-480.webp",
+      "fenouil-640.webp",
+      "fenouil-960.webp"
+    ],
+    "poids": {
+      "fenouil-480.webp": 103522,
+      "fenouil-640.webp": 177168,
+      "fenouil-960.webp": 271350
+    },
+    "media": "c.media({ nom: 'fenouil', alt: \"Fenouil et plantes en buttes paillées au jardin\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "cueillette": {
+    "nom": "cueillette",
+    "source": "recu/culture-cueillette-plantes-aromatiques.jpg",
+    "role": "galerie",
+    "alt": "Cueillette à la main entre les rangs de plantes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3e6184f89affef9b",
+    "ratio": "4:5",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 146,
+      "top": 0,
+      "width": 321,
+      "height": 401,
+      "source": [
+        601,
+        401
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640, 960",
+      "601 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 321 px après recadrage)"
+    ],
+    "fichiers": [
+      "cueillette-480.webp"
+    ],
+    "poids": {
+      "cueillette-480.webp": 46930
+    },
+    "media": "c.media({ nom: 'cueillette', alt: \"Cueillette à la main entre les rangs de plantes\", cadrage: '50% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "le-chardon": {
+    "nom": "le-chardon",
+    "source": "recu/retrouvez-produits-boutique-paysanne.jpg",
+    "role": "vignette",
+    "alt": "La devanture du Chardon, magasin de producteurs à Nogent-le-Rotrou",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b310e4e8b1cd0001",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "le-chardon-480.webp",
+      "le-chardon-640.webp",
+      "le-chardon-800.webp"
+    ],
+    "poids": {
+      "le-chardon-480.webp": 29956,
+      "le-chardon-640.webp": 47928,
+      "le-chardon-800.webp": 67160
+    },
+    "media": "c.media({ nom: 'le-chardon', alt: \"La devanture du Chardon, magasin de producteurs à Nogent-le-Rotrou\", cadrage: '51% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "ferme-ouverture": {
+    "nom": "ferme-ouverture",
+    "source": "recu/environnement.jpg",
+    "role": "ouverture",
+    "alt": "La prairie en fleurs devant la maison",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "84f76f9532fd137f",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 16%"
+    },
+    "cadrage": "47% 19%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 87.5,
+      "h": 59.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "ferme-ouverture-640.webp",
+      "ferme-ouverture-1280.webp",
+      "ferme-ouverture-1920.webp",
+      "ferme-ouverture-mobile-640.webp",
+      "ferme-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "ferme-ouverture-640.webp": 56274,
+      "ferme-ouverture-1280.webp": 207870,
+      "ferme-ouverture-1920.webp": 286882,
+      "ferme-ouverture-mobile-640.webp": 127220,
+      "ferme-ouverture-mobile-1080.webp": 241112
+    },
+    "media": "c.media({ nom: 'ferme-ouverture', alt: \"La prairie en fleurs devant la maison\", cadrage: '47% 19%', cadrageMobile: '50% 16%', sizes: '100vw', priorite: true })"
+  },
+  "jardin-rose": {
+    "nom": "jardin-rose",
+    "source": "recu/flaner-jardin-2.jpg",
+    "role": "galerie",
+    "alt": "Rose ancienne du jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "85dbe87c3cdca22e",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 365,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "jardin-rose-480.webp",
+      "jardin-rose-640.webp",
+      "jardin-rose-960.webp"
+    ],
+    "poids": {
+      "jardin-rose-480.webp": 29352,
+      "jardin-rose-640.webp": 42052,
+      "jardin-rose-960.webp": 70220
+    },
+    "media": "c.media({ nom: 'jardin-rose', alt: \"Rose ancienne du jardin\", cadrage: '50% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-arche": {
+    "nom": "jardin-arche",
+    "source": "recu/flaner-jardin-4.jpg",
+    "role": "galerie",
+    "alt": "Arche de rosiers blancs",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2aa2505abff9fe59",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 90.9,
+      "h": 93.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1339,
+      "height": 1674,
+      "source": [
+        1339,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "jardin-arche-480.webp",
+      "jardin-arche-640.webp",
+      "jardin-arche-960.webp"
+    ],
+    "poids": {
+      "jardin-arche-480.webp": 97404,
+      "jardin-arche-640.webp": 164914,
+      "jardin-arche-960.webp": 279318
+    },
+    "media": "c.media({ nom: 'jardin-arche', alt: \"Arche de rosiers blancs\", cadrage: '45% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-mare": {
+    "nom": "jardin-mare",
+    "source": "recu/suite-estivale-activite.jpg",
+    "role": "galerie",
+    "alt": "La mare et ses plantes de rive",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ef60862940f63f57",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 325,
+      "top": 0,
+      "width": 1071,
+      "height": 1339,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "jardin-mare-480.webp",
+      "jardin-mare-640.webp",
+      "jardin-mare-960.webp"
+    ],
+    "poids": {
+      "jardin-mare-480.webp": 96046,
+      "jardin-mare-640.webp": 166080,
+      "jardin-mare-960.webp": 276642
+    },
+    "media": "c.media({ nom: 'jardin-mare', alt: \"La mare et ses plantes de rive\", cadrage: '50% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-magnolia": {
+    "nom": "jardin-magnolia",
+    "source": "recu/flaner-jardin-13.jpg",
+    "role": "galerie",
+    "alt": "Magnolia en fleurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2dbba19089e5fae9",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 233,
+      "top": 0,
+      "width": 535,
+      "height": 669,
+      "source": [
+        1000,
+        669
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 960",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 535 px après recadrage)"
+    ],
+    "fichiers": [
+      "jardin-magnolia-480.webp",
+      "jardin-magnolia-640.webp"
+    ],
+    "poids": {
+      "jardin-magnolia-480.webp": 92590,
+      "jardin-magnolia-640.webp": 130778
+    },
+    "media": "c.media({ nom: 'jardin-magnolia', alt: \"Magnolia en fleurs\", cadrage: '50% 37%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-pivoines": {
+    "nom": "jardin-pivoines",
+    "source": "recu/flaner-jardin-9.jpg",
+    "role": "galerie",
+    "alt": "Pivoines rouges",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9cc0783916ec7518",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 62,
+      "width": 1000,
+      "height": 1250,
+      "source": [
+        1000,
+        1494
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "jardin-pivoines-480.webp",
+      "jardin-pivoines-640.webp",
+      "jardin-pivoines-960.webp"
+    ],
+    "poids": {
+      "jardin-pivoines-480.webp": 114788,
+      "jardin-pivoines-640.webp": 189560,
+      "jardin-pivoines-960.webp": 288914
+    },
+    "media": "c.media({ nom: 'jardin-pivoines', alt: \"Pivoines rouges\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-passiflore": {
+    "nom": "jardin-passiflore",
+    "source": "recu/flaner-jardin-10.jpg",
+    "role": "galerie",
+    "alt": "Passiflore sur le mur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a8629d56bfe41355",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 137,
+      "width": 1000,
+      "height": 1250,
+      "source": [
+        1000,
+        1494
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "jardin-passiflore-480.webp",
+      "jardin-passiflore-640.webp",
+      "jardin-passiflore-960.webp"
+    ],
+    "poids": {
+      "jardin-passiflore-480.webp": 62532,
+      "jardin-passiflore-640.webp": 96338,
+      "jardin-passiflore-960.webp": 168656
+    },
+    "media": "c.media({ nom: 'jardin-passiflore', alt: \"Passiflore sur le mur\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-bourrache": {
+    "nom": "jardin-bourrache",
+    "source": "recu/flaner-jardin-17.jpg",
+    "role": "galerie",
+    "alt": "Bourrache bleue",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3e877773138aa66b",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 233,
+      "top": 0,
+      "width": 535,
+      "height": 669,
+      "source": [
+        1000,
+        669
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 960",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 535 px après recadrage)"
+    ],
+    "fichiers": [
+      "jardin-bourrache-480.webp",
+      "jardin-bourrache-640.webp"
+    ],
+    "poids": {
+      "jardin-bourrache-480.webp": 49410,
+      "jardin-bourrache-640.webp": 67030
+    },
+    "media": "c.media({ nom: 'jardin-bourrache', alt: \"Bourrache bleue\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-arums": {
+    "nom": "jardin-arums",
+    "source": "recu/flaner-jardin-22.jpg",
+    "role": "galerie",
+    "alt": "Arums au bord de l’eau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "73ab421354193ff0",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 0.6,
+      "y": 9.1,
+      "l": 99.4,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 153,
+      "top": 0,
+      "width": 535,
+      "height": 669,
+      "source": [
+        1000,
+        669
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 960",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 535 px après recadrage)"
+    ],
+    "fichiers": [
+      "jardin-arums-480.webp",
+      "jardin-arums-640.webp"
+    ],
+    "poids": {
+      "jardin-arums-480.webp": 34542,
+      "jardin-arums-640.webp": 45928
+    },
+    "media": "c.media({ nom: 'jardin-arums', alt: \"Arums au bord de l’eau\", cadrage: '50% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "jardin-asters": {
+    "nom": "jardin-asters",
+    "source": "recu/flaner-jardin-16.jpg",
+    "role": "galerie",
+    "alt": "Asters en automne",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b617bf39148d897b",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 173,
+      "top": 0,
+      "width": 535,
+      "height": 669,
+      "source": [
+        1000,
+        669
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 960",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 535 px après recadrage)"
+    ],
+    "fichiers": [
+      "jardin-asters-480.webp",
+      "jardin-asters-640.webp"
+    ],
+    "poids": {
+      "jardin-asters-480.webp": 95978,
+      "jardin-asters-640.webp": 131734
+    },
+    "media": "c.media({ nom: 'jardin-asters', alt: \"Asters en automne\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "abeilles": {
+    "nom": "abeilles",
+    "source": "recu/herboristerie-3.jpg",
+    "role": "galerie",
+    "alt": "Abeilles sur un cadre de ruche",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5165e63d761b53ff",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "53% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1824,
+      "height": 1216,
+      "source": [
+        1824,
+        1216
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "abeilles-480.webp",
+      "abeilles-640.webp",
+      "abeilles-960.webp"
+    ],
+    "poids": {
+      "abeilles-480.webp": 32758,
+      "abeilles-640.webp": 49198,
+      "abeilles-960.webp": 87880
+    },
+    "media": "c.media({ nom: 'abeilles', alt: \"Abeilles sur un cadre de ruche\", cadrage: '53% 59%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chantier-lasagne": {
+    "nom": "chantier-lasagne",
+    "source": "recu/lasagne.jpg",
+    "role": "galerie",
+    "alt": "Mise en place d’une butte en lasagne au jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "89453a401e8e5aee",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "51% 45%",
+    "sujet": {
+      "x": 3.1,
+      "y": 18.3,
+      "l": 96.9,
+      "h": 68.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1339
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chantier-lasagne-480.webp",
+      "chantier-lasagne-640.webp",
+      "chantier-lasagne-960.webp"
+    ],
+    "poids": {
+      "chantier-lasagne-480.webp": 39718,
+      "chantier-lasagne-640.webp": 73504,
+      "chantier-lasagne-960.webp": 166384
+    },
+    "media": "c.media({ nom: 'chantier-lasagne', alt: \"Mise en place d’une butte en lasagne au jardin\", cadrage: '51% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "plan-dessine": {
+    "nom": "plan-dessine",
+    "source": "recu/decouvrir-plantes-medicinales.jpg",
+    "role": "galerie",
+    "alt": "Plan dessiné à la main du lieu-dit La Floudière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4debbe3d01187c12",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "59% 54%",
+    "sujet": {
+      "x": 10.9,
+      "y": 13,
+      "l": 75.9,
+      "h": 82.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 105,
+      "top": 0,
+      "width": 1895,
+      "height": 1421,
+      "source": [
+        2000,
+        1421
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "plan-dessine-480.webp",
+      "plan-dessine-640.webp",
+      "plan-dessine-960.webp"
+    ],
+    "poids": {
+      "plan-dessine-480.webp": 24488,
+      "plan-dessine-640.webp": 38392,
+      "plan-dessine-960.webp": 70864
+    },
+    "media": "c.media({ nom: 'plan-dessine', alt: \"Plan dessiné à la main du lieu-dit La Floudière\", cadrage: '59% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "tilleul": {
+    "nom": "tilleul",
+    "source": "recu/plantes-aromatiques-medicinales.jpg",
+    "role": "galerie",
+    "alt": "Fleurs de tilleul",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e77f8a2ade038a74",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "57% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 6.7,
+      "l": 97.4,
+      "h": 86.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 374,
+      "top": 0,
+      "width": 911,
+      "height": 683,
+      "source": [
+        1494,
+        683
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,05 fois (source de 911 px après recadrage)"
+    ],
+    "fichiers": [
+      "tilleul-480.webp",
+      "tilleul-640.webp",
+      "tilleul-960.webp"
+    ],
+    "poids": {
+      "tilleul-480.webp": 19126,
+      "tilleul-640.webp": 26720,
+      "tilleul-960.webp": 42114
+    },
+    "media": "c.media({ nom: 'tilleul', alt: \"Fleurs de tilleul\", cadrage: '57% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "contact-maison": {
+    "nom": "contact-maison",
+    "source": "recu/maison-accueil.jpg",
+    "role": "galerie",
+    "alt": "L'allée de graviers devant la maison",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ef5a60bcadabeacc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "65% 24%",
+    "sujet": {
+      "x": 21.9,
+      "y": 0,
+      "l": 78.1,
+      "h": 54.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.64,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 667,
+      "source": [
+        1000,
+        669
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "contact-maison-480.webp",
+      "contact-maison-640.webp",
+      "contact-maison-960.webp"
+    ],
+    "poids": {
+      "contact-maison-480.webp": 31624,
+      "contact-maison-640.webp": 58304,
+      "contact-maison-960.webp": 128508
+    },
+    "media": "c.media({ nom: 'contact-maison', alt: \"L'allée de graviers devant la maison\", cadrage: '65% 24%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/tasse-hiver": {
+    "nom": "grok/tasse-hiver",
+    "source": "recu/grok/g-tasse-hiver.jpg",
+    "role": "section-fond",
+    "alt": "Tasse de tisane fumante près d’une fenêtre givrée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "34542da3959dd7eb",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "52% 49%"
+    },
+    "cadrage": "76% 47%",
+    "sujet": {
+      "x": 18.8,
+      "y": 0,
+      "l": 81.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.65,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/tasse-hiver-640.webp",
+      "grok/tasse-hiver-1280.webp",
+      "grok/tasse-hiver-1920.webp",
+      "grok/tasse-hiver-mobile-640.webp",
+      "grok/tasse-hiver-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/tasse-hiver-640.webp": 21092,
+      "grok/tasse-hiver-1280.webp": 63008,
+      "grok/tasse-hiver-1920.webp": 103414,
+      "grok/tasse-hiver-mobile-640.webp": 88046,
+      "grok/tasse-hiver-mobile-1080.webp": 166452
+    },
+    "media": "c.media({ nom: 'grok/tasse-hiver', alt: \"Tasse de tisane fumante près d’une fenêtre givrée\", cadrage: '76% 47%', cadrageMobile: '52% 49%', sizes: '100vw' })"
+  },
+  "grok/saison-automne": {
+    "nom": "grok/saison-automne",
+    "source": "recu/grok/g-saison-automne.jpg",
+    "role": "galerie",
+    "alt": "Cynorrhodons et ombelles sèches dans la brume d’automne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5616c4a8e6e22580",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 279,
+      "top": 0,
+      "width": 1074,
+      "height": 1074,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/saison-automne-480.webp",
+      "grok/saison-automne-640.webp",
+      "grok/saison-automne-960.webp"
+    ],
+    "poids": {
+      "grok/saison-automne-480.webp": 45602,
+      "grok/saison-automne-640.webp": 67328,
+      "grok/saison-automne-960.webp": 108982
+    },
+    "media": "c.media({ nom: 'grok/saison-automne', alt: \"Cynorrhodons et ombelles sèches dans la brume d’automne\", cadrage: '50% 59%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "grok/sechage": {
+    "nom": "grok/sechage",
+    "source": "recu/grok/g-sechage.jpg",
+    "role": "galerie",
+    "alt": "Plantes étalées sur des claies de séchage en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b39eb2289022acdf",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "57% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/sechage-480.webp",
+      "grok/sechage-640.webp",
+      "grok/sechage-960.webp"
+    ],
+    "poids": {
+      "grok/sechage-480.webp": 36802,
+      "grok/sechage-640.webp": 62402,
+      "grok/sechage-960.webp": 117726
+    },
+    "media": "c.media({ nom: 'grok/sechage', alt: \"Plantes étalées sur des claies de séchage en bois\", cadrage: '57% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/legumes-hiver": {
+    "nom": "grok/legumes-hiver",
+    "source": "recu/grok/g-legumes-hiver.jpg",
+    "role": "carte-service",
+    "alt": "Légumes d’hiver du potager sur une table de ferme",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b29dfa0c6bafa1d7",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "41% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 178,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/legumes-hiver-480.webp",
+      "grok/legumes-hiver-640.webp",
+      "grok/legumes-hiver-784.webp"
+    ],
+    "poids": {
+      "grok/legumes-hiver-480.webp": 56676,
+      "grok/legumes-hiver-640.webp": 88858,
+      "grok/legumes-hiver-784.webp": 116802
+    },
+    "media": "c.media({ nom: 'grok/legumes-hiver', alt: \"Légumes d’hiver du potager sur une table de ferme\", cadrage: '41% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/linge": {
+    "nom": "grok/linge",
+    "source": "recu/grok/g-linge.jpg",
+    "role": "galerie",
+    "alt": "Linge de lit plié et brin de lavande séchée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e3b2de9bf6131235",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "45% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/linge-480.webp",
+      "grok/linge-640.webp",
+      "grok/linge-960.webp"
+    ],
+    "poids": {
+      "grok/linge-480.webp": 20068,
+      "grok/linge-640.webp": 36302,
+      "grok/linge-960.webp": 80242
+    },
+    "media": "c.media({ nom: 'grok/linge', alt: \"Linge de lit plié et brin de lavande séchée\", cadrage: '45% 59%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/404": {
+    "nom": "grok/404",
+    "source": "recu/grok/g-404.jpg",
+    "role": "404",
+    "alt": "Un panier de cueillette vide posé dans l’herbe givrée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "26ba5940fb8aa74b",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "53% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/404-800.webp",
+      "grok/404-1600.webp"
+    ],
+    "poids": {
+      "grok/404-800.webp": 77700,
+      "grok/404-1600.webp": 189894
+    },
+    "media": "c.media({ nom: 'grok/404', alt: \"Un panier de cueillette vide posé dans l’herbe givrée\", cadrage: '53% 49%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "grok/nuit-perche": {
+    "nom": "grok/nuit-perche",
+    "source": "recu/grok/g-nuit-perche.jpg",
+    "role": "section-fond",
+    "alt": "Ciel étoilé au-dessus d’une haie et d’un verger",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "2ef96e39f3be8054",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "69% 68%",
+    "sujet": {
+      "x": 28.1,
+      "y": 54.2,
+      "l": 71.9,
+      "h": 27.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.88,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 7,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/nuit-perche-640.webp",
+      "grok/nuit-perche-1280.webp",
+      "grok/nuit-perche-1920.webp"
+    ],
+    "poids": {
+      "grok/nuit-perche-640.webp": 40920,
+      "grok/nuit-perche-1280.webp": 150170,
+      "grok/nuit-perche-1920.webp": 252810
+    },
+    "media": "c.media({ nom: 'grok/nuit-perche', alt: \"Ciel étoilé au-dessus d’une haie et d’un verger\", cadrage: '69% 68%', sizes: '100vw' })"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  { "cle": "hiver", "nom": "Hiver", "mois": "Décembre · janvier · février", "image": "saison-hiver", "alt": "Branches prises dans le givre sur un ciel bleu",
+    "faits": ["Le 21 décembre, solstice d'hiver : la nuit la plus longue de l'année.", "Les marchés de Noël d'Eure-et-Loir et de l'Orne, jusqu'au 20 décembre.", "Le poêle à granulés réchauffe la chambre Borago."],
+    "tisanes": "Solstice d'hiver, Festive, Rouge-gorge" },
+  { "cle": "printemps", "nom": "Printemps", "mois": "Mars · avril · mai", "image": "saison-printemps", "alt": "Poirier en fleurs au printemps",
+    "faits": ["La vente à la ferme reprend en avril, le samedi de 17 h à 19 h.", "En 2026, le Blind test Plantes avait lieu le samedi après-midi, d'avril à mai.", "Narcisses sous les pêchers sauvages, hellébores roses dans les massifs."],
+    "tisanes": "Détox, Souffle" },
+  { "cle": "ete", "nom": "Été", "mois": "Juin · juillet · août", "image": "saison-ete", "alt": "Lupins bleus et mauves en été",
+    "faits": ["Le 21 juin, solstice d'été : le jour le plus long.", "Cueillette à la main et séchage solaire des plantes.", "En 2026 : Journées en immersion et Apéro'visites, de juin à août."],
+    "tisanes": "Les goûteuses : Citronnée, Anisée, Ailleurs" },
+  { "cle": "automne", "nom": "Automne", "mois": "Septembre · octobre · novembre", "image": "grok/saison-automne", "alt": "Cynorrhodons et ombelles sèches dans la brume d'automne",
+    "faits": ["Dernières ventes à la ferme en septembre, puis sur rendez-vous.", "En saison humide, le séchoir solaire reçoit un appoint électrique.", "Asters et soleils nourrissent les abeilles jusqu'aux premières gelées."],
+    "tisanes": "Coup de froid, « l'hiver approche »" }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "q": "Pourquoi pas d'écorces d'agrumes ni de cannelle dans vos tisanes ?",
+  "r": "Nous ne vendons que ce que nous cultivons ou cueillons ici, et ces plantes ne poussent pas sous notre climat. Nous n'achetons pas de plantes ailleurs : c'est plus cohérent pour l'écologie (pas de transport) et plus juste pour les autres paysans. C'est aussi pourquoi certaines tisanes manquent en fin de saison.",
+  "page": "tisanes"
+ },
+ {
+  "q": "Pourquoi des hydrolats plutôt que des huiles essentielles ?",
+  "r": "Les hydrolats sont doux pour la peau et bien tolérés, des personnes âgées aux jeunes enfants. Ils demandent aussi beaucoup moins de plantes : il faut 100 kg de mélisse pour obtenir 15 g d'huile essentielle, alors qu'1 kg de plantes donne environ 1 litre d'hydrolat.",
+  "page": "tisanes"
+ },
+ {
+  "q": "Pourquoi êtes-vous si peu sur les réseaux sociaux ?",
+  "r": "Nous publions un peu sur Facebook et nulle part ailleurs. Les serveurs consomment beaucoup d'électricité : nous préférons utiliser le numérique avec parcimonie.",
+  "page": "ferme"
+ },
+ {
+  "q": "Pourquoi cultiver en plein champ ?",
+  "r": "Les meilleures plantes médicinales sont sauvages. Nous les cultivons au plus près de leur état naturel : les aléas du climat et des insectes les rendent plus odorantes, même si les récoltes sont plus petites.",
+  "page": "ferme"
+ },
+ {
+  "q": "Pourquoi uniquement du verre ?",
+  "r": "C'est un compromis entre conservation et écologie, et ce travail est toujours en cours. Nous récupérons les contenants en verre pour les réutiliser.",
+  "page": "tisanes"
+ },
+ {
+  "q": "Accueillez-vous des woofeurs ?",
+  "r": "Nous aimons partager notre expérience, mais nous ne voulons pas fonder notre ferme sur un travail non rémunéré : tout travail mérite salaire. La question reste ouverte.",
+  "page": "ferme"
+ }
+]

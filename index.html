@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jardin Solstice : chambres d&#39;hôtes écologiques et tisanes bio dans le Perche</title>
+<meta name="description" content="Micro-ferme bio à Vaupillon (Eure-et-Loir) : trois chambres d&#39;hôtes écologiques, l&#39;Assiette du jardin et une quarantaine de plantes médicinales cultivées pour nos tisanes.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://jardinsolstice-maquette.vercel.app/">
+<style>:root{--fond:#f1eee6;--texte:#1f2b23;--voile-fond:#233128;--ouverture-fond:#233128;--menu-fond:#f1eee6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f1eee6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jardin Solstice">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Jardin Solstice : chambres d&#39;hôtes écologiques et tisanes bio dans le Perche">
+<meta property="og:description" content="Micro-ferme bio à Vaupillon (Eure-et-Loir) : trois chambres d&#39;hôtes écologiques, l&#39;Assiette du jardin et une quarantaine de plantes médicinales cultivées pour nos tisanes.">
+<meta property="og:url" content="https://jardinsolstice-maquette.vercel.app/">
+<meta property="og:image" content="https://jardinsolstice-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ombelle givrée au Jardin Solstice et le titre Vivre au rythme de la nature">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"Jardin Solstice","url":"https://jardinsolstice-maquette.vercel.app/","telephone":"+33237811582","email":"jardinsolstice@orange.fr","address":{"@type":"PostalAddress","streetAddress":"La Floudière, 5 rue de l'Hêtre","postalCode":"28240","addressLocality":"Vaupillon","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":48.4611,"longitude":0.9958},"numberOfRooms":3,"priceRange":"62 € - 77 € la nuit","checkinTime":"17:00","description":"Micro-ferme bio et chambres d'hôtes écologiques dans le Perche : trois chambres, l'Assiette du jardin et des tisanes de plantes cultivées sur place."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><span class="voile-soleil"></span><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <svg class="intro-arc" viewBox="0 0 400 210" fill="none" aria-hidden="true"><path class="intro-horizon" d="M8 200 H392"/><path class="intro-trajet" d="M30 200 A170 170 0 0 1 370 200" pathLength="1"/></svg>
+    <span class="intro-soleil" data-ouverture-objet></span>
+  </div>
+  <img class="intro-logo" src="/assets/images/logo-solstice-clair.png" alt="" width="567" height="89">
+  <p class="intro-ligne">Vivre au rythme de la nature</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Jardin Solstice, Accueil" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-solstice.png" alt="Jardin Solstice" width="567" height="89">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Chambres">Chambres</a></li><li><a href="/tisanes" data-libelle="Tisanes">Tisanes</a></li><li><a href="/la-ferme" data-libelle="La ferme">La ferme</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Chambres">Chambres</a></li><li style="--i:2"><a href="/tisanes" class="menu-lien" data-libelle="Tisanes">Tisanes</a></li><li style="--i:3"><a href="/la-ferme" class="menu-lien" data-libelle="La ferme">La ferme</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33237811582">Appeler 02 37 81 15 82</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ecran" id="debut" data-boucle-css>
+  <figure class="media ouv-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:30% 45%;--cadrage-mobile:40% 40%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/accueil-ouverture-mobile-640.webp 640w, /assets/images/accueil-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/accueil-ouverture-1280.webp" srcset="/assets/images/accueil-ouverture-640.webp 640w, /assets/images/accueil-ouverture-1280.webp 1280w, /assets/images/accueil-ouverture-1920.webp 1920w" sizes="100vw" alt="Ombelle couverte de givre au jardin, un matin d&#39;hiver" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <div class="ouv-contenu">
+    <div class="ciel" data-ciel data-effet="soleil">
+      <div class="ciel-zone">
+      <svg class="ciel-arc" viewBox="0 0 400 200" fill="none" aria-hidden="true">
+        <path class="ciel-horizon" d="M0 196 H400"/>
+        <path class="ciel-trajet" d="M24 196 A176 176 0 0 1 376 196" pathLength="1"/>
+        <path class="ciel-parcouru" d="M24 196 A176 176 0 0 1 376 196" pathLength="1"/>
+      </svg>
+      <span class="ciel-soleil" data-iris-centre="disque" style="--sx:34%;--sy:30%"></span>
+      </div>
+      <div class="ciel-legende">
+        <p class="ciel-lever"><span>Lever</span> <strong data-ciel-lever>–</strong></p>
+        <p class="ciel-jour" data-ciel-jour>Le soleil de Vaupillon, calculé pour aujourd&#39;hui</p>
+        <p class="ciel-coucher"><span>Coucher</span> <strong data-ciel-coucher>–</strong></p>
+      </div>
+    </div>
+    <p class="ouv-sur masque-ecran-tres-bas" data-anime="gsap">Micro-ferme bio · Vaupillon, dans le Perche</p>
+    <h1 class="ouv-titre"><span class="ouv-ligne-masque"><span class="ouv-ligne">Vivre au rythme</span></span><span class="ouv-ligne-masque"><em class="ouv-ligne">de la nature</em></span></h1>
+    <p class="ouv-texte masque-ecran-bas" data-anime="gsap">Nous vous accueillons au sein d&#39;une micro-ferme bio : trois chambres écologiques, l&#39;Assiette du jardin le soir et une quarantaine de plantes cultivées pour nos tisanes.</p>
+    <div class="ouv-actions" data-anime="gsap">
+      <a href="/contact?sujet=sejour#demande" class="bouton bouton--soleil" data-libelle="Contact" data-action-principale data-survol="magnetique">Réserver une chambre</a>
+      <a href="/tisanes" class="bouton bouton--contour" data-libelle="Tisanes">Les tisanes</a>
+    </div>
+    <p class="ouv-info" data-info-cle data-anime="gsap"><span class="ouv-info-pastille" aria-hidden="true"></span><span data-solstice>Solstice d&#39;hiver le 21 décembre</span></p>
+  </div>
+</section>
+<section class="ferme conteneur" id="ferme">
+  <div class="ferme-texte">
+    <p class="surtitre" data-anime>La ferme</p>
+    <h2 data-anime="lignes">Deux paysans-herboristes, <em>une micro-ferme bio</em></h2>
+    <p data-anime>Magalie et Sébastien vivent dans le Perche depuis presque vingt ans. Ils ont rénové la maison de La Floudière, planté un verger, créé un potager et un jardin de plantes médicinales.</p>
+    <p data-anime>Ils cultivent, cueillent, sèchent et transforment eux-mêmes leurs plantes, à la main, sans mécanisation. Magalie a étudié trois ans à l&#39;École lyonnaise de plantes médicinales.</p>
+    <ul class="reperes" data-anime="cascade"><li><strong>3 chambres</strong> écologiques, dans une maison de silex et chaux</li><li><strong>Une quarantaine</strong> de plantes cultivées, et une vingtaine cueillies sauvages</li><li><strong>2 séchoirs</strong> solaires, construits par Sébastien</li><li><strong>Depuis 2022</strong> certifiés Nature &amp; Progrès</li></ul>
+    <p data-anime><a href="/la-ferme" class="lien-fleche" data-libelle="La ferme">Découvrir la ferme</a></p>
+  </div>
+  <div class="ferme-images">
+    <figure class="media ferme-grande" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/accueil-ferme-960.webp" srcset="/assets/images/accueil-ferme-480.webp 480w, /assets/images/accueil-ferme-640.webp 640w, /assets/images/accueil-ferme-960.webp 960w" sizes="(max-width: 760px) 90vw, 40vw" alt="Massif fleuri du jardin sous les grands arbres" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figure class="media ferme-portrait" data-anime="rideau" style="--cadrage:55% 35%">
+  <picture>
+    <img src="/assets/images/magalie-sebastien-640.webp" srcset="/assets/images/magalie-sebastien-480.webp 480w, /assets/images/magalie-sebastien-640.webp 640w" sizes="(max-width: 760px) 45vw, 18vw" alt="Magalie et Sébastien au milieu des plantes médicinales" width="640" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="chambres-bande bande-sombre" id="chambres">
+  <div class="conteneur">
+    <div class="bande-tete">
+      <p class="surtitre" data-anime>Chambres d&#39;hôtes</p>
+      <h2 data-anime="lignes">Trois chambres écologiques <em>pour un séjour à la campagne</em></h2>
+      <p data-anime>Chacune porte le nom latin d&#39;une plante du jardin. Arrivée entre 17 h et 19 h, petit-déjeuner servi de 7 h à 10 h.</p>
+    </div>
+    <ul class="chambres-cartes" data-anime="cascade">
+      <li class="chambre-carte" data-survol="incline" data-survol-force="4">
+        <figure class="media chambre-carte-media" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/chambre-rubus-700.webp" srcset="/assets/images/chambre-rubus-480.webp 480w, /assets/images/chambre-rubus-700.webp 700w" sizes="(max-width: 760px) 90vw, 30vw" alt="La chambre Rubus" width="700" height="525" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="chambre-carte-texte">
+          <p class="chambre-plante">La ronce, en latin</p>
+          <h3><a href="/chambres#rubus" class="lien-carte" data-libelle="Chambres" data-superpose>Rubus</a></h3>
+          <p>De plain-pied, accessible</p>
+          <p class="chambre-prix" data-prix>dès <strong>62 €</strong> la nuit</p>
+        </div>
+      </li><li class="chambre-carte" data-survol="incline" data-survol-force="4">
+        <figure class="media chambre-carte-media" style="--cadrage:45% 50%">
+  <picture>
+    <img src="/assets/images/chambre-tilia-700.webp" srcset="/assets/images/chambre-tilia-480.webp 480w, /assets/images/chambre-tilia-700.webp 700w" sizes="(max-width: 760px) 90vw, 30vw" alt="La chambre Tilia" width="700" height="525" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="chambre-carte-texte">
+          <p class="chambre-plante">Le tilleul, en latin</p>
+          <h3><a href="/chambres#tilia" class="lien-carte" data-libelle="Chambres" data-superpose>Tilia</a></h3>
+          <p>À l&#39;étage, sous les toits</p>
+          <p class="chambre-prix" data-prix>dès <strong>62 €</strong> la nuit</p>
+        </div>
+      </li><li class="chambre-carte" data-survol="incline" data-survol-force="4">
+        <figure class="media chambre-carte-media" style="--cadrage:55% 55%">
+  <picture>
+    <img src="/assets/images/chambre-borago-700.webp" srcset="/assets/images/chambre-borago-480.webp 480w, /assets/images/chambre-borago-700.webp 700w" sizes="(max-width: 760px) 90vw, 30vw" alt="La chambre Borago" width="700" height="525" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="chambre-carte-texte">
+          <p class="chambre-plante">La bourrache, en latin</p>
+          <h3><a href="/chambres#borago" class="lien-carte" data-libelle="Chambres" data-superpose>Borago</a></h3>
+          <p>Familiale, avec mezzanine</p>
+          <p class="chambre-prix" data-prix>dès <strong>72 €</strong> la nuit</p>
+        </div>
+      </li>
+    </ul>
+    <p class="bande-pied" data-anime>Prix pour une personne ; 67 € ou 77 € pour deux, 15 € par personne de plus de 5 ans. <a href="/chambres" class="lien-fleche" data-libelle="Chambres">Voir les chambres et les tarifs</a></p>
+  </div>
+</section>
+<section class="table conteneur" id="table">
+  <figure class="media table-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/assiette-herbes-960.webp" srcset="/assets/images/assiette-herbes-480.webp 480w, /assets/images/assiette-herbes-640.webp 640w, /assets/images/assiette-herbes-960.webp 960w" sizes="(max-width: 760px) 90vw, 38vw" alt="Laurier, sauge et romarin fraîchement cueillis sur une table en bois" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="table-carte">
+    <p class="surtitre" data-anime>Table d&#39;hôtes</p>
+    <h2 data-anime="lignes">L'Assiette <em>du jardin</em></h2>
+    <p data-anime>Le soir, les légumes du potager en permaculture, les œufs de nos poules ou d&#39;une ferme bio voisine, la charcuterie et les fromages de fermes bio du coin. Le menu change avec les saisons et les récoltes.</p>
+    <ol class="menu-liste" data-anime="cascade"><li><span class="menu-num">1</span><span>Crudités et terrine locale</span></li><li><span class="menu-num">2</span><span>Préparation aux légumes du jardin</span></li><li><span class="menu-num">3</span><span>Fromages de chèvre, de vache et de brebis</span></li><li><span class="menu-num">4</span><span>Dessert de saison</span></li></ol>
+    <div class="table-prix" data-anime>
+      <p data-prix><strong>17,50 €</strong> par adulte</p>
+      <p data-prix><strong>10 €</strong> par enfant de moins de 12 ans</p>
+    </div>
+    <p class="table-jours" data-anime>Le vendredi, le dimanche et le lundi soir, uniquement sur réservation 48 h à l&#39;avance. Servie dans la Maison, ou en chambre jusqu&#39;à 20 h.</p>
+    <p data-anime><a href="/contact?sujet=table#demande" class="bouton" data-libelle="Contact">Réserver l&#39;Assiette du jardin</a></p>
+  </div>
+</section>
+<section class="tisanes-bande" id="tisanes">
+  <div class="conteneur tisanes-tete">
+    <div>
+      <p class="surtitre" data-anime>Tisanes et préparations</p>
+      <h2 data-anime="lignes">Une sélection <em>pour l'hiver</em></h2>
+      <p data-anime>Nous cultivons, cueillons, séchons et transformons une quarantaine de plantes. Pas d&#39;agrumes ni de cannelle : seulement ce qui pousse ici.</p>
+      <p data-anime><a href="/tisanes" class="bouton" data-libelle="Tisanes">Les 35 tisanes</a></p>
+    </div>
+    <figure class="media tisanes-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/tisanes-panier-1600.webp" srcset="/assets/images/tisanes-panier-480.webp 480w, /assets/images/tisanes-panier-640.webp 640w, /assets/images/tisanes-panier-1600.webp 1600w" sizes="(max-width: 760px) 90vw, 34vw" alt="Sachets de tisanes du Jardin Solstice dans un panier en osier" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <div class="sachets" data-sachets tabindex="0" role="region" aria-label="Sélection de tisanes, défilement horizontal">
+    <ul class="sachets-piste" data-galerie data-effet="sachets">
+      <li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les goûteuses</p>
+          <p class="sachet-nom">Solstice d&#39;hiver</p>
+          <p class="sachet-note">Au coin du feu !</p>
+          <p class="sachet-plantes">Frêne, menthe bergamote, grande berce</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les goûteuses</p>
+          <p class="sachet-nom">Festive</p>
+          <p class="sachet-note">Pour tous les moments de fête !</p>
+          <p class="sachet-plantes">Shiso bicolore, basilic citron, mélisse</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les saisonnières</p>
+          <p class="sachet-nom">Coup de froid</p>
+          <p class="sachet-note">L&#39;hiver approche</p>
+          <p class="sachet-plantes">Origan, lierre terrestre, thym, mauve, sureau</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les saisonnières</p>
+          <p class="sachet-nom">Rouge-gorge</p>
+          <p class="sachet-plantes">Ronce, origan, mauve, guimauve, sauge</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les goûteuses</p>
+          <p class="sachet-nom">Tilleul-Menthe</p>
+          <p class="sachet-note">Une valeur sûre</p>
+          <p class="sachet-plantes">Tilleul, menthe verte</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les classiques</p>
+          <p class="sachet-nom">Sérénité</p>
+          <p class="sachet-note">Un moment de calme</p>
+          <p class="sachet-plantes">Tilleul, marjolaine, basilic cannelle, rose</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Les goûteuses</p>
+          <p class="sachet-nom">Citronnée</p>
+          <p class="sachet-note">Au goût de citron</p>
+          <p class="sachet-plantes">Dracocéphale, cataire citron, basilic citron, thym citron</p>
+          <p class="sachet-prix" data-prix>5,75 € <span>· 30 à 40 g</span></p>
+        </li><li class="sachet" data-fx="vitesse" data-fx-force="2">
+          <p class="sachet-famille">Plante simple</p>
+          <p class="sachet-nom">Menthe bergamote</p>
+          <p class="sachet-plantes">Menthe bergamote</p>
+          <p class="sachet-prix" data-prix>4,75 € <span>· 20 à 40 g</span></p>
+        </li>
+    </ul>
+  </div>
+</section>
+<section class="roue bande-sombre" id="saisons" data-scene data-roue>
+  <div class="roue-cadre" data-collant>
+    <div class="roue-tete conteneur">
+      <p class="surtitre">La roue de l&#39;année</p>
+      <h2 data-anime="lignes">Au fil <em>des saisons</em></h2>
+    </div>
+    <div class="roue-corps conteneur">
+      <div class="roue-visuel" aria-hidden="true">
+        <svg class="roue-cercle" viewBox="0 0 400 400" data-roue-cercle data-effet="roue">
+          <circle cx="200" cy="200" r="186" class="roue-anneau"/>
+          <circle cx="200" cy="200" r="186" class="roue-arc" pathLength="12" stroke-dasharray="2.9 9.1" stroke-dashoffset="-7.55" data-roue-arc="0"/><circle cx="200" cy="200" r="186" class="roue-arc" pathLength="12" stroke-dasharray="2.9 9.1" stroke-dashoffset="-10.55" data-roue-arc="1"/><circle cx="200" cy="200" r="186" class="roue-arc" pathLength="12" stroke-dasharray="2.9 9.1" stroke-dashoffset="-1.55" data-roue-arc="2"/><circle cx="200" cy="200" r="186" class="roue-arc" pathLength="12" stroke-dasharray="2.9 9.1" stroke-dashoffset="-4.55" data-roue-arc="3"/>
+          <g transform="rotate(0 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">JANV.</text></g><g transform="rotate(30 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">FÉVR.</text></g><g transform="rotate(60 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">MARS</text></g><g transform="rotate(90 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">AVR.</text></g><g transform="rotate(120 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">MAI</text></g><g transform="rotate(150 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">JUIN</text></g><g transform="rotate(180 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">JUIL.</text></g><g transform="rotate(210 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">AOÛT</text></g><g transform="rotate(240 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">SEPT.</text></g><g transform="rotate(270 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">OCT.</text></g><g transform="rotate(300 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">NOV.</text></g><g transform="rotate(330 200 200)"><line x1="200" y1="8" x2="200" y2="26" class="roue-graduation"/><text x="200" y="44" class="roue-mois" text-anchor="middle">DÉC.</text></g>
+          <g data-roue-aujourdhui><circle cx="200" cy="14" r="9" class="roue-repere"/></g>
+        </svg>
+        <div class="roue-photos"><figure class="media roue-photo roue-photo--hiver" data-roue-photo="0" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/saison-hiver-960.webp" srcset="/assets/images/saison-hiver-480.webp 480w, /assets/images/saison-hiver-640.webp 640w, /assets/images/saison-hiver-960.webp 960w" sizes="(max-width: 760px) 70vw, 30vw" alt="" width="960" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media roue-photo roue-photo--printemps" data-roue-photo="1" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/saison-printemps-960.webp" srcset="/assets/images/saison-printemps-480.webp 480w, /assets/images/saison-printemps-640.webp 640w, /assets/images/saison-printemps-960.webp 960w" sizes="(max-width: 760px) 70vw, 30vw" alt="" width="960" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media roue-photo roue-photo--ete" data-roue-photo="2" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/saison-ete-960.webp" srcset="/assets/images/saison-ete-480.webp 480w, /assets/images/saison-ete-640.webp 640w, /assets/images/saison-ete-960.webp 960w" sizes="(max-width: 760px) 70vw, 30vw" alt="" width="960" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media roue-photo roue-photo--automne" data-grok data-roue-photo="3" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/saison-automne-960.webp" srcset="/assets/images/grok/saison-automne-480.webp 480w, /assets/images/grok/saison-automne-640.webp 640w, /assets/images/grok/saison-automne-960.webp 960w" sizes="(max-width: 760px) 70vw, 30vw" alt="" width="960" height="960" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div>
+      </div>
+      <ol class="roue-saisons"><li class="roue-saison" data-roue-saison="0" data-saison="hiver">
+        <p class="roue-mois-texte">Décembre · janvier · février</p>
+        <h3>Hiver</h3>
+        <ul><li>Le 21 décembre, solstice d&#39;hiver : la nuit la plus longue de l&#39;année.</li><li>Les marchés de Noël d&#39;Eure-et-Loir et de l&#39;Orne, jusqu&#39;au 20 décembre.</li><li>Le poêle à granulés réchauffe la chambre Borago.</li></ul>
+        <p class="roue-tisanes"><span>Tisanes de saison :</span> Solstice d&#39;hiver, Festive, Rouge-gorge</p>
+      </li><li class="roue-saison" data-roue-saison="1" data-saison="printemps">
+        <p class="roue-mois-texte">Mars · avril · mai</p>
+        <h3>Printemps</h3>
+        <ul><li>La vente à la ferme reprend en avril, le samedi de 17 h à 19 h.</li><li>En 2026, le Blind test Plantes avait lieu le samedi après-midi, d&#39;avril à mai.</li><li>Narcisses sous les pêchers sauvages, hellébores roses dans les massifs.</li></ul>
+        <p class="roue-tisanes"><span>Tisanes de saison :</span> Détox, Souffle</p>
+      </li><li class="roue-saison" data-roue-saison="2" data-saison="ete">
+        <p class="roue-mois-texte">Juin · juillet · août</p>
+        <h3>Été</h3>
+        <ul><li>Le 21 juin, solstice d&#39;été : le jour le plus long.</li><li>Cueillette à la main et séchage solaire des plantes.</li><li>En 2026 : Journées en immersion et Apéro&#39;visites, de juin à août.</li></ul>
+        <p class="roue-tisanes"><span>Tisanes de saison :</span> Les goûteuses : Citronnée, Anisée, Ailleurs</p>
+      </li><li class="roue-saison" data-roue-saison="3" data-saison="automne">
+        <p class="roue-mois-texte">Septembre · octobre · novembre</p>
+        <h3>Automne</h3>
+        <ul><li>Dernières ventes à la ferme en septembre, puis sur rendez-vous.</li><li>En saison humide, le séchoir solaire reçoit un appoint électrique.</li><li>Asters et soleils nourrissent les abeilles jusqu&#39;aux premières gelées.</li></ul>
+        <p class="roue-tisanes"><span>Tisanes de saison :</span> Coup de froid, « l&#39;hiver approche »</p>
+      </li></ol>
+    </div>
+  </div>
+</section>
+<section class="marches conteneur" id="marches">
+  <div class="marches-texte">
+    <p class="surtitre" data-anime>Où nous trouver</p>
+    <h2 data-anime="lignes">Les marchés <em>de fin d'année</em></h2>
+    <ol class="marches-liste" data-anime="cascade" data-marches><li class="marche" data-date="2026-11-29">
+      <p class="marche-jour">Dimanche 29 novembre</p>
+      <p class="marche-lieu">Foire Saint-André<span>Chartres (28) · 9 h-18 h 30</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-05">
+      <p class="marche-jour">Samedi 5 décembre</p>
+      <p class="marche-lieu">Rencontre au LocaLapin<span>Serazereux (28) · horaires à venir</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-06">
+      <p class="marche-jour">Dimanche 6 décembre</p>
+      <p class="marche-lieu">Marché de Noël au château<span>Senonches (28) · 10 h-18 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-12">
+      <p class="marche-jour">Samedi 12 décembre</p>
+      <p class="marche-lieu">Marché de producteurs locaux et bios, Ferme Virginia Corn<span>Tremblay-les-Villages (28) · 9 h-13 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-12">
+      <p class="marche-jour">Samedi 12 décembre</p>
+      <p class="marche-lieu">Marché de Noël<span>Le Pin-la-Garenne (61) · 14 h-18 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-13">
+      <p class="marche-jour">Dimanche 13 décembre</p>
+      <p class="marche-lieu">Marché de Noël, Ferme des Gâtines<span>Rouge (28) · 10 h-18 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-18">
+      <p class="marche-jour">Vendredi 18 décembre</p>
+      <p class="marche-lieu">Marché de Noël, Les délices du Potager<span>Poinville (28) · 16 h-21 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-19">
+      <p class="marche-jour">Samedi 19 décembre</p>
+      <p class="marche-lieu">Marché de Noël<span>Bonneval (28) · 14 h-18 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li><li class="marche" data-date="2026-12-20">
+      <p class="marche-jour">Dimanche 20 décembre</p>
+      <p class="marche-lieu">Marché de Noël<span>Boissy-Maugis (61) · 10 h-17 h</span></p>
+      <p class="marche-statut" data-statut></p>
+    </li></ol>
+    <div class="marches-fixes" data-anime="cascade">
+      <div><h3>Toute l&#39;année au Chardon</h3><p>Boutique des producteurs bio du Perche, 1 place Saint-Pol à Nogent-le-Rotrou : mardi, mercredi et vendredi 9 h 30-13 h et 14 h 30-19 h, samedi 9 h 30-14 h 30.</p></div>
+      <div><h3>À la ferme</h3><p>D&#39;avril à septembre, le samedi de 17 h à 19 h ; le reste de l&#39;année sur rendez-vous.</p></div>
+    </div>
+    <p data-anime><a href="/tisanes#trouver" class="lien-fleche" data-libelle="Tisanes">Tous les points de vente</a></p>
+  </div>
+  <figure class="media marches-media" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/produit-sirops-1600.webp" srcset="/assets/images/produit-sirops-480.webp 480w, /assets/images/produit-sirops-640.webp 640w, /assets/images/produit-sirops-1600.webp 1600w" sizes="(max-width: 760px) 90vw, 34vw" alt="Sirops de plantes du Jardin Solstice au soleil sur une terrasse en bois" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="maison" id="maison">
+  <figure class="media maison-media" data-fx="parallaxe" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/terres-cuites-1280.webp" srcset="/assets/images/terres-cuites-640.webp 640w, /assets/images/terres-cuites-1280.webp 1280w, /assets/images/terres-cuites-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Terres cuites de récupération empilées" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="maison-texte">
+    <p class="surtitre" data-anime>Démarche écologique</p>
+    <h2 data-anime="lignes">Une maison <em>qui respire</em></h2>
+    <p data-anime>Les chambres ont été rénovées avec des matériaux simples et locaux : silex, chaux, chanvre, terres cuites de récupération et peintures sans COV.</p>
+    <ul class="maison-liste" data-anime="cascade"><li><strong>Silex et chaux</strong><span>Une maison sans fondations, aux enduits à la chaux qui laissent respirer les murs.</span></li><li><strong>Chanvre et ouate</strong><span>Laine de chanvre dans la maison, ouate de cellulose sous le toit des chambres.</span></li><li><strong>Soleil et granulés</strong><span>Eau chaude solaire ; chaudière et poêle à granulés de sciure de la région.</span></li><li><strong>Roseaux, iris et menthes</strong><span>Deux bacs plantés épurent les eaux des chambres Rubus et Tilia.</span></li><li><strong>Nuits noires</strong><span>Un éclairage extérieur tourné vers le sol, pour garder le ciel étoilé.</span></li></ul>
+    <p data-anime><a href="/la-ferme#maison" class="lien-fleche" data-libelle="La ferme">La démarche en détail</a></p>
+  </div>
+</section>
+<section class="fin fin--photo" id="venir">
+  <figure class="media fin-media" data-grok data-fx="zoom" data-fx-force="10" style="--cadrage:60% 50%;--cadrage-mobile:50% 70%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/tasse-hiver-mobile-640.webp 640w, /assets/images/grok/tasse-hiver-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/tasse-hiver-1280.webp" srcset="/assets/images/grok/tasse-hiver-640.webp 640w, /assets/images/grok/tasse-hiver-1280.webp 1280w, /assets/images/grok/tasse-hiver-1920.webp 1920w" sizes="100vw" alt="Tasse de tisane fumante près d&#39;une fenêtre givrée" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="fin-texte conteneur">
+    <h2 data-anime="lignes">Venez vivre <em>au rythme du Perche</em></h2>
+    <p data-anime>À 3 km de la gare de La Loupe (1 h 30 de Paris-Montparnasse) : prise en charge à la gare selon nos disponibilités, local fermé pour les vélos.</p>
+    <p class="fin-actions" data-anime>
+      <a href="/contact?sujet=sejour#demande" class="bouton bouton--soleil" data-libelle="Contact" data-survol="magnetique">Demander une réservation</a>
+      <a class="bouton bouton--contour" href="tel:+33237811582">Appeler le 02 37 81 15 82</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="Jardin Solstice" width="567" height="89" loading="lazy">
+      <p>Micro-ferme bio, chambres d&#39;hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.</p>
+      <p>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon<br><a href="tel:+33237811582">02 37 81 15 82</a><br><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/chambres" data-libelle="Chambres">Chambres</a></li><li><a href="/tisanes" data-libelle="Tisanes">Tisanes</a></li><li><a href="/la-ferme" data-libelle="La ferme">La ferme</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Labels et engagements</p>
+      <ul class="pied-labels"><li>Certifié Nature &amp; Progrès depuis 2022</li><li>Accueil Paysan</li><li>Valeurs Parc naturel régional du Perche</li><li>Tourisme &amp; Handicap (chambre Rubus)</li><li>Adhérents FNAB et Confédération paysanne</li></ul>
+      <p><a href="https://www.facebook.com/JardinSolstice" target="_blank" rel="noopener">Jardin Solstice sur Facebook (nouvel onglet)</a></p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales <span class="a-completer">à compléter</span> · Politique de confidentialité <span class="a-completer">à compléter</span></p>
+    <p>Maquette de démonstration : réservations, commandes et formulaires sont simulés.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33237811582">Appeler</a>
+  <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
+</div>
+</body>
+</html>

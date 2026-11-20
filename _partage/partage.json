@@ -1,0 +1,180 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "accueil-ouverture-1280.webp",
+      "poids": 57730,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "chambres",
+      "langue": "fr",
+      "fichier": "assets/partage/chambres-fr.jpg",
+      "gabarit": "droite",
+      "image": "chambres-ouverture-1280.webp",
+      "poids": 143973,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 604
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "plan-dessine-960.webp",
+      "poids": 85997,
+      "sujet": {
+        "x": 600,
+        "y": 82,
+        "l": 600,
+        "h": 520
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "la-ferme",
+      "langue": "fr",
+      "fichier": "assets/partage/la-ferme-fr.jpg",
+      "gabarit": "droite",
+      "image": "ferme-ouverture-1280.webp",
+      "poids": 105674,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 375
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "tisanes",
+      "langue": "fr",
+      "fichier": "assets/partage/tisanes-fr.jpg",
+      "gabarit": "droite",
+      "image": "tisanes-ouverture-1280.webp",
+      "poids": 129558,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}
