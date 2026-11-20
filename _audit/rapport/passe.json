@@ -1,16 +1,13 @@
 {
- "id": "20261120-185633-complet-cible-partiel",
- "date": "2026-11-20T18:59:57.261Z",
+ "id": "20261120-190239-complet",
+ "date": "2026-11-20T19:33:46.228Z",
  "niveau": "complet",
- "pages": "/,/alentours,/la-ferme",
- "etapes": [
-  "fichiers",
-  "mesures"
- ],
+ "pages": "toutes",
+ "etapes": "toutes",
  "version": "2",
  "echecs": 0,
- "aRegarder": 1,
- "nonLances": 0,
+ "aRegarder": 14,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }
