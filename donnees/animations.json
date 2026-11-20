@@ -1,0 +1,35 @@
+[
+ {
+  "titre": "Blind test Plantes !",
+  "fin": "2026-05-23",
+  "dates": "Les samedis, du 18 avril au 23 mai 2026",
+  "horaires": "14 h-16 h",
+  "tarif": "10 € par personne, sur inscription",
+  "public": "",
+  "texte": "Tester ses connaissances sur les plantes aromatiques et médicinales, leur milieu et leurs usages : avec l'odorat, le toucher, la vue et le goût, retrouver les ingrédients d'une tisane.",
+  "image": "blind-test",
+  "alt": "Participants penchés sur les plantes pendant un Blind test au jardin"
+ },
+ {
+  "titre": "Journée en immersion",
+  "fin": "2026-07-04",
+  "dates": "Samedi 27 juin ou samedi 4 juillet 2026",
+  "horaires": "10 h-17 h 30",
+  "tarif": "45 € par personne, repas compris",
+  "public": "Dès 15 ou 16 ans, à partir de 4 inscrits",
+  "texte": "Une journée sur une micro-ferme en permaculture : visite des cultures, récolte, séchage et transformation, usages des plantes, et un repas avec les produits de la ferme.",
+  "image": "immersion",
+  "alt": "Vue des cultures en bandes entre les haies"
+ },
+ {
+  "titre": "Apéro'visite",
+  "fin": "2026-08-07",
+  "dates": "Vendredi 10 juillet et vendredi 7 août 2026",
+  "horaires": "17 h 30-19 h",
+  "tarif": "Gratuit, sur inscription",
+  "public": "",
+  "texte": "La visite des cultures et des choix agroécologiques de la ferme, avec les plantes du moment, puis un verre à partager autour des saveurs des plantes.",
+  "image": "apero-visite",
+  "alt": "Visiteurs au milieu des plantes, en fin de journée"
+ }
+]

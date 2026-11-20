@@ -4050,5 +4050,974 @@
       "grok/nuit-perche-1920.webp": 252810
     },
     "media": "c.media({ nom: 'grok/nuit-perche', alt: \"Ciel étoilé au-dessus d’une haie et d’un verger\", cadrage: '69% 68%', sizes: '100vw' })"
+  },
+  "blind-test": {
+    "nom": "blind-test",
+    "source": "recu/blind-test-plantes.jpg",
+    "role": "vignette",
+    "alt": "Participants penchés sur les plantes pendant un Blind test au jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a3a2ed0e2a2eea9c",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 15,
+      "top": 0,
+      "width": 535,
+      "height": 401,
+      "source": [
+        601,
+        401
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "601 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 535 px après recadrage)"
+    ],
+    "fichiers": [
+      "blind-test-480.webp",
+      "blind-test-640.webp",
+      "blind-test-800.webp"
+    ],
+    "poids": {
+      "blind-test-480.webp": 66808,
+      "blind-test-640.webp": 97930,
+      "blind-test-800.webp": 128930
+    },
+    "media": "c.media({ nom: 'blind-test', alt: \"Participants penchés sur les plantes pendant un Blind test au jardin\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "immersion": {
+    "nom": "immersion",
+    "source": "recu/journee-immersion-2.jpg",
+    "role": "vignette",
+    "alt": "Vue des cultures en bandes entre les haies, depuis le haut du jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "64673cf654ab3e4c",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 25,
+      "top": 0,
+      "width": 485,
+      "height": 364,
+      "source": [
+        546,
+        364
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "546 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,32 fois (source de 485 px après recadrage)"
+    ],
+    "fichiers": [
+      "immersion-480.webp",
+      "immersion-640.webp"
+    ],
+    "poids": {
+      "immersion-480.webp": 45138,
+      "immersion-640.webp": 60208
+    },
+    "media": "c.media({ nom: 'immersion', alt: \"Vue des cultures en bandes entre les haies, depuis le haut du jardin\", cadrage: '50% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "apero-visite": {
+    "nom": "apero-visite",
+    "source": "recu/saison-journee-immersion-ferme.jpg",
+    "role": "vignette",
+    "alt": "Visiteurs au milieu des plantes, en fin de journée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "761d6e07d74657d6",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 180,
+      "width": 401,
+      "height": 301,
+      "source": [
+        401,
+        601
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640, 800",
+      "401 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 401 px après recadrage)"
+    ],
+    "fichiers": [
+      "apero-visite-480.webp"
+    ],
+    "poids": {
+      "apero-visite-480.webp": 50176
+    },
+    "media": "c.media({ nom: 'apero-visite', alt: \"Visiteurs au milieu des plantes, en fin de journée\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "groupe-jardin": {
+    "nom": "groupe-jardin",
+    "source": "recu/stage-detox-detente-13.jpg",
+    "role": "galerie",
+    "alt": "Un groupe réuni sur la pelouse devant la maison",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "bd7281627f72e925",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "46% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 86.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 667,
+      "source": [
+        1000,
+        669
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "groupe-jardin-480.webp",
+      "groupe-jardin-640.webp",
+      "groupe-jardin-960.webp"
+    ],
+    "poids": {
+      "groupe-jardin-480.webp": 43678,
+      "groupe-jardin-640.webp": 78414,
+      "groupe-jardin-960.webp": 176018
+    },
+    "media": "c.media({ nom: 'groupe-jardin', alt: \"Un groupe réuni sur la pelouse devant la maison\", cadrage: '46% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "panier-cueillette": {
+    "nom": "panier-cueillette",
+    "source": "recu/nouveau-formation-plantes-aromatiques.jpg",
+    "role": "galerie",
+    "alt": "Panier d’osier rempli de fleurs fraîchement cueillies",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "63c4888d468b4928",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "44% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 182,
+      "width": 712,
+      "height": 890,
+      "source": [
+        712,
+        1072
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "712 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,35 fois (source de 712 px après recadrage)"
+    ],
+    "fichiers": [
+      "panier-cueillette-480.webp",
+      "panier-cueillette-640.webp",
+      "panier-cueillette-960.webp"
+    ],
+    "poids": {
+      "panier-cueillette-480.webp": 44672,
+      "panier-cueillette-640.webp": 68094,
+      "panier-cueillette-960.webp": 104838
+    },
+    "media": "c.media({ nom: 'panier-cueillette', alt: \"Panier d’osier rempli de fleurs fraîchement cueillies\", cadrage: '44% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "claies": {
+    "nom": "claies",
+    "source": "recu/activites-derniers-mois-annee.jpg",
+    "role": "vignette",
+    "alt": "Plantes étalées sur les claies du séchoir",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "40a9efcd637d20a9",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 2.1,
+      "y": 0,
+      "l": 97.9,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 45,
+      "top": 0,
+      "width": 535,
+      "height": 401,
+      "source": [
+        601,
+        401
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "601 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 535 px après recadrage)"
+    ],
+    "fichiers": [
+      "claies-480.webp",
+      "claies-640.webp",
+      "claies-800.webp"
+    ],
+    "poids": {
+      "claies-480.webp": 35390,
+      "claies-640.webp": 48858,
+      "claies-800.webp": 63804
+    },
+    "media": "c.media({ nom: 'claies', alt: \"Plantes étalées sur les claies du séchoir\", cadrage: '50% 39%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "teleski": {
+    "nom": "teleski",
+    "source": "recu/decouvrir-perche-jardins-restaurants.jpg",
+    "role": "vignette",
+    "alt": "Téléski nautique sur un plan d’eau du Perche",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "66fbf75235de4b23",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 119,
+      "top": 0,
+      "width": 955,
+      "height": 716,
+      "source": [
+        1074,
+        716
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1074 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "teleski-480.webp",
+      "teleski-640.webp",
+      "teleski-800.webp"
+    ],
+    "poids": {
+      "teleski-480.webp": 42278,
+      "teleski-640.webp": 70878,
+      "teleski-800.webp": 104734
+    },
+    "media": "c.media({ nom: 'teleski', alt: \"Téléski nautique sur un plan d’eau du Perche\", cadrage: '54% 36%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "jardin-visite": {
+    "nom": "jardin-visite",
+    "source": "recu/decouvrir-perche-jardins-restaurants-2.jpg",
+    "role": "vignette",
+    "alt": "Massif fleuri dans un jardin du Perche",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a68bd7d8ae814899",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "56% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 600,
+      "height": 450,
+      "source": [
+        600,
+        450
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "jardin-visite-480.webp",
+      "jardin-visite-640.webp",
+      "jardin-visite-800.webp"
+    ],
+    "poids": {
+      "jardin-visite-480.webp": 52738,
+      "jardin-visite-640.webp": 80476,
+      "jardin-visite-800.webp": 113094
+    },
+    "media": "c.media({ nom: 'jardin-visite', alt: \"Massif fleuri dans un jardin du Perche\", cadrage: '56% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "livre-tresor": {
+    "nom": "livre-tresor",
+    "source": "recu/decouvrir-perche-jardins-restaurants-4.jpg",
+    "role": "vignette",
+    "alt": "Rayonnages de livres d’occasion",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "2deb7b4248e9b40f",
+    "ratio": "4:3",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 68,
+      "top": 0,
+      "width": 356,
+      "height": 267,
+      "source": [
+        474,
+        267
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640, 800",
+      "474 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,35 fois (source de 356 px après recadrage)"
+    ],
+    "fichiers": [
+      "livre-tresor-480.webp"
+    ],
+    "poids": {
+      "livre-tresor-480.webp": 38572
+    },
+    "media": "c.media({ nom: 'livre-tresor', alt: \"Rayonnages de livres d’occasion\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/animations": {
+    "nom": "grok/animations",
+    "source": "recu/grok/g-animations.jpg",
+    "role": "ouverture",
+    "alt": "Coupelles de plantes séchées à sentir et à reconnaître sur une table de jardin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "db12e7f617d4ca4b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 52%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/animations-640.webp",
+      "grok/animations-1280.webp",
+      "grok/animations-1920.webp",
+      "grok/animations-mobile-640.webp",
+      "grok/animations-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/animations-640.webp": 42508,
+      "grok/animations-1280.webp": 110368,
+      "grok/animations-1920.webp": 173890,
+      "grok/animations-mobile-640.webp": 84342,
+      "grok/animations-mobile-1080.webp": 159390
+    },
+    "media": "c.media({ nom: 'grok/animations', alt: \"Coupelles de plantes séchées à sentir et à reconnaître sur une table de jardin\", cadrageMobile: '50% 52%', sizes: '100vw', priorite: true })"
+  },
+  "grok/bocage": {
+    "nom": "grok/bocage",
+    "source": "recu/grok/g-bocage.jpg",
+    "role": "ouverture",
+    "alt": "Bocage du Perche au petit matin d’hiver, haies et brume",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "0f9f239fbbab53e2",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 55%"
+    },
+    "cadrage": "51% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/bocage-640.webp",
+      "grok/bocage-1280.webp",
+      "grok/bocage-1920.webp",
+      "grok/bocage-mobile-640.webp",
+      "grok/bocage-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/bocage-640.webp": 27340,
+      "grok/bocage-1280.webp": 78144,
+      "grok/bocage-1920.webp": 125402,
+      "grok/bocage-mobile-640.webp": 84586,
+      "grok/bocage-mobile-1080.webp": 159096
+    },
+    "media": "c.media({ nom: 'grok/bocage', alt: \"Bocage du Perche au petit matin d’hiver, haies et brume\", cadrage: '51% 56%', cadrageMobile: '50% 55%', sizes: '100vw', priorite: true })"
+  },
+  "grok/foret": {
+    "nom": "grok/foret",
+    "source": "recu/grok/g-foret.jpg",
+    "role": "galerie",
+    "alt": "Chemin forestier sous les chênes et les hêtres en hiver",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1a4cdb0ec9c7e7f4",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "52% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 75,
+      "h": 59.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/foret-480.webp",
+      "grok/foret-640.webp",
+      "grok/foret-960.webp"
+    ],
+    "poids": {
+      "grok/foret-480.webp": 47794,
+      "grok/foret-640.webp": 83142,
+      "grok/foret-960.webp": 166388
+    },
+    "media": "c.media({ nom: 'grok/foret', alt: \"Chemin forestier sous les chênes et les hêtres en hiver\", cadrage: '52% 34%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/velos": {
+    "nom": "grok/velos",
+    "source": "recu/grok/g-velos.jpg",
+    "role": "galerie",
+    "alt": "Deux vélos appuyés contre un mur chaulé près d’une haie",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6f2a8ca36440c3e7",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/velos-480.webp",
+      "grok/velos-640.webp",
+      "grok/velos-960.webp"
+    ],
+    "poids": {
+      "grok/velos-480.webp": 49748,
+      "grok/velos-640.webp": 83958,
+      "grok/velos-960.webp": 161152
+    },
+    "media": "c.media({ nom: 'grok/velos', alt: \"Deux vélos appuyés contre un mur chaulé près d’une haie\", cadrage: '49% 46%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
   }
 }

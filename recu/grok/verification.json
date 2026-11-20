@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-20T16:42:10.659Z",
+  "date": "2026-11-20T18:35:49.690Z",
   "plan": "/home/claude/jardinsolstice-maquette/plan-images.json",
-  "attendus": 8,
-  "recus": 8,
+  "attendus": 14,
+  "recus": 14,
   "planches": [
     "planche.jpg"
   ],
@@ -17,8 +17,8 @@
       "priorite": "Indispensable",
       "problemes": [],
       "indications": [],
-      "largeur": 1168,
-      "hauteur": 784,
+      "largeur": 1600,
+      "hauteur": 1074,
       "boites": []
     },
     {
@@ -31,8 +31,8 @@
       "indications": [
         "mains : 0, doigts reconnus - (indicatif, à regarder)"
       ],
-      "largeur": 784,
-      "hauteur": 1168,
+      "largeur": 1320,
+      "hauteur": 1967,
       "boites": [],
       "mains": {
         "annoncees": true,
@@ -49,8 +49,8 @@
       "indications": [
         "mains : 0, doigts reconnus - (indicatif, à regarder)"
       ],
-      "largeur": 1168,
-      "hauteur": 784,
+      "largeur": 1600,
+      "hauteur": 1074,
       "boites": [],
       "mains": {
         "annoncees": true,
@@ -67,8 +67,8 @@
       "indications": [
         "mains : 0, doigts reconnus - (indicatif, à regarder)"
       ],
-      "largeur": 1168,
-      "hauteur": 784,
+      "largeur": 1600,
+      "hauteur": 1074,
       "boites": [],
       "mains": {
         "annoncees": true,
@@ -85,8 +85,8 @@
       "indications": [
         "mains : 0, doigts reconnus - (indicatif, à regarder)"
       ],
-      "largeur": 784,
-      "hauteur": 1168,
+      "largeur": 1320,
+      "hauteur": 1967,
       "boites": [],
       "mains": {
         "annoncees": true,
@@ -101,8 +101,8 @@
       "priorite": "Conseillée",
       "problemes": [],
       "indications": [],
-      "largeur": 1168,
-      "hauteur": 784,
+      "largeur": 1600,
+      "hauteur": 1074,
       "boites": []
     },
     {
@@ -110,6 +110,35 @@
       "attendu": "g-404.jpg",
       "fichier": "g-404.jpg",
       "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/nuit-perche",
+      "attendu": "g-nuit-perche.jpg",
+      "fichier": "g-nuit-perche.jpg",
+      "priorite": "Facultative",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": []
+    },
+    {
+      "nom": "grok/animations",
+      "attendu": "g-animations.jpg",
+      "fichier": "g-animations.jpg",
+      "priorite": "Indispensable",
       "problemes": [],
       "indications": [
         "mains : 0, doigts reconnus - (indicatif, à regarder)"
@@ -124,10 +153,77 @@
       }
     },
     {
-      "nom": "grok/nuit-perche",
-      "attendu": "g-nuit-perche.jpg",
-      "fichier": "g-nuit-perche.jpg",
-      "priorite": "Facultative",
+      "nom": "grok/animations",
+      "mobile": true,
+      "attendu": "g-animations-mobile.jpg",
+      "fichier": "g-animations-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/bocage",
+      "attendu": "g-bocage.jpg",
+      "fichier": "g-bocage.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/bocage",
+      "mobile": true,
+      "attendu": "g-bocage-mobile.jpg",
+      "fichier": "g-bocage-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/foret",
+      "attendu": "g-foret.jpg",
+      "fichier": "g-foret.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "grok/velos",
+      "attendu": "g-velos.jpg",
+      "fichier": "g-velos.jpg",
+      "priorite": "Conseillée",
       "problemes": [],
       "indications": [],
       "largeur": 1168,

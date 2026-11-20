@@ -1,0 +1,23 @@
+[
+ {
+  "nom": "La Feverole",
+  "lieu": "À 10 minutes du Jardin Solstice",
+  "texte": "Des ateliers de création artistique à la ferme, avec Valérie.",
+  "image": "",
+  "alt": ""
+ },
+ {
+  "nom": "Livre au Trésor",
+  "lieu": "Authon-du-Perche",
+  "texte": "200 m² de livres d'occasion, de CD et de vinyles.",
+  "image": "livre-tresor",
+  "alt": "Rayonnages de livres d'occasion"
+ },
+ {
+  "nom": "Centre Souffles",
+  "lieu": "À 25 minutes du Jardin Solstice",
+  "texte": "Naturopathie, massages et soins ayurvédiques, avec Marie.",
+  "image": "",
+  "alt": ""
+ }
+]

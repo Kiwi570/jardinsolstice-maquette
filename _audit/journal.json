@@ -101,6 +101,75 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Accueil validé avec deux retouches (premier écran vivant, roue plus courte). Aucun module de la bibliothèque repris : panier, calculateur et demande écrits pour le projet."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "animations",
+        "alentours"
+      ],
+      "etapes": [
+        {
+          "etape": "plans et document Grok de la v2",
+          "budget": 10,
+          "debut": "2026-11-20T19:18:00+01:00",
+          "fin": "2026-11-20T19:21:00+01:00"
+        },
+        {
+          "etape": "construction : pages Animations et Aux alentours",
+          "budget": 30,
+          "debut": "2026-11-20T19:21:00+01:00",
+          "fin": "2026-11-20T19:34:00+01:00"
+        },
+        {
+          "etape": "contrôle des images Grok de la v2",
+          "budget": 5,
+          "debut": "2026-11-20T19:35:00+01:00",
+          "fin": "2026-11-20T19:36:00+01:00"
+        },
+        {
+          "etape": "audit standard et corrections",
+          "budget": 25,
+          "debut": "2026-11-20T19:36:00+01:00",
+          "fin": "2026-11-20T19:59:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-20T19:59:00+01:00",
+          "fin": "2026-11-20T20:02:00+01:00"
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "choix des pages de la v2",
+          "debut": "2026-11-20T19:17:00+01:00",
+          "fin": "2026-11-20T19:18:00+01:00"
+        },
+        {
+          "pour": "images Grok de la v2",
+          "debut": "2026-11-20T19:34:00+01:00",
+          "fin": "2026-11-20T19:35:00+01:00"
+        }
+      ],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "standard + passe des formats sur les nouvelles pages",
+        "echecsPremierPassage": 3,
+        "relances": 3,
+        "corrections": [
+          "image de partage des deux pages",
+          "photo de groupe réduite",
+          "frise tracée sans pointillés",
+          "contraste du titre sur le bocage",
+          "premier écran sans JavaScript à 1000×560"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Pages ajoutées : Animations et stages, Aux alentours. 6 images Grok, toutes gardées."
     }
   ]
 }

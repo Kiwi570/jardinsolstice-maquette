@@ -1,0 +1,17 @@
+{
+ "id": "20261120-185402-complet-cible-partiel",
+ "date": "2026-11-20T18:56:15.289Z",
+ "niveau": "complet",
+ "pages": "/animations,/alentours",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "ecran"
+ ],
+ "version": "2",
+ "echecs": 1,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

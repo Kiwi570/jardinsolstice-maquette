@@ -1,5 +1,12 @@
 # Jardin Solstice : historique de la maquette
 
+## v2 (20 novembre 2026)
+
+Deux pages en plus, dans le même style, et le menu passe à six liens.
+- Animations et stages : grand titre puis bandeau qui s'ouvre (table de dégustation des plantes), programme 2026 avec le statut « Terminé » calculé d'après la date du jour, frise d'une journée en immersion, visites de groupe (50 € pour 10 à 30 personnes), stages plantes médicinales, appel pour être prévenu des prochaines dates.
+- Aux alentours : bocage du Perche en plein cadre avec une brume qui glisse, raccourcis vers sept rubriques (balades, vélo et Véloscénie, jardins, patrimoine, loisirs, tables du samedi soir, bonnes adresses bio), trois coups de cœur.
+- 4 illustrations générées en plus (table de dégustation, bocage, forêt, vélos).
+
 ## v1 (20 novembre 2026)
 
 Première version, direction « Au rythme du soleil » (chaux, vert de sauge, soleil bas d'hiver ; Fraunces et Figtree).

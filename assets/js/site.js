@@ -3,7 +3,7 @@
    Effets du plan : soleil (arc du jour réel à Vaupillon), roue (roue de l'année), sachets (rangée de tisanes),
    disque (ouverture des Chambres), total (calculateur de séjour), itineraire (accès depuis La Loupe),
    etal (ouverture des Tisanes), horizon (ouverture de La ferme). */
-import { demarrer, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -101,6 +101,10 @@ function titreOuverture(tl, t0) {
   if (etal.length) tl.fromTo(etal, { y: 60, opacity: 0, rotation: (i) => [0, 4, -4][i] || 0 }, { y: 0, opacity: 1, rotation: 0, duration: 1, stagger: 0.12, ease: 'power3.out' }, t0 - 0.2);
   const horizon = $('.frm-media');
   if (horizon) tl.fromTo(horizon, { clipPath: 'inset(42% 0% 42% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.3, ease: 'power3.inOut' }, t0 - 0.45);
+  const bandeau = $('.ani-bandeau');
+  if (bandeau) tl.fromTo(bandeau, { clipPath: 'inset(0% 38% 0% 38% round 999px)' }, { clipPath: 'inset(0% 4% 0% 4% round 28px)', duration: 1.3, ease: 'power3.inOut' }, t0 - 0.4);
+  const brume = $('.brume');
+  if (brume) tl.fromTo(brume, { opacity: 0 }, { opacity: 1, duration: 1.4, ease: 'power2.out' }, t0);
   const trajet = $('[data-trajet]');
   if (trajet) tl.fromTo(trajet, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.4, ease: 'power2.inOut' }, t0)
     .fromTo('.carte-floudiere', { scale: 0.4 }, { scale: 1, duration: 0.6, ease: 'back.out(2)' }, t0 + 1.1);
@@ -115,6 +119,10 @@ function ouverturesAuDefilement() {
   $$('[data-etal] .media').forEach((m, i) => gsap.to(m, { y: [-50, -110, -20][i] || -40, ease: 'none', scrollTrigger: { trigger: debut, start: 'top top', end: 'bottom top', scrub: 0.4 } }));
   const horizon = $('.frm-media');
   if (horizon) gsap.fromTo(horizon, { clipPath: 'inset(0% 0% 0% 0% round 0px)' }, { clipPath: 'inset(0% 3% 7% 3% round 0px 0px 32px 32px)', ease: 'none', immediateRender: false, scrollTrigger: { trigger: debut, start: 'top top', end: 'bottom top', scrub: 0.4 } });
+  const bandeau = $('.ani-bandeau');
+  if (bandeau) gsap.fromTo(bandeau, { clipPath: 'inset(0% 4% 0% 4% round 28px)' }, { clipPath: 'inset(0% 0% 0% 0% round 0px)', ease: 'none', immediateRender: false, scrollTrigger: { trigger: debut, start: 'top top', end: 'bottom top', scrub: 0.4 } });
+  const brume = $('.brume');
+  if (brume) gsap.to(brume, { xPercent: -18, ease: 'none', scrollTrigger: { trigger: debut, start: 'top top', end: 'bottom top', scrub: 0.6 } });
   const carte = $('.carte-acces');
   if (carte) gsap.to(carte, { y: -40, ease: 'none', scrollTrigger: { trigger: debut, start: 'top top', end: 'bottom top', scrub: 0.4 } });
 }
@@ -188,6 +196,11 @@ function preparerRangees() {
 /* ---------- Marchés : passés, prochain, à venir (date du jour à Vaupillon) ---------- */
 function statutsDates() {
   const auj = jourIso(new Date());
+  $$('[data-ateliers] [data-fin]').forEach((li) => {
+    const passe = li.dataset.fin < auj;
+    li.classList.toggle('est-passe', passe);
+    $('[data-statut]', li).textContent = passe ? 'Terminé' : 'À venir';
+  });
   let prochain = false;
   $$('[data-marches] [data-date]').forEach((li) => {
     const d = li.dataset.date, s = $('[data-statut]', li);
@@ -457,6 +470,8 @@ demarrer({
     gsap.set('.ouv-ligne', { y: 0, yPercent: 0 });
     gsap.set('[data-etal] .media', { opacity: 1, y: 0, rotation: 0 });
     gsap.set('.frm-media', { clipPath: 'inset(0% 0% 0% 0%)' });
+    gsap.set('.ani-bandeau', { clipPath: 'inset(0% 4% 0% 4% round 28px)' });
+    gsap.set('.brume', { opacity: 1 });
     gsap.set('[data-trajet]', { strokeDashoffset: 0 });
     gsap.set('.carte-floudiere', { scale: 1 });
     const d = $('.chb-disque'); if (d) d.style.setProperty('--rayon-disque', '49%');

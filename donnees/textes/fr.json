@@ -63,6 +63,20 @@
    "nav": "Page introuvable",
    "partageAlt": "Page introuvable",
    "accroche": "Page introuvable"
+  },
+  "animations": {
+   "titre": "Animations et stages : Jardin Solstice",
+   "description": "Blind test Plantes, journées en immersion, Apéro'visites, stages de plantes médicinales et visites de groupe à la ferme du Jardin Solstice, à Vaupillon.",
+   "nav": "Animations",
+   "partageAlt": "Table de dégustation des plantes au Jardin Solstice",
+   "accroche": "Apprendre les plantes, au jardin"
+  },
+  "alentours": {
+   "titre": "Aux alentours : le Perche autour de Jardin Solstice",
+   "description": "Balades, vélo et Véloscénie, jardins, patrimoine, loisirs, tables et bonnes adresses du Perche autour de Vaupillon.",
+   "nav": "Alentours",
+   "partageAlt": "Le bocage du Perche au petit matin",
+   "accroche": "Le Perche depuis La Floudière"
   }
  },
  "accueil": {
@@ -394,6 +408,83 @@
    "sur": "Accès",
    "titre": "Par le train, <em>le vélo ou la route</em>",
    "altMaison": "L'allée de graviers devant la maison"
+  }
+ },
+ "animations": {
+  "ouv": {
+   "sur": "Animations et stages",
+   "titre1": "Apprendre les plantes,",
+   "titre2": "au jardin",
+   "texte": "Reconnaître une plante à l'odeur, passer une journée à la ferme, visiter les cultures un soir d'été : les animations suivent les saisons.",
+   "action": "Organiser une visite de groupe",
+   "info": "Visites de groupe toute l'année sur rendez-vous · 50 € pour 10 à 30 personnes",
+   "alt": "Coupelles de plantes séchées à sentir et à reconnaître sur une table de jardin"
+  },
+  "prog": {
+   "sur": "Le programme 2026",
+   "titre": "Trois rendez-vous, <em>au fil de l'été</em>",
+   "texte": "Voici les animations proposées en 2026. Les dates de l'an prochain ne sont pas encore publiées.",
+   "passe": "Terminé",
+   "horaires": "Horaires",
+   "tarif": "Tarif",
+   "public": "Public",
+   "pied": "Envie d'être prévenu des prochaines dates ?",
+   "prevenir": "Laisser un message"
+  },
+  "journee": {
+   "sur": "Journée en immersion",
+   "titre": "Une journée <em>à la ferme</em>",
+   "texte": "De 10 h à 17 h 30, ce que proposait la journée en immersion du programme 2026.",
+   "alt1": "Plantes étalées sur les claies du séchoir",
+   "alt2": "Panier d'osier rempli de fleurs fraîchement cueillies"
+  },
+  "groupes": {
+   "sur": "Visites de groupe",
+   "titre": "Venir <em>à plusieurs</em>",
+   "texte": "Pour un groupe de 10 à 30 personnes, nous vous recevons sur rendez-vous, en semaine ou le week-end, pour une visite de la ferme et de ses cultures.",
+   "prix": "pour un groupe de 10 à 30 personnes",
+   "action": "Demander une date",
+   "alt": "Un groupe réuni sur la pelouse devant la maison"
+  },
+  "stages": {
+   "sur": "Stages plantes médicinales",
+   "titre": "Mieux connaître <em>les plantes</em>",
+   "texte": "Les stages de la ferme s'adressent à celles et ceux qui veulent :",
+   "dates": "Pas de stage programmé pour l'instant : écrivez-nous pour connaître les prochaines sessions."
+  },
+  "appel": {
+   "titre": "Être prévenu <em>des prochaines dates</em>",
+   "texte": "Laissez votre adresse dans la demande : nous vous écrirons quand le programme sera publié. Et pour profiter d'une animation, restez dormir à la ferme.",
+   "prevenir": "Être prévenu",
+   "chambres": "Voir les chambres"
+  }
+ },
+ "alentours": {
+  "ouv": {
+   "sur": "Aux alentours",
+   "titre1": "Le Perche,",
+   "titre2": "depuis La Floudière",
+   "texte": "Forêts, étangs, jardins, abbayes et producteurs bio : nos adresses pour un séjour à pied, à vélo ou en voiture.",
+   "info": "Gare de La Loupe à 3 km · Véloscénie, de Paris au Mont-Saint-Michel",
+   "alt": "Bocage du Perche au petit matin d'hiver, haies et brume"
+  },
+  "rubriques": {
+   "balades": "Balades <em>à pied</em>",
+   "velo": "À vélo, <em>sur la Véloscénie</em>",
+   "jardins": "Jardins <em>à visiter</em>",
+   "patrimoine": "Abbayes, manoirs <em>et musées</em>",
+   "loisirs": "Sports <em>et loisirs</em>",
+   "tables": "Où dîner <em>le samedi</em>",
+   "adresses": "Bonnes adresses <em>bio</em>"
+  },
+  "coups": {
+   "sur": "Nos coups de cœur",
+   "titre": "Trois adresses <em>à part</em>"
+  },
+  "appel": {
+   "titre": "Le Perche, <em>au départ de la ferme</em>",
+   "texte": "Arrivée entre 17 h et 19 h, petit-déjeuner de 7 h à 10 h : la journée est à vous.",
+   "acces": "Venir à la ferme"
   }
  }
 }

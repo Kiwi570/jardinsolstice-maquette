@@ -1,0 +1,231 @@
+[
+ {
+  "cle": "balades",
+  "nav": "Balades",
+  "image": "grok/foret",
+  "alt": "Chemin forestier sous les chênes et les hêtres en hiver",
+  "intro": "Autour de La Loupe et dans tout le Perche, avec des circuits remarquables à retrouver sur rando-perche.fr.",
+  "lieux": [
+   {
+    "nom": "Étangs du Perruchet",
+    "lieu": "Saint-Éliph, autour de La Loupe"
+   },
+   {
+    "nom": "Forêt de Senonches",
+    "lieu": ""
+   },
+   {
+    "nom": "Sentiers de Bretoncelles et de Moutiers-au-Perche",
+    "lieu": ""
+   },
+   {
+    "nom": "Tourbière des Froux",
+    "lieu": "circuit remarquable"
+   },
+   {
+    "nom": "Vallées et marais de Bretoncelles",
+    "lieu": "circuit remarquable"
+   },
+   {
+    "nom": "Forêt humide des Mousseuses",
+    "lieu": "circuit remarquable"
+   }
+  ]
+ },
+ {
+  "cle": "velo",
+  "nav": "À vélo",
+  "image": "grok/velos",
+  "alt": "Deux vélos appuyés contre un mur chaulé près d'une haie",
+  "intro": "Une étape possible sur la Véloscénie, de Paris au Mont-Saint-Michel. À la ferme : local fermé, point d'eau, matériel de réparation, et VTT ou VTC adultes à louer sur demande.",
+  "lieux": [
+   {
+    "nom": "Départs de circuits",
+    "lieu": "La Loupe, Saint-Victor-de-Buthon, Bretoncelles, Rémalard, Frétigny"
+   },
+   {
+    "nom": "Véloscénie",
+    "lieu": "Paris – Mont-Saint-Michel"
+   }
+  ],
+  "lien": {
+   "page": "chambres",
+   "ancre": "conditions",
+   "texte": "Les conditions de séjour"
+  }
+ },
+ {
+  "cle": "jardins",
+  "nav": "Jardins",
+  "image": "jardin-visite",
+  "alt": "Massif fleuri dans un jardin du Perche",
+  "petite": true,
+  "intro": "",
+  "lieux": [
+   {
+    "nom": "Jardin de la Petite Rochelle",
+    "lieu": "Rémalard"
+   },
+   {
+    "nom": "Jardin François",
+    "lieu": "Préaux-du-Perche"
+   },
+   {
+    "nom": "Jardins de Pontgirard",
+    "lieu": "Monceaux-au-Perche"
+   },
+   {
+    "nom": "Jardin du Bois du Puits",
+    "lieu": "Sérigny"
+   },
+   {
+    "nom": "Jardin partagé en permaculture",
+    "lieu": "Nocé"
+   }
+  ],
+  "lien": {
+   "page": "la-ferme",
+   "ancre": "jardin",
+   "texte": "Et notre jardin"
+  }
+ },
+ {
+  "cle": "patrimoine",
+  "nav": "Patrimoine",
+  "image": "",
+  "alt": "",
+  "intro": "Pour aller plus loin : parc-naturel-perche.fr et l'écomusée du Perche.",
+  "lieux": [
+   {
+    "nom": "Abbaye de Thiron-Gardais",
+    "lieu": ""
+   },
+   {
+    "nom": "Manoir de Courboyer",
+    "lieu": ""
+   },
+   {
+    "nom": "Musée de la forêt",
+    "lieu": "château de Senonches"
+   },
+   {
+    "nom": "Château de La Ferté-Vidame et musée Saint-Simon",
+    "lieu": ""
+   },
+   {
+    "nom": "Château des comtes du Perche",
+    "lieu": ""
+   },
+   {
+    "nom": "Musées de Tourouvre",
+    "lieu": ""
+   },
+   {
+    "nom": "Écomusée de Saint-Cyr-la-Rosière",
+    "lieu": ""
+   }
+  ]
+ },
+ {
+  "cle": "loisirs",
+  "nav": "Loisirs",
+  "image": "teleski",
+  "alt": "Téléski nautique sur un plan d'eau du Perche",
+  "petite": true,
+  "intro": "",
+  "lieux": [
+   {
+    "nom": "Base de loisirs de Fontaine-Simon",
+    "lieu": ""
+   },
+   {
+    "nom": "Téléski nautique TN28",
+    "lieu": "enfants et adultes"
+   },
+   {
+    "nom": "Accrobranche Nolimit Aventure",
+    "lieu": "Digny"
+   },
+   {
+    "nom": "Labyrinthe du Thymerais",
+    "lieu": ""
+   }
+  ]
+ },
+ {
+  "cle": "tables",
+  "nav": "Tables",
+  "image": "",
+  "alt": "",
+  "intro": "Le samedi soir, l'Assiette du jardin n'est pas servie : voici des tables des environs.",
+  "lieux": [
+   {
+    "nom": "La Gourmandise",
+    "lieu": "La Loupe"
+   },
+   {
+    "nom": "Le Rital Café",
+    "lieu": "La Loupe"
+   },
+   {
+    "nom": "Le Sébastopol",
+    "lieu": "Champrond-en-Gâtine"
+   },
+   {
+    "nom": "L'Auberge du Moulin à Vent",
+    "lieu": "Manou"
+   },
+   {
+    "nom": "La Villa Fol Avril",
+    "lieu": "Moutiers-au-Perche"
+   },
+   {
+    "nom": "Le Bistrot des Écuries",
+    "lieu": "Boissy-Maugis"
+   }
+  ],
+  "lien": {
+   "page": "chambres",
+   "ancre": "table",
+   "texte": "L'Assiette du jardin, les autres soirs"
+  }
+ },
+ {
+  "cle": "adresses",
+  "nav": "Bonnes adresses",
+  "image": "le-chardon",
+  "alt": "La devanture du Chardon, magasin de producteurs à Nogent-le-Rotrou",
+  "petite": true,
+  "intro": "Des producteurs bio à rencontrer.",
+  "lieux": [
+   {
+    "nom": "Le Chardon, magasin de producteurs bio",
+    "lieu": "Nogent-le-Rotrou"
+   },
+   {
+    "nom": "Petit marché de producteurs",
+    "lieu": "Margon"
+   },
+   {
+    "nom": "La Maison Jaune, épicerie et café associatif",
+    "lieu": "Pontgouin"
+   },
+   {
+    "nom": "L'Angenardière : pains paysans et pâtes bio",
+    "lieu": "Condeau"
+   },
+   {
+    "nom": "La Bourdinière : fromage de chèvre bio",
+    "lieu": "Moutiers-au-Perche"
+   },
+   {
+    "nom": "Réinette Verte : jus de pommes et cidre bio",
+    "lieu": "Préaux-du-Perche"
+   },
+   {
+    "nom": "Cidrerie traditionnelle du Perche : cidre, pommeau, calvados bio",
+    "lieu": "L'Hermitière"
+   }
+  ]
+ }
+]

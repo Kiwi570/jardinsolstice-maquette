@@ -37,6 +37,76 @@
       "recouvrement": 0
     },
     {
+      "page": "alentours",
+      "langue": "fr",
+      "fichier": "assets/partage/alentours-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/bocage-1280.webp",
+      "poids": 67526,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "animations",
+      "langue": "fr",
+      "fichier": "assets/partage/animations-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/animations-1280.webp",
+      "poids": 84313,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
       "page": "chambres",
       "langue": "fr",
       "fichier": "assets/partage/chambres-fr.jpg",

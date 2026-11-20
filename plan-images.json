@@ -506,5 +506,136 @@
   "beaute": 4,
   "gabarit": "lieu",
   "consigne_scene": "A clear winter night sky full of stars above a dark hedgerow and a few bare orchard trees, no artificial light anywhere, no buildings, no lit windows, faint Milky Way, deep blue-black tones, wide calm composition with lots of sky"
+ },
+ {
+  "source": "recu/blind-test-plantes.jpg",
+  "nom": "blind-test",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Participants penchés sur les plantes pendant un Blind test au jardin",
+  "beaute": 3
+ },
+ {
+  "source": "recu/journee-immersion-2.jpg",
+  "nom": "immersion",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Vue des cultures en bandes entre les haies, depuis le haut du jardin",
+  "beaute": 3
+ },
+ {
+  "source": "recu/saison-journee-immersion-ferme.jpg",
+  "nom": "apero-visite",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Visiteurs au milieu des plantes, en fin de journée",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/stage-detox-detente-13.jpg",
+  "nom": "groupe-jardin",
+  "role": "galerie",
+  "ratio": "3:2",
+  "alt": "Un groupe réuni sur la pelouse devant la maison",
+  "beaute": 3
+ },
+ {
+  "source": "recu/nouveau-formation-plantes-aromatiques.jpg",
+  "nom": "panier-cueillette",
+  "role": "galerie",
+  "ratio": "4:5",
+  "alt": "Panier d’osier rempli de fleurs fraîchement cueillies",
+  "beaute": 3
+ },
+ {
+  "source": "recu/activites-derniers-mois-annee.jpg",
+  "nom": "claies",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Plantes étalées sur les claies du séchoir",
+  "beaute": 3
+ },
+ {
+  "source": "recu/decouvrir-perche-jardins-restaurants.jpg",
+  "nom": "teleski",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Téléski nautique sur un plan d’eau du Perche",
+  "beaute": 3
+ },
+ {
+  "source": "recu/decouvrir-perche-jardins-restaurants-2.jpg",
+  "nom": "jardin-visite",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Massif fleuri dans un jardin du Perche",
+  "beaute": 3
+ },
+ {
+  "source": "recu/decouvrir-perche-jardins-restaurants-4.jpg",
+  "nom": "livre-tresor",
+  "role": "vignette",
+  "ratio": "4:3",
+  "alt": "Rayonnages de livres d’occasion",
+  "beaute": 2
+ },
+ {
+  "source": "recu/grok/g-animations.jpg",
+  "source_mobile": "recu/grok/g-animations-mobile.jpg",
+  "nom": "grok/animations",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "haut",
+  "page": "Animations et stages",
+  "emplacement": "ouverture (bandeau sous le titre)",
+  "priorite": "Indispensable",
+  "alt": "Coupelles de plantes séchées à sentir et à reconnaître sur une table de jardin",
+  "beaute": 4,
+  "consigne_scene": "An outdoor wooden garden table set for a herbal tasting game: a row of small ceramic bowls each holding a different dried medicinal herb or flower (chamomile, mint, calendula petals, linden, lavender), a few glass cups of pale herbal tea, small blank paper tags without any writing, a linen cloth, soft late afternoon light, blurred herb garden behind, nobody, no hands, no text"
+ },
+ {
+  "source": "recu/grok/g-bocage.jpg",
+  "source_mobile": "recu/grok/g-bocage-mobile.jpg",
+  "nom": "grok/bocage",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "haut",
+  "page": "Aux alentours",
+  "emplacement": "ouverture plein cadre",
+  "priorite": "Indispensable",
+  "alt": "Bocage du Perche au petit matin d’hiver, haies et brume",
+  "beaute": 4,
+  "gabarit": "lieu",
+  "consigne_scene": "Rolling bocage countryside at sunrise in early winter: small fields bordered by thick hedgerows and old oak trees, a few bare orchard trees, a gentle valley with low mist, frost on the grass in the foreground, low golden sun on the horizon, no buildings, no roads, no vehicles, no people, wide calm composition with a large quiet sky in the upper half"
+ },
+ {
+  "source": "recu/grok/g-foret.jpg",
+  "nom": "grok/foret",
+  "role": "galerie",
+  "ratio": "3:2",
+  "page": "Aux alentours",
+  "emplacement": "balades à pied",
+  "priorite": "Conseillée",
+  "alt": "Chemin forestier sous les chênes et les hêtres en hiver",
+  "beaute": 4,
+  "gabarit": "lieu",
+  "consigne_scene": "A quiet forest path through tall oaks and beeches in early winter, fallen leaves on the ground, soft mist between the trunks, low sunlight filtering through, no people, no signs, no benches"
+ },
+ {
+  "source": "recu/grok/g-velos.jpg",
+  "nom": "grok/velos",
+  "role": "galerie",
+  "ratio": "3:2",
+  "page": "Aux alentours",
+  "emplacement": "à vélo",
+  "priorite": "Conseillée",
+  "alt": "Deux vélos appuyés contre un mur chaulé près d’une haie",
+  "beaute": 4,
+  "gabarit": "scene-metier",
+  "consigne_scene": "Two plain touring bicycles without any logo or brand leaning against a lime-washed old stone wall next to a wooden gate and a hedge, a small water tap on the wall, soft morning winter light, no people, no text"
  }
 ]

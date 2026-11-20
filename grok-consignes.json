@@ -2,7 +2,7 @@
   "client": "Jardin Solstice",
   "activite": "hébergement",
   "direction": "Au rythme du soleil",
-  "date": "2026-11-20T16:37:16.723Z",
+  "date": "2026-11-20T18:20:35.273Z",
   "images": [
     {
       "nom": "grok/tasse-hiver",
@@ -109,6 +109,96 @@
       "gabarit": "lieu",
       "pieges": [],
       "consigne": "A clear winter night sky full of stars above a dark hedgerow and a few bare orchard trees, no artificial light anywhere, no buildings, no lit windows, faint Milky Way, deep blue-black tones, wide calm composition with lots of sky. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/animations",
+      "fichier": "g-animations.jpg",
+      "page": "Animations et stages",
+      "emplacement": "ouverture (bandeau sous le titre) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "An outdoor wooden garden table set for a herbal tasting game: a row of small ceramic bowls each holding a different dried medicinal herb or flower (chamomile, mint, calendula petals, linden, lavender), a few glass cups of pale herbal tea, small blank paper tags without any writing, a linen cloth, soft late afternoon light, blurred herb garden behind, nobody, no hands, no text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/animations",
+      "fichier": "g-animations-mobile.jpg",
+      "page": "Animations et stages",
+      "emplacement": "ouverture (bandeau sous le titre) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "An outdoor wooden garden table set for a herbal tasting game: a row of small ceramic bowls each holding a different dried medicinal herb or flower (chamomile, mint, calendula petals, linden, lavender), a few glass cups of pale herbal tea, small blank paper tags without any writing, a linen cloth, soft late afternoon light, blurred herb garden behind, nobody, no hands, no text. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/bocage",
+      "fichier": "g-bocage.jpg",
+      "page": "Aux alentours",
+      "emplacement": "ouverture plein cadre (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Rolling bocage countryside at sunrise in early winter: small fields bordered by thick hedgerows and old oak trees, a few bare orchard trees, a gentle valley with low mist, frost on the grass in the foreground, low golden sun on the horizon, no buildings, no roads, no vehicles, no people, wide calm composition with a large quiet sky in the upper half. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. The hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/bocage",
+      "fichier": "g-bocage-mobile.jpg",
+      "page": "Aux alentours",
+      "emplacement": "ouverture plein cadre (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Rolling bocage countryside at sunrise in early winter: small fields bordered by thick hedgerows and old oak trees, a few bare orchard trees, a gentle valley with low mist, frost on the grass in the foreground, low golden sun on the horizon, no buildings, no roads, no vehicles, no people, wide calm composition with a large quiet sky in the upper half. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. The hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/foret",
+      "fichier": "g-foret.jpg",
+      "page": "Aux alentours",
+      "emplacement": "balades à pied",
+      "role": "galerie",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "A quiet forest path through tall oaks and beeches in early winter, fallen leaves on the ground, soft mist between the trunks, low sunlight filtering through, no people, no signs, no benches. Landscape composition, aspect ratio 3:2. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. The hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/velos",
+      "fichier": "g-velos.jpg",
+      "page": "Aux alentours",
+      "emplacement": "à vélo",
+      "role": "galerie",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "véhicules"
+      ],
+      "consigne": "Two plain touring bicycles without any logo or brand leaning against a lime-washed old stone wall next to a wooden gate and a hedge, a small water tap on the wall, soft morning winter light, no people, no text. Landscape composition, aspect ratio 3:2. Contemporary editorial hospitality photography, quiet and slow, quiet, warm and honest rural mood, palette of lime-washed off-white, deep sage green, low golden winter sun and soft frost blue-grey, low golden winter sunlight raking from the side, long soft shadows, tactile linen, worn oak, flint and lime plaster, dried herbs and clear glass, set in the hedged bocage countryside of the Perche in northern France, small orchards and herb rows, nothing like a postcard on an early winter morning, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No vehicles visible, only blurred light trails; or a plain unmarked vehicle with no license plate, no badge and no lettering. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
     }
   ]
 }

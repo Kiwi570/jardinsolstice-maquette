@@ -1,6 +1,6 @@
 {
   "dossier": "/home/claude/jardinsolstice-maquette/recu/grok",
-  "date": "2026-11-20T17:25:47.383Z",
+  "date": "2026-11-20T18:36:10.691Z",
   "detection": "mesures sharp seulement",
   "planches": [
     "planche.jpg"
@@ -68,6 +68,318 @@
       },
       "lisible": null,
       "empreinte": "fffdf8fab9cc0cf4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-animations-mobile.jpg",
+      "nom": "g-animations-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 316011,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        52
+      ],
+      "cadrage_css": "49% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 28.2,
+        "bruit": 0.66,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4103ba2464acc2c6",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-animations.jpg",
+      "nom": "g-animations",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 270020,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        42
+      ],
+      "cadrage_css": "50% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 38.5,
+        "bruit": 0.82,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "80108a9ac4263cfc",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-bocage-mobile.jpg",
+      "nom": "g-bocage-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 316540,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 95.5,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        55
+      ],
+      "cadrage_css": "50% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 36.2,
+        "bruit": 0.58,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f8f8dcfc7e98a949",
+      "drapeaux": [
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "g-bocage.jpg",
+      "nom": "g-bocage",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 235764,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        47
+      ],
+      "cadrage_css": "51% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 29.5,
+        "bruit": 0.82,
+        "compression": 1.28,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0c0c0e0a033d2c4",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-foret.jpg",
+      "nom": "g-foret",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 404061,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 75,
+        "h": 59.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        34
+      ],
+      "cadrage_css": "52% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 48.6,
+        "bruit": 1.58,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "595d5d55707671e0",
       "drapeaux": []
     },
     {
@@ -507,6 +819,68 @@
       "drapeaux": [
         "calme gauche"
       ]
+    },
+    {
+      "fichier": "g-velos.jpg",
+      "nom": "g-velos",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 400388,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 54.9,
+        "bruit": 1.62,
+        "compression": 1.11,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "5c4ecad1d189cdfe",
+      "drapeaux": []
     }
   ]
 }
