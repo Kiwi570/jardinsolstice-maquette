@@ -24,7 +24,7 @@ export default (c) => html`
 ${c.donnees.chambres.map((ch, i) => html`<section class="chambre conteneur${i % 2 ? ' chambre--inverse' : ''}" id="${ch.cle}">
   <div class="chambre-images">
     ${c.media({ nom: ch.image, alt: c.s('accueil.chambres.alt', { nom: ch.nom }), cadrage: ch.cadrage, classe: 'chambre-grande', sizes: '(max-width: 760px) 92vw, 48vw', attrs: 'data-anime="rideau"' })}
-    <div class="chambre-vignettes" data-anime="cascade">${ch.galerie.map((g) => c.media({ nom: g.image, alt: g.alt, classe: 'chambre-vignette', sizes: '(max-width: 760px) 44vw, 22vw' }))}</div>
+    <div class="chambre-vignettes" data-anime="cascade" data-vignettes>${ch.galerie.map((g) => c.media({ nom: g.image, alt: g.alt, classe: 'chambre-vignette', sizes: '(max-width: 760px) 44vw, 22vw' }))}</div>
   </div>
   <div class="chambre-texte">
     <p class="chambre-plante-titre" data-anime>${c.t('chambres.chambre.plante', { plante: ch.plante })}</p>
@@ -32,15 +32,15 @@ ${c.donnees.chambres.map((ch, i) => html`<section class="chambre conteneur${i % 
     <p class="chambre-niveau" data-anime>${ch.niveau}${ch.label ? html` <span class="pastille-label">${ch.label}</span>` : ''}</p>
     <p data-anime>${ch.accroche}</p>
     <ul class="chambre-details" data-anime="cascade">${ch.details.map((d) => html`<li>${d}</li>`)}</ul>
-    <table class="tarifs" data-anime>
-      <caption>${c.t('chambres.chambre.tarifs')}</caption>
-      <tbody>
-        <tr><th scope="row">${c.t('chambres.chambre.une')}</th><td data-prix>${euros(ch.prix1)}</td></tr>
-        <tr><th scope="row">${c.t('chambres.chambre.deux')}</th><td data-prix>${euros(ch.prix2)}</td></tr>
-        <tr><th scope="row">${c.t('chambres.chambre.supp')}</th><td data-prix>${euros(ch.supplement)}</td></tr>
-        ${ch.forfaits.map((f) => html`<tr><th scope="row">${c.t('chambres.chambre.forfait', { periode: f.periode })}</th><td data-prix>${euros(f.prix)}${f.prixPdj ? html`<span class="tarif-pdj">${c.t('chambres.chambre.avecPdj', { prix: euros(f.prixPdj) })}</span>` : ''}</td></tr>`)}
-      </tbody>
-    </table>
+    <div class="tarifs" data-anime>
+      <h3 class="tarifs-titre">${c.t('chambres.chambre.tarifs')}</h3>
+      <dl class="tarifs-tuiles">
+        <div><dt>${c.t('chambres.chambre.une')}</dt><dd data-prix>${euros(ch.prix1)}</dd></div>
+        <div><dt>${c.t('chambres.chambre.deux')}</dt><dd data-prix>${euros(ch.prix2)}</dd></div>
+        <div><dt>${c.t('chambres.chambre.suppCourt')}</dt><dd data-prix>+ ${euros(ch.supplement)}</dd></div>
+      </dl>
+      <dl class="tarifs-forfaits">${ch.forfaits.map((f) => html`<div><dt>${c.t('chambres.chambre.forfait', { periode: f.periode })}</dt><dd data-prix>${euros(f.prix)}${f.prixPdj ? html`<span class="tarif-pdj">${c.t('chambres.chambre.avecPdj', { prix: euros(f.prixPdj) })}</span>` : ''}</dd></div>`)}</dl>
+    </div>
     <p data-anime>${c.lien('contact', { ancre: 'demande', params: `sujet=sejour&chambre=${ch.cle}`, classe: 'bouton', texte: c.t('chambres.chambre.demander', { nom: ch.nom }) })}</p>
   </div>
 </section>`)}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#f1eee6">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -149,10 +149,13 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <button type="button" class="filtre" data-filtre="toutes" aria-pressed="true">Toutes <span>35</span></button>
       <button type="button" class="filtre" data-filtre="classiques" aria-pressed="false">Les classiques <span>13</span></button><button type="button" class="filtre" data-filtre="saisonnieres" aria-pressed="false">Les saisonnières <span>4</span></button><button type="button" class="filtre" data-filtre="gouteuses" aria-pressed="false">Les goûteuses <span>8</span></button><button type="button" class="filtre" data-filtre="simples" aria-pressed="false">Plante simple <span>10</span></button>
     </div>
+    <div class="catalogue-droite">
     <div class="recherche champ"><label for="recherche-tisane">Chercher une plante ou une tisane</label><input id="recherche-tisane" type="search" autocomplete="off" placeholder="Tilleul, menthe, sauge…" data-recherche></div>
+    <button type="button" class="piocher" data-piocher hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg><span>Laisser le hasard choisir</span></button>
+    </div>
   </div>
   <p class="catalogue-vide" data-vide hidden>Aucune tisane ne contient cette plante. Essayez « menthe » ou « tilleul ».</p>
-  <ul class="grille-tisanes" data-anime="cascade" data-grille-tisanes>
+  <ul class="grille-tisanes" data-anime="cascade" data-grille-tisanes data-grille="retour">
     <li class="tisane" data-famille="classiques" data-cle="souplesse" data-nom="Souplesse" data-plantes="Frêne, cassis, ortie, reine-des-prés" data-prix-unitaire="5.75">
         <p class="tisane-famille">Les classiques</p>
         <h3 class="tisane-nom">Souplesse</h3>
@@ -339,6 +342,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <div class="tisane-pied"><p class="tisane-prix" data-prix>4,75 € <span>· 20 à 40 g</span></p><button type="button" class="tisane-ajout" data-ajouter="sauge-simple" aria-label="Ajouter la tisane Sauge au panier">Ajouter</button></div>
       </li>
   </ul>
+  <p class="catalogue-plus" data-catalogue-plus hidden><button type="button" class="bouton bouton--contour" data-voir-plus>Voir toutes les tisanes</button></p>
   <p class="catalogue-mention" data-anime>La disponibilité évolue au cours de la saison et des récoltes. Nos tisanes ne se substituent en aucun cas à une prescription médicale.</p>
 </section>
 <button type="button" class="panier-bouton" data-panier-bouton aria-controls="panier" aria-expanded="false" hidden><span class="panier-pastille" data-panier-nombre>0</span> <span>Panier</span> <strong data-panier-total-bouton>0 €</strong></button>
@@ -488,6 +492,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="Jardin Solstice" width="567" height="89" loading="lazy">
       <p>Micro-ferme bio, chambres d&#39;hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.</p>
       <p>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon<br><a href="tel:+33237811582">02 37 81 15 82</a><br><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></p>
+      <p class="pied-soleil" data-pied-soleil hidden><span class="pied-soleil-disque" aria-hidden="true"></span><span data-pied-soleil-texte></span></p>
     </div>
     <nav aria-label="Sommaire">
       <p class="pied-titre">Sommaire</p>
@@ -509,5 +514,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <a class="bouton bouton--contour" href="tel:+33237811582">Appeler</a>
   <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
 </div>
+<div class="fil-soleil" data-fil-soleil data-grille="fil" aria-hidden="true"><span class="fil-soleil-trait"></span><span class="fil-soleil-disque"></span></div>
 </body>
 </html>

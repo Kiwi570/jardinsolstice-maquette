@@ -48,13 +48,15 @@ export default (c) => html`
       <h2 data-anime="lignes">${c.tb('animations.journee.titre')}</h2>
       <p data-anime>${c.t('animations.journee.texte')}</p>
     </div>
-    <div class="frise">
-      <svg class="frise-trait" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="none" aria-hidden="true" data-fx="trace"><path d="M8 20 H1192" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <ol class="frise-etapes" data-anime="cascade">${c.donnees.journee.map((e) => html`<li><p class="frise-heure">${e.heure}</p><h3>${e.titre}</h3><p>${e.texte}</p></li>`)}</ol>
-    </div>
-    <div class="journee-images">
-      ${c.media({ nom: 'claies', alt: c.s('animations.journee.alt1'), classe: 'journee-a', sizes: '(max-width: 760px) 44vw, 26vw', attrs: 'data-anime="rideau"' })}
-      ${c.media({ nom: 'panier-cueillette', alt: c.s('animations.journee.alt2'), classe: 'journee-b', sizes: '(max-width: 760px) 44vw, 20vw', attrs: 'data-fx="parallaxe"' })}
+    <div class="journee-corps" data-journee>
+      <div class="frise">
+        <svg class="frise-trait" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="none" aria-hidden="true" data-fx="trace"><path d="M8 20 H1192" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="frise-soleil" aria-hidden="true"></span>
+        <ol class="frise-etapes" data-anime="cascade">${c.donnees.journee.map((e, i) => html`<li${i === 0 ? ' class="est-active"' : ''}><p class="frise-heure">${e.heure}</p><h3><button type="button" class="frise-bouton" data-etape="${i}" aria-pressed="${i === 0 ? 'true' : 'false'}" aria-controls="journee-scene">${e.titre}</button></h3><p>${e.texte}</p></li>`)}</ol>
+      </div>
+      <div class="journee-scene" id="journee-scene">
+        ${c.donnees.journee.map((e, i) => c.media({ nom: e.image, alt: e.alt, cadrage: e.cadrage, classe: `journee-vue${i === 0 ? ' est-active' : ''}`, sizes: '(max-width: 900px) 92vw, 80vw', attrs: `data-vue="${i}"` }))}
+      </div>
     </div>
   </div>
 </section>

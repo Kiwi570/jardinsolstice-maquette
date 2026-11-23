@@ -38,10 +38,13 @@ export default (c) => html`
       <button type="button" class="filtre" data-filtre="toutes" aria-pressed="true">${c.t('tisanes.cat.toutes')} <span>${c.donnees.tisanes.liste.length}</span></button>
       ${Object.entries(c.donnees.tisanes.familles).map(([k, f]) => html`<button type="button" class="filtre" data-filtre="${k}" aria-pressed="false">${f.nom} <span>${c.donnees.tisanes.liste.filter((t) => t.famille === k).length}</span></button>`)}
     </div>
+    <div class="catalogue-droite">
     <div class="recherche champ"><label for="recherche-tisane">${c.t('tisanes.cat.chercher')}</label><input id="recherche-tisane" type="search" autocomplete="off" placeholder="${c.s('tisanes.cat.exemple')}" data-recherche></div>
+    <button type="button" class="piocher" data-piocher hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg><span>${c.t('tisanes.cat.piocher')}</span></button>
+    </div>
   </div>
   <p class="catalogue-vide" data-vide hidden>${c.t('tisanes.cat.vide')}</p>
-  <ul class="grille-tisanes" data-anime="cascade" data-grille-tisanes>
+  <ul class="grille-tisanes" data-anime="cascade" data-grille-tisanes data-grille="retour">
     ${c.donnees.tisanes.liste.map((t) => {
       const f = c.donnees.tisanes.familles[t.famille];
       return html`<li class="tisane" data-famille="${t.famille}" data-cle="${t.cle}" data-nom="${t.nom}" data-plantes="${t.plantes}" data-prix-unitaire="${f.prix}">
@@ -53,6 +56,7 @@ export default (c) => html`
       </li>`;
     })}
   </ul>
+  <p class="catalogue-plus" data-catalogue-plus hidden><button type="button" class="bouton bouton--contour" data-voir-plus>${c.t('tisanes.cat.voirTout')}</button></p>
   <p class="catalogue-mention" data-anime>${c.t('tisanes.cat.mention')}</p>
 </section>
 

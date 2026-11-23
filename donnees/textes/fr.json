@@ -143,14 +143,8 @@
    "fermeTitre": "À la ferme",
    "fermeTexte": "D'avril à septembre, le samedi de 17 h à 19 h ; le reste de l'année sur rendez-vous.",
    "lien": "Tous les points de vente",
-   "alt": "Sirops de plantes du Jardin Solstice au soleil sur une terrasse en bois"
-  },
-  "maison": {
-   "sur": "Démarche écologique",
-   "titre": "Une maison <em>qui respire</em>",
-   "texte": "Les chambres ont été rénovées avec des matériaux simples et locaux : silex, chaux, chanvre, terres cuites de récupération et peintures sans COV.",
-   "lien": "La démarche en détail",
-   "alt": "Terres cuites de récupération empilées"
+   "alt": "Sirops de plantes du Jardin Solstice au soleil sur une terrasse en bois",
+   "compte": "Neuf rendez-vous, du 29 novembre au 20 décembre."
   },
   "fin": {
    "titre": "Venez vivre <em>au rythme du Perche</em>",
@@ -181,10 +175,11 @@
    "tarifs": "Tarifs par nuit",
    "une": "1 personne",
    "deux": "2 personnes",
-   "supp": "Par personne de plus de 5 ans en plus",
    "forfait": "Forfait 2 personnes, {periode}",
-   "avecPdj": " · {prix} avec petits-déjeuners",
-   "demander": "Demander la chambre {nom}"
+   "avecPdj": "{prix} avec petits-déjeuners",
+   "demander": "Demander la chambre {nom}",
+   "suppCourt": "Par personne de plus de 5 ans",
+   "vignette": "Afficher en grand : {alt}"
   },
   "table": {
    "sur": "Petit-déjeuner et table d'hôtes",
@@ -249,7 +244,10 @@
    "simple": "La plante seule, cultivée et séchée à la ferme.",
    "ajouter": "Ajouter",
    "ajouterNom": "Ajouter la tisane {nom} au panier",
-   "mention": "La disponibilité évolue au cours de la saison et des récoltes. Nos tisanes ne se substituent en aucun cas à une prescription médicale."
+   "mention": "La disponibilité évolue au cours de la saison et des récoltes. Nos tisanes ne se substituent en aucun cas à une prescription médicale.",
+   "piocher": "Laisser le hasard choisir",
+   "pioche": "Tirée au sort",
+   "voirTout": "Voir toutes les tisanes"
   },
   "panier": {
    "bouton": "Panier",
@@ -479,12 +477,14 @@
   },
   "coups": {
    "sur": "Nos coups de cœur",
-   "titre": "Trois adresses <em>à part</em>"
+   "titre": "Trois adresses <em>à part</em>",
+   "nav": "Coups de cœur"
   },
   "appel": {
    "titre": "Le Perche, <em>au départ de la ferme</em>",
    "texte": "Arrivée entre 17 h et 19 h, petit-déjeuner de 7 h à 10 h : la journée est à vous.",
    "acces": "Venir à la ferme"
-  }
+  },
+  "sommaire": "Rubriques de la page"
  }
 }

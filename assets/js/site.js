@@ -3,7 +3,7 @@
    Effets du plan : soleil (arc du jour réel à Vaupillon), roue (roue de l'année), sachets (rangée de tisanes),
    disque (ouverture des Chambres), total (calculateur de séjour), itineraire (accès depuis La Loupe),
    etal (ouverture des Tisanes), horizon (ouverture de La ferme). */
-import { demarrer, versObjet, quand } from './socle/index.js?v=2';
+import { demarrer, versObjet, quand } from './socle/index.js?v=3';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -68,7 +68,98 @@ function preparerSoleil() {
     const quand = `le ${+jj} ${MOIS[+mm - 1]}`;
     info.textContent = jours === 0 ? `Aujourd'hui, solstice d'${prochain[1]}` : `Solstice d'${prochain[1]} dans ${jours} jour${jours > 1 ? 's' : ''}, ${quand}`;
   }
-  ciel = { el, frac: nuit ? (maintenant < lever ? 0 : 1) : frac };
+  ciel = { el, frac: nuit ? (maintenant < lever ? 0 : 1) : frac, pos: frac, nuit, lever, coucher, texteJour: $('[data-ciel-jour]', el).textContent };
+}
+
+/* Le soleil se prend à la main : glissé le long de l'arc (ou flèches du clavier), il donne l'heure,
+   éclaire la photo comme le soleil à ce moment-là, puis revient à sa place réelle. */
+function soleilManipulable() {
+  if (!ciel || !gsap) return;
+  const { el, lever, coucher } = ciel;
+  const s = $('.ciel-soleil', el), zone = $('.ciel-zone', el), ouv = el.closest('.ouv'), lueur = $('.ouv-lueur', ouv), jour = $('[data-ciel-jour]', el);
+  if (!s || !zone || !ouv) return;
+  const ASTUCE = 'Faites glisser le soleil';
+  s.classList.add('est-manipulable');
+  s.setAttribute('role', 'slider');
+  s.setAttribute('tabindex', '0');
+  s.setAttribute('aria-label', 'Soleil du jour à Vaupillon : faites-le glisser pour parcourir la journée');
+  s.setAttribute('aria-valuemin', '0');
+  s.setAttribute('aria-valuemax', '100');
+  s.dataset.astuce = ASTUCE;
+  const etat = { f: ciel.pos };
+  let retour = null;
+  const placer = (f, manipule) => {
+    f = Math.max(0, Math.min(1, f));
+    etat.f = f;
+    const a = Math.PI * (1 - f), x = 200 + 176 * Math.cos(a), y = 196 - 176 * Math.sin(a);
+    s.style.setProperty('--sx', `${(x / 400) * 100}%`);
+    s.style.setProperty('--sy', `${(y / 200) * 100}%`);
+    if (manipule) el.style.setProperty('--parcouru', String(f));
+    const h = heure(new Date(lever.getTime() + f * (coucher - lever)));
+    s.setAttribute('aria-valuenow', String(Math.round(f * 100)));
+    s.setAttribute('aria-valuetext', `Soleil à ${h}`);
+    if (!manipule) return;
+    s.classList.remove('est-nuit');
+    s.dataset.astuce = `Soleil à ${h}`;
+    if (jour) jour.textContent = `Soleil à ${h}`;
+    if (lueur) {
+      const rz = zone.getBoundingClientRect(), ro = ouv.getBoundingClientRect();
+      lueur.style.setProperty('--lx', `${((rz.left + (x / 400) * rz.width - ro.left) / ro.width) * 100}%`);
+      lueur.style.setProperty('--ly', `${((rz.top + (y / 200) * rz.height - ro.top) / ro.height) * 100}%`);
+      lueur.style.opacity = String(0.55 + 0.45 * (1 - Math.sin(Math.PI * f)));
+    }
+  };
+  const lacher = () => {
+    if (retour) retour.kill();
+    retour = gsap.to(etat, {
+      f: ciel.pos, duration: 1.6, delay: 1.2, ease: 'elastic.out(1, 0.7)',
+      onUpdate: () => placer(etat.f, true),
+      onComplete: () => {
+        placer(ciel.pos, false);
+        el.style.setProperty('--parcouru', String(ciel.frac));
+        s.classList.toggle('est-nuit', ciel.nuit);
+        s.dataset.astuce = ASTUCE;
+        if (jour) jour.textContent = ciel.texteJour;
+        if (lueur) gsap.to(lueur, { opacity: 0, duration: 0.8 });
+      },
+    });
+  };
+  const depuisPointeur = (e) => {
+    const r = zone.getBoundingClientRect();
+    const X = ((e.clientX - r.left) / r.width) * 400, Y = ((e.clientY - r.top) / r.height) * 200;
+    let a = Math.atan2(196 - Y, X - 200);
+    if (a < 0) a = X < 200 ? Math.PI : 0;
+    placer(1 - a / Math.PI, true);
+  };
+  s.addEventListener('pointerdown', (e) => {
+    if (retour) retour.kill();
+    s.setPointerCapture(e.pointerId);
+    s.classList.add('est-tenu');
+    depuisPointeur(e);
+    e.preventDefault();
+  });
+  s.addEventListener('pointermove', (e) => { if (s.hasPointerCapture(e.pointerId)) depuisPointeur(e); });
+  const fin = (e) => { if (!s.classList.contains('est-tenu')) return; s.classList.remove('est-tenu'); if (s.hasPointerCapture(e.pointerId)) s.releasePointerCapture(e.pointerId); lacher(); };
+  s.addEventListener('pointerup', fin);
+  s.addEventListener('pointercancel', fin);
+  s.addEventListener('keydown', (e) => {
+    const pas = { ArrowRight: 0.04, ArrowUp: 0.04, ArrowLeft: -0.04, ArrowDown: -0.04, PageUp: 0.15, PageDown: -0.15 }[e.key];
+    let f = pas !== undefined ? etat.f + pas : e.key === 'Home' ? 0 : e.key === 'End' ? 1 : null;
+    if (f === null) return;
+    e.preventDefault();
+    if (retour) retour.kill();
+    placer(f, true);
+  });
+  s.addEventListener('keyup', (e) => { if (/Arrow|Page|Home|End/.test(e.key)) lacher(); });
+  placer(ciel.pos, false);
+}
+/* Un petit signe du soleil, une fois l'ouverture jouée : il montre qu'il se prend à la main. */
+function soleilSigne() {
+  const s = $('.ciel-soleil.est-manipulable');
+  if (!s || !gsap || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  s.classList.add('montre-astuce');
+  gsap.fromTo(s, { scale: 1 }, { scale: 1.12, duration: 0.35, yoyo: true, repeat: 3, ease: 'sine.inOut', delay: 0.4 });
+  setTimeout(() => s.classList.remove('montre-astuce'), 3600);
 }
 
 /* Intro : l'arc se dessine, le soleil monte le long de l'arc jusqu'à sa place, puis glisse jusqu'au soleil de la page. */
@@ -201,14 +292,23 @@ function statutsDates() {
     li.classList.toggle('est-passe', passe);
     $('[data-statut]', li).textContent = passe ? 'Terminé' : 'À venir';
   });
-  let prochain = false;
+  let prochain = null;
   $$('[data-marches] [data-date]').forEach((li) => {
     const d = li.dataset.date, s = $('[data-statut]', li);
     li.classList.remove('est-passe', 'est-prochain');
     if (d < auj) { li.classList.add('est-passe'); s.textContent = 'Passé'; }
-    else if (!prochain) { prochain = true; li.classList.add('est-prochain'); s.textContent = d === auj ? "Aujourd'hui" : 'Prochain'; }
+    else if (!prochain) { prochain = li; li.classList.add('est-prochain'); s.textContent = d === auj ? "Aujourd'hui" : 'Prochain'; }
     else s.textContent = 'À venir';
   });
+  const compte = $('[data-marches-compte]');
+  if (compte && $$('[data-marches] [data-date]').length) {
+    if (!prochain) compte.textContent = "Les marchés de fin d'année sont passés : retrouvez-nous au Chardon ou à la ferme.";
+    else {
+      const j = Math.round((Date.parse(prochain.dataset.date) - Date.parse(auj)) / 86400000);
+      const lieu = $('.marche-lieu', prochain).firstChild.textContent.trim(), ville = $('.marche-lieu span', prochain).textContent.split(' · ')[0];
+      compte.textContent = `${j === 0 ? "Aujourd'hui" : j === 1 ? 'Demain' : `Dans ${j}\u00a0jours`}\u00a0: ${lieu}, ${ville}.`;
+    }
+  }
 }
 
 const euros = (n) => `${(Math.round(n * 100) / 100).toFixed(2).replace('.', ',').replace(',00', '')} €`;
@@ -265,29 +365,177 @@ function preparerCatalogue() {
   const cat = $('[data-catalogue]');
   if (!cat) return;
   const cartes = $$('.tisane', cat), boutons = $$('[data-filtre]', cat), champ = $('[data-recherche]', cat), vide = $('[data-vide]', cat);
+  const plus = $('[data-catalogue-plus]', cat), voirPlus = $('[data-voir-plus]', cat), piocher = $('[data-piocher]', cat);
   const params = new URLSearchParams(location.search);
   let famille = params.get('famille') || 'toutes';
   if (!boutons.some((b) => b.dataset.filtre === famille)) famille = 'toutes';
+  /* Les 35 d'un coup font une longue page : on en montre une douzaine (six sur téléphone), le reste à la demande. */
+  const limite = () => (matchMedia('(max-width: 760px)').matches ? 6 : 12);
+  let ouvert = false;
+  const correspond = (c, q) => (famille === 'toutes' || c.dataset.famille === famille) && (!q || normaliser(`${c.dataset.nom} ${c.dataset.plantes}`).includes(q));
   const appliquer = (anime) => {
     const q = normaliser(champ.value.trim());
     boutons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.filtre === famille)));
+    const replie = !ouvert && famille === 'toutes' && !q;
     let n = 0;
     const montrees = [];
     cartes.forEach((c) => {
-      const ok = (famille === 'toutes' || c.dataset.famille === famille) && (!q || normaliser(`${c.dataset.nom} ${c.dataset.plantes}`).includes(q));
-      if (ok) { n++; if (c.hidden) montrees.push(c); }
+      let ok = correspond(c, q);
+      if (ok) { n++; if (replie && n > limite()) ok = false; }
+      if (ok && c.hidden) montrees.push(c);
       c.hidden = !ok;
     });
     vide.hidden = n > 0;
+    const reste = replie ? n - limite() : 0;
+    if (plus) { plus.hidden = reste <= 0; voirPlus.textContent = `Voir les ${reste} autres tisanes`; }
     if (anime && gsap && montrees.length) gsap.fromTo(montrees, { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.4, stagger: 0.02, clearProps: 'transform,opacity' });
     const u = new URL(location.href);
     if (famille === 'toutes') u.searchParams.delete('famille'); else u.searchParams.set('famille', famille);
     history.replaceState(history.state, '', u.pathname + u.search + u.hash);
     if (ST) ST.refresh();
+    return montrees;
   };
   boutons.forEach((b) => b.addEventListener('click', () => { famille = b.dataset.filtre; appliquer(true); }));
   champ.addEventListener('input', () => appliquer(true));
-  if (famille !== 'toutes') appliquer(false);
+  if (voirPlus) voirPlus.addEventListener('click', () => {
+    ouvert = true;
+    const m = appliquer(true);
+    if (m[0]) { const h = $('.tisane-nom', m[0]); h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); }
+  });
+  /* Le hasard choisit une tisane parmi celles du filtre : la carte vient au centre et se signale. */
+  let derniere = null;
+  if (piocher) {
+    piocher.hidden = false;
+    piocher.addEventListener('click', () => {
+      const q = normaliser(champ.value.trim());
+      const choix = cartes.filter((c) => correspond(c, q) && c !== derniere);
+      if (!choix.length) return;
+      const c = choix[Math.floor(Math.random() * choix.length)];
+      derniere = c;
+      if (c.hidden) { ouvert = true; appliquer(false); }
+      $$('.tisane.est-pioche', cat).forEach((x) => { x.classList.remove('est-pioche'); const b = $('.tisane-badge', x); if (b) b.remove(); });
+      const badge = document.createElement('p');
+      badge.className = 'tisane-badge'; badge.textContent = 'Tirée au sort';
+      c.prepend(badge); c.classList.add('est-pioche');
+      const doux = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      c.scrollIntoView({ behavior: doux ? 'auto' : 'smooth', block: 'center' });
+      const nom = $('.tisane-nom', c); nom.setAttribute('tabindex', '-1');
+      setTimeout(() => nom.focus({ preventScroll: true }), doux ? 0 : 650);
+      if (gsap && !doux) {
+        gsap.fromTo($('svg', piocher), { rotation: 0 }, { rotation: 360, duration: 0.6, ease: 'back.out(1.6)', transformOrigin: '50% 50%' });
+        gsap.fromTo(c, { scale: 0.92, rotation: -2 }, { scale: 1, rotation: 0, duration: 0.9, delay: 0.55, ease: 'elastic.out(1, 0.55)', clearProps: 'transform' });
+      }
+    });
+  }
+  appliquer(false);
+}
+
+/* ---------- Chambres : une vignette touchée passe en grand, la grande prend sa place ---------- */
+function preparerVignettes() {
+  $$('[data-vignettes]').forEach((bloc) => {
+    const grande = $('.chambre-grande', bloc.parentElement);
+    if (!grande) return;
+    $$('.chambre-vignette', bloc).forEach((v) => {
+      v.classList.add('est-cliquable');
+      v.setAttribute('role', 'button');
+      v.setAttribute('tabindex', '0');
+      const nommer = () => v.setAttribute('aria-label', `Afficher en grand : ${$('img', v).alt}`);
+      nommer();
+      const echanger = () => {
+        const a = $('img', grande), b = $('img', v);
+        const attrs = ['src', 'srcset', 'alt', 'width', 'height'];
+        const va = attrs.map((k) => a.getAttribute(k)), vb = attrs.map((k) => b.getAttribute(k));
+        const ca = grande.style.getPropertyValue('--cadrage'), cb = v.style.getPropertyValue('--cadrage');
+        const appliquer = () => {
+          attrs.forEach((k, i) => { if (vb[i] !== null) a.setAttribute(k, vb[i]); if (va[i] !== null) b.setAttribute(k, va[i]); });
+          grande.style.setProperty('--cadrage', cb || '50% 50%'); v.style.setProperty('--cadrage', ca || '50% 50%');
+          nommer();
+        };
+        if (!gsap || matchMedia('(prefers-reduced-motion: reduce)').matches) { appliquer(); return; }
+        gsap.timeline()
+          .to(a, { opacity: 0, scale: 1.04, duration: 0.22, ease: 'power2.in' })
+          .call(appliquer)
+          .fromTo(a, { opacity: 0, scale: 1.06 }, { opacity: 1, scale: 1, duration: 0.6, ease: 'power3.out', clearProps: 'transform,opacity' })
+          .fromTo(v, { scale: 0.92 }, { scale: 1, duration: 0.5, ease: 'back.out(2.4)', clearProps: 'transform' }, '<');
+      };
+      v.addEventListener('click', echanger);
+      v.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); echanger(); } });
+    });
+  });
+}
+
+/* ---------- Animations : la journée en immersion, étape par étape (au toucher ou au défilement) ---------- */
+function preparerJournee() {
+  const bloc = $('[data-journee]');
+  if (!bloc) return;
+  const boutons = $$('[data-etape]', bloc), vues = $$('[data-vue]', bloc), soleil = $('.frise-soleil', bloc), etapes = $('.frise-etapes', bloc);
+  let actif = 0;
+  const montrer = (i) => {
+    actif = i;
+    boutons.forEach((b, k) => { b.setAttribute('aria-pressed', String(k === i)); b.closest('li').classList.toggle('est-active', k === i); });
+    vues.forEach((v, k) => v.classList.toggle('est-active', k === i));
+    if (soleil) {
+      const li = boutons[i].closest('li');
+      soleil.style.setProperty('--frise-x', `${li.offsetLeft}px`);
+    }
+  };
+  boutons.forEach((b, i) => b.addEventListener('click', () => montrer(i)));
+  window.addEventListener('resize', () => montrer(actif));
+  if (ST) {
+    let dernier = 0;
+    ST.create({
+      trigger: etapes, start: 'top 72%', endTrigger: bloc, end: 'bottom 62%',
+      onUpdate: (st) => { const i = Math.min(boutons.length - 1, Math.floor(st.progress * boutons.length)); if (i !== dernier) { dernier = i; montrer(i); } },
+    });
+  }
+  montrer(0);
+}
+
+/* ---------- Alentours : sommaire flottant qui suit la lecture ---------- */
+function preparerSommaire() {
+  const nav = $('[data-sommaire]');
+  if (!nav || !ST) return;
+  const liens = $$('a', nav), ul = $('ul', nav);
+  const debut = $('#debut'), appel = $('#appel');
+  ST.create({ trigger: debut, start: 'bottom 30%', endTrigger: appel, end: 'top 70%', onToggle: (st) => nav.classList.toggle('est-visible', st.isActive) });
+  liens.forEach((a) => {
+    const cible = document.getElementById(a.hash.slice(1));
+    if (!cible) return;
+    ST.create({
+      trigger: cible, start: 'top 45%', end: 'bottom 45%',
+      onToggle: (st) => {
+        if (!st.isActive) { a.removeAttribute('aria-current'); return; }
+        liens.forEach((x) => x.removeAttribute('aria-current'));
+        a.setAttribute('aria-current', 'true');
+        const g = a.offsetLeft - (ul.clientWidth - a.offsetWidth) / 2;
+        ul.scrollTo({ left: Math.max(0, g), behavior: 'smooth' });
+      },
+    });
+  });
+}
+
+/* ---------- Pied de page : le soleil du jour à Vaupillon ---------- */
+function piedSoleil() {
+  const p = $('[data-pied-soleil]');
+  if (!p) return;
+  const m = new Date(), { lever, coucher } = soleilDuJour(m);
+  const nuit = m < lever || m > coucher;
+  $('[data-pied-soleil-texte]', p).textContent = m < lever
+    ? `Aujourd'hui à Vaupillon, le soleil se lève à ${heure(lever)}.`
+    : m > coucher ? `Le soleil s'est couché à ${heure(coucher)} à Vaupillon ; nuit noire sur la ferme.` : `Aujourd'hui à Vaupillon, lever du soleil à ${heure(lever)}, coucher à ${heure(coucher)}.`;
+  $('.pied-soleil-disque', p).classList.toggle('est-nuit', nuit);
+  p.hidden = false;
+}
+
+/* ---------- Le soleil de la marge : du lever en haut de page au coucher en bas ---------- */
+function filSoleil() {
+  const f = $('[data-fil-soleil]');
+  if (!f || !ST) return;
+  const disque = $('.fil-soleil-disque', f);
+  const maj = (p) => { disque.style.setProperty('--fil-y', `${p * f.clientHeight}px`); f.classList.toggle('est-nuit', p > 0.97); };
+  ST.create({ start: 0, end: 'max', onUpdate: (st) => maj(st.progress), onRefresh: (st) => maj(st.progress) });
+  maj(0);
+  f.classList.add('est-pret');
 }
 
 /* ---------- Panier simulé (même panier dans tous les onglets) ---------- */
@@ -354,6 +602,20 @@ function preparerPanier() {
     if (aj) {
       const k = aj.dataset.ajouter;
       panier[k] = (panier[k] || 0) + 1; ecrirePanier(panier); rendre();
+      if (gsap && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        /* Un petit sachet part de la carte et file vers le panier. */
+        const ra = aj.getBoundingClientRect(), rb = bouton.getBoundingClientRect();
+        const vol = document.createElement('span');
+        vol.className = 'vol-sachet'; vol.setAttribute('aria-hidden', 'true');
+        vol.style.left = `${ra.left + ra.width / 2 - 11}px`; vol.style.top = `${ra.top + ra.height / 2 - 14}px`;
+        document.body.append(vol);
+        const dx = rb.left + 22 - (ra.left + ra.width / 2), dy = rb.top + rb.height / 2 - (ra.top + ra.height / 2);
+        gsap.timeline({ onComplete: () => vol.remove() })
+          .to(vol, { x: dx, duration: 0.7, ease: 'power1.inOut' }, 0)
+          .to(vol, { y: Math.min(-60, dy * 0.3), duration: 0.3, ease: 'power2.out' }, 0)
+          .to(vol, { y: dy, duration: 0.4, ease: 'power2.in' }, 0.3)
+          .to(vol, { scale: 0.4, rotation: 140, opacity: 0.2, duration: 0.25 }, 0.5);
+      }
       if (gsap) {
         gsap.fromTo(bouton, { scale: 0.85 }, { scale: 1, duration: 0.5, ease: 'back.out(3)' });
         gsap.fromTo(aj, { scale: 0.9 }, { scale: 1, duration: 0.35, ease: 'back.out(3)' });
@@ -446,15 +708,21 @@ function venteALaFerme() {
 demarrer({
   preparer() {
     preparerSoleil();
+    soleilManipulable();
     statutsDates();
     preparerRoue();
     preparerRangees();
     ouverturesAuDefilement();
     preparerEstimer();
+    preparerVignettes();
+    preparerJournee();
+    preparerSommaire();
     preparerCatalogue();
     preparerPanier();
     preparerDemande();
     venteALaFerme();
+    piedSoleil();
+    filSoleil();
   },
   jouer() {
     if (!gsap) return null;
@@ -462,6 +730,7 @@ demarrer({
     soleilIntro(tl);
     versObjet(tl, { a: 1.05, duree: 0.5, ouverture: 0.8 });
     titreOuverture(tl, 1.55);
+    tl.call(soleilSigne, null, 3.1);
     return tl;
   },
   etatFinal() {
@@ -481,6 +750,7 @@ demarrer({
     if (!gsap) return;
     const tl = gsap.timeline({ delay: 0.15 });
     titreOuverture(tl, 0);
+    tl.call(soleilSigne, null, 1.4);
   },
 });
 

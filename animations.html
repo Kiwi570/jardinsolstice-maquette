@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#f1eee6">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -188,21 +188,35 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 data-anime="lignes">Une journée <em>à la ferme</em></h2>
       <p data-anime>De 10 h à 17 h 30, ce que proposait la journée en immersion du programme 2026.</p>
     </div>
-    <div class="frise">
-      <svg class="frise-trait" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="none" aria-hidden="true" data-fx="trace"><path d="M8 20 H1192" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <ol class="frise-etapes" data-anime="cascade"><li><p class="frise-heure">10 h</p><h3>Visite des cultures</h3><p>Le tour d&#39;une micro-ferme en permaculture.</p></li><li><p class="frise-heure"></p><h3>Récolte</h3><p>Cueillir les plantes à la main.</p></li><li><p class="frise-heure"></p><h3>Séchage</h3><p>Les étaler dans les séchoirs.</p></li><li><p class="frise-heure"></p><h3>Transformation</h3><p>Les préparer et découvrir leurs usages.</p></li><li><p class="frise-heure">17 h 30</p><h3>Fin de la journée</h3><p>Le repas, avec les produits de la ferme, est compris.</p></li></ol>
-    </div>
-    <div class="journee-images">
-      <figure class="media journee-a" data-anime="rideau" style="--cadrage:50% 50%">
+    <div class="journee-corps" data-journee>
+      <div class="frise">
+        <svg class="frise-trait" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="none" aria-hidden="true" data-fx="trace"><path d="M8 20 H1192" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="frise-soleil" aria-hidden="true"></span>
+        <ol class="frise-etapes" data-anime="cascade"><li class=&quot;est-active&quot;><p class="frise-heure">10 h</p><h3><button type="button" class="frise-bouton" data-etape="0" aria-pressed="true" aria-controls="journee-scene">Visite des cultures</button></h3><p>Le tour d&#39;une micro-ferme en permaculture.</p></li><li><p class="frise-heure"></p><h3><button type="button" class="frise-bouton" data-etape="1" aria-pressed="false" aria-controls="journee-scene">Récolte</button></h3><p>Cueillir les plantes à la main.</p></li><li><p class="frise-heure"></p><h3><button type="button" class="frise-bouton" data-etape="2" aria-pressed="false" aria-controls="journee-scene">Séchage</button></h3><p>Les étaler dans les séchoirs.</p></li><li><p class="frise-heure"></p><h3><button type="button" class="frise-bouton" data-etape="3" aria-pressed="false" aria-controls="journee-scene">Transformation</button></h3><p>Les préparer et découvrir leurs usages.</p></li><li><p class="frise-heure">17 h 30</p><h3><button type="button" class="frise-bouton" data-etape="4" aria-pressed="false" aria-controls="journee-scene">Fin de la journée</button></h3><p>Le repas, avec les produits de la ferme, est compris.</p></li></ol>
+      </div>
+      <div class="journee-scene" id="journee-scene">
+        <figure class="media journee-vue est-active" data-vue="0" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/claies-800.webp" srcset="/assets/images/claies-480.webp 480w, /assets/images/claies-640.webp 640w, /assets/images/claies-800.webp 800w" sizes="(max-width: 760px) 44vw, 26vw" alt="Plantes étalées sur les claies du séchoir" width="800" height="600" loading="lazy" decoding="async">
+    <img src="/assets/images/fenouil-960.webp" srcset="/assets/images/fenouil-480.webp 480w, /assets/images/fenouil-640.webp 640w, /assets/images/fenouil-960.webp 960w" sizes="(max-width: 900px) 92vw, 80vw" alt="Fenouil et plantes en buttes paillées au jardin" width="960" height="1200" loading="lazy" decoding="async">
   </picture>
-</figure>
-      <figure class="media journee-b" data-fx="parallaxe" style="--cadrage:50% 50%">
+</figure><figure class="media journee-vue" data-vue="1" style="--cadrage:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/tisanes-ouverture-mobile-640.webp 640w, /assets/images/tisanes-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 900px) 92vw, 80vw">
+    <img src="/assets/images/tisanes-ouverture-1280.webp" srcset="/assets/images/tisanes-ouverture-640.webp 640w, /assets/images/tisanes-ouverture-1280.webp 1280w, /assets/images/tisanes-ouverture-1920.webp 1920w" sizes="(max-width: 900px) 92vw, 80vw" alt="Paniers de fleurs de souci et de mauve fraîchement cueillies" width="1280" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media journee-vue" data-grok data-vue="2" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/panier-cueillette-960.webp" srcset="/assets/images/panier-cueillette-480.webp 480w, /assets/images/panier-cueillette-640.webp 640w, /assets/images/panier-cueillette-960.webp 960w" sizes="(max-width: 760px) 44vw, 20vw" alt="Panier d&#39;osier rempli de fleurs fraîchement cueillies" width="960" height="1200" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/sechage-960.webp" srcset="/assets/images/grok/sechage-480.webp 480w, /assets/images/grok/sechage-640.webp 640w, /assets/images/grok/sechage-960.webp 960w" sizes="(max-width: 900px) 92vw, 80vw" alt="Plantes étalées sur des claies de séchage en bois" width="960" height="640" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><figure class="media journee-vue" data-vue="3" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/produit-aromates-1600.webp" srcset="/assets/images/produit-aromates-480.webp 480w, /assets/images/produit-aromates-640.webp 640w, /assets/images/produit-aromates-1600.webp 1600w" sizes="(max-width: 900px) 92vw, 80vw" alt="Pots d&#39;herbes aromatiques séchées" width="1600" height="2000" loading="lazy" decoding="async">
   </picture>
+</figure><figure class="media journee-vue" data-grok data-vue="4" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/legumes-hiver-784.webp" srcset="/assets/images/grok/legumes-hiver-480.webp 480w, /assets/images/grok/legumes-hiver-640.webp 640w, /assets/images/grok/legumes-hiver-784.webp 784w" sizes="(max-width: 900px) 92vw, 80vw" alt="Légumes du potager sur une table de ferme" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
+      </div>
     </div>
   </div>
 </section>
@@ -252,6 +266,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="Jardin Solstice" width="567" height="89" loading="lazy">
       <p>Micro-ferme bio, chambres d&#39;hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.</p>
       <p>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon<br><a href="tel:+33237811582">02 37 81 15 82</a><br><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></p>
+      <p class="pied-soleil" data-pied-soleil hidden><span class="pied-soleil-disque" aria-hidden="true"></span><span data-pied-soleil-texte></span></p>
     </div>
     <nav aria-label="Sommaire">
       <p class="pied-titre">Sommaire</p>
@@ -273,5 +288,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <a class="bouton bouton--contour" href="tel:+33237811582">Appeler</a>
   <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
 </div>
+<div class="fil-soleil" data-fil-soleil data-grille="fil" aria-hidden="true"><span class="fil-soleil-trait"></span><span class="fil-soleil-disque"></span></div>
 </body>
 </html>

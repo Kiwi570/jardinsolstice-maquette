@@ -2,26 +2,41 @@
  {
   "heure": "10 h",
   "titre": "Visite des cultures",
-  "texte": "Le tour d'une micro-ferme en permaculture."
+  "texte": "Le tour d'une micro-ferme en permaculture.",
+  "image": "fenouil",
+  "alt": "Fenouil et plantes en buttes paillées au jardin",
+  "cadrage": "50% 50%"
  },
  {
   "heure": "",
   "titre": "Récolte",
-  "texte": "Cueillir les plantes à la main."
+  "texte": "Cueillir les plantes à la main.",
+  "image": "tisanes-ouverture",
+  "alt": "Paniers de fleurs de souci et de mauve fraîchement cueillies",
+  "cadrage": "50% 60%"
  },
  {
   "heure": "",
   "titre": "Séchage",
-  "texte": "Les étaler dans les séchoirs."
+  "texte": "Les étaler dans les séchoirs.",
+  "image": "grok/sechage",
+  "alt": "Plantes étalées sur des claies de séchage en bois",
+  "cadrage": "50% 50%"
  },
  {
   "heure": "",
   "titre": "Transformation",
-  "texte": "Les préparer et découvrir leurs usages."
+  "texte": "Les préparer et découvrir leurs usages.",
+  "image": "produit-aromates",
+  "alt": "Pots d'herbes aromatiques séchées",
+  "cadrage": "50% 55%"
  },
  {
   "heure": "17 h 30",
   "titre": "Fin de la journée",
-  "texte": "Le repas, avec les produits de la ferme, est compris."
+  "texte": "Le repas, avec les produits de la ferme, est compris.",
+  "image": "grok/legumes-hiver",
+  "alt": "Légumes du potager sur une table de ferme",
+  "cadrage": "50% 50%"
  }
 ]

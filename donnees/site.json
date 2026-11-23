@@ -1,49 +1,49 @@
 {
-  "nom": "Jardin Solstice",
-  "adresse": "https://jardinsolstice-maquette.vercel.app",
-  "siteActuel": "jardinsolstice.com",
-  "version": 2,
-  "langues": [
-    "fr"
-  ],
-  "navigation": [
-    "accueil",
-    "chambres",
-    "tisanes",
-    "la-ferme",
-    "animations",
-    "alentours",
-    "contact"
-  ],
-  "actionEntete": {
-    "page": "contact",
-    "ancre": "demande",
-    "params": "sujet=sejour"
-  },
-  "couleurs": {
-    "fond": "#f1eee6",
-    "texte": "#1f2b23",
-    "voile": "#233128",
-    "ouverture": "#233128",
-    "menu": "#f1eee6",
-    "theme": "#f1eee6"
-  },
-  "formeVoile": "iris",
-  "contact": {
-    "telephone": "02 37 81 15 82",
-    "telephoneLien": "+33237811582",
-    "email": "jardinsolstice@orange.fr",
-    "adresse": "La Floudière, 5 rue de l'Hêtre, 28240 Vaupillon"
-  },
-  "lieu": {
-    "lat": 48.4611,
-    "lon": 0.9958,
-    "fuseau": "Europe/Paris"
-  },
-  "polices": [
-    "/assets/fonts/fraunces.woff2",
-    "/assets/fonts/figtree.woff2"
-  ],
-  "imagePartage": "accueil-ouverture-1280.webp",
-  "curseur": false
+ "nom": "Jardin Solstice",
+ "adresse": "https://jardinsolstice-maquette.vercel.app",
+ "siteActuel": "jardinsolstice.com",
+ "version": 3,
+ "langues": [
+  "fr"
+ ],
+ "navigation": [
+  "accueil",
+  "chambres",
+  "tisanes",
+  "la-ferme",
+  "animations",
+  "alentours",
+  "contact"
+ ],
+ "actionEntete": {
+  "page": "contact",
+  "ancre": "demande",
+  "params": "sujet=sejour"
+ },
+ "couleurs": {
+  "fond": "#f1eee6",
+  "texte": "#1f2b23",
+  "voile": "#233128",
+  "ouverture": "#233128",
+  "menu": "#f1eee6",
+  "theme": "#f1eee6"
+ },
+ "formeVoile": "iris",
+ "contact": {
+  "telephone": "02 37 81 15 82",
+  "telephoneLien": "+33237811582",
+  "email": "jardinsolstice@orange.fr",
+  "adresse": "La Floudière, 5 rue de l'Hêtre, 28240 Vaupillon"
+ },
+ "lieu": {
+  "lat": 48.4611,
+  "lon": 0.9958,
+  "fuseau": "Europe/Paris"
+ },
+ "polices": [
+  "/assets/fonts/fraunces.woff2",
+  "/assets/fonts/figtree.woff2"
+ ],
+ "imagePartage": "accueil-ouverture-1280.webp",
+ "curseur": false
 }

@@ -1,5 +1,15 @@
 # Jardin Solstice : historique de la maquette
 
+## v3 (23 novembre 2026)
+
+Revue complète des huit pages, sur ordinateur et téléphone : plus de choses à toucher, des pages plus courtes, le soleil comme fil d'un bout à l'autre.
+- Accueil : le soleil de l'ouverture se prend à la main (ou au clavier) ; glissé le long de l'arc, il donne l'heure à Vaupillon et réchauffe la photo, puis revient à sa place réelle. Les marchés de fin d'année deviennent un calendrier de tuiles, avec le compte à rebours du prochain (« Dans 6 jours : Foire Saint-André, Chartres »). La section « Une maison qui respire », déjà détaillée sur La ferme, quitte l'accueil ; la roue de l'année défile un peu plus vite.
+- Chambres : tarifs lisibles d'un coup d'œil (tuiles pour 1 et 2 personnes et le supplément, forfaits en dessous) ; chaque vignette passe en grand d'un toucher.
+- Tisanes : une douzaine de tisanes d'abord (six sur téléphone), les autres sur « Voir les autres tisanes » ; bouton « Laisser le hasard choisir » qui tire une tisane et l'amène au centre ; un petit sachet file vers le panier à chaque ajout.
+- Animations : la journée en immersion se suit étape par étape, au toucher ou au défilement ; un soleil avance sur la frise et la grande photo change (sur téléphone, la photo reste en haut pendant la lecture).
+- Aux alentours : sommaire flottant qui suit la lecture, rubriques plus serrées, trois coups de cœur au même format.
+- Toutes les pages : un petit soleil parcourt la marge du lever (haut de page) au coucher (bas de page) ; le pied de page donne le lever et le coucher du jour à Vaupillon ; les boutons réagissent au toucher.
+
 ## v2 (20 novembre 2026)
 
 Deux pages en plus, dans le même style, et le menu passe à six liens.

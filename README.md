@@ -8,13 +8,13 @@ L'accueil calcule chaque jour le lever et le coucher du soleil à Vaupillon, le 
 
 ## Pages
 
-- Accueil : ouverture de saison et soleil du jour, la ferme, les 3 chambres, l'Assiette du jardin, une sélection de tisanes, la roue de l'année, les marchés de fin d'année, la maison qui respire, appel final.
-- Chambres : Rubus, Tilia, Borago et leurs tarifs, petit-déjeuner et Assiette du jardin, calculateur de séjour, conditions.
-- Tisanes : catalogue des 35 tisanes (filtres, recherche, panier simulé), sirops et autres préparations, du champ à la tasse, points de vente, questions.
+- Accueil : ouverture de saison et soleil du jour (il se prend à la main et donne l'heure), la ferme, les 3 chambres, l'Assiette du jardin, une sélection de tisanes, la roue de l'année, le calendrier des marchés de fin d'année avec le compte à rebours du prochain, appel final.
+- Chambres : Rubus, Tilia, Borago et leurs tarifs en un coup d'œil (les vignettes passent en grand d'un toucher), petit-déjeuner et Assiette du jardin, calculateur de séjour, conditions.
+- Tisanes : catalogue des 35 tisanes (filtres, recherche, tirage au hasard, panier simulé ; une douzaine affichées d'abord), sirops et autres préparations, du champ à la tasse, points de vente, questions.
 - La ferme : Magalie et Sébastien, le jardin, les cultures, la maison et ses nuits noires, questions et engagements.
 - Contact : itinéraire depuis la gare de La Loupe, demande en trois étapes (séjour, table, commande, groupe, autre), accès.
-- Animations et stages (v2) : programme 2026 marqué « Terminé » automatiquement, déroulé d'une journée en immersion, visites de groupe, stages.
-- Aux alentours (v2) : balades, vélo, jardins, patrimoine, loisirs, tables du samedi, bonnes adresses bio, coups de cœur.
+- Animations et stages (v2) : programme 2026 marqué « Terminé » automatiquement, journée en immersion étape par étape (au toucher ou au défilement), visites de groupe, stages.
+- Aux alentours (v2) : balades, vélo, jardins, patrimoine, loisirs, tables du samedi, bonnes adresses bio, coups de cœur, avec un sommaire qui suit la lecture.
 - 404.
 
 Pages du site actuel non reprises : On parle de nous, Blog, Marchés et points de vente (repris en partie sur l'accueil et la page Tisanes).

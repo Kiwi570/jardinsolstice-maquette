@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#f1eee6">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -113,6 +113,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/accueil-ouverture-1280.webp" srcset="/assets/images/accueil-ouverture-640.webp 640w, /assets/images/accueil-ouverture-1280.webp 1280w, /assets/images/accueil-ouverture-1920.webp 1920w" sizes="100vw" alt="Ombelle couverte de givre au jardin, un matin d&#39;hiver" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
+  <div class="ouv-lueur" aria-hidden="true"></div>
   <div class="ouv-contenu">
     <div class="ciel" data-ciel data-effet="soleil">
       <div class="ciel-zone">
@@ -121,7 +122,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <path class="ciel-trajet" d="M24 196 A176 176 0 0 1 376 196" pathLength="1"/>
         <path class="ciel-parcouru" d="M24 196 A176 176 0 0 1 376 196" pathLength="1"/>
       </svg>
-      <span class="ciel-soleil" data-iris-centre="disque" style="--sx:34%;--sy:30%"></span>
+      <span class="ciel-soleil" data-iris-centre="disque" data-grille="manipuler" style="--sx:34%;--sy:30%"></span>
       </div>
       <div class="ciel-legende">
         <p class="ciel-lever"><span>Lever</span> <strong data-ciel-lever>–</strong></p>
@@ -355,42 +356,52 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="marches-texte">
     <p class="surtitre" data-anime>Où nous trouver</p>
     <h2 data-anime="lignes">Les marchés <em>de fin d'année</em></h2>
-    <ol class="marches-liste" data-anime="cascade" data-marches><li class="marche" data-date="2026-11-29">
+    <p class="marches-compte" data-anime><span class="ouv-info-pastille" aria-hidden="true"></span><span data-marches-compte>Neuf rendez-vous, du 29 novembre au 20 décembre.</span></p>
+    <ol class="marches-tuiles" data-anime="cascade" data-marches><li class="marche" data-date="2026-11-29">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">29</span><span class="marche-mois">NOV.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Dimanche 29 novembre</p>
       <p class="marche-lieu">Foire Saint-André<span>Chartres (28) · 9 h-18 h 30</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-05">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">5</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Samedi 5 décembre</p>
       <p class="marche-lieu">Rencontre au LocaLapin<span>Serazereux (28) · horaires à venir</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-06">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">6</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Dimanche 6 décembre</p>
       <p class="marche-lieu">Marché de Noël au château<span>Senonches (28) · 10 h-18 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-12">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">12</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Samedi 12 décembre</p>
       <p class="marche-lieu">Marché de producteurs locaux et bios, Ferme Virginia Corn<span>Tremblay-les-Villages (28) · 9 h-13 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-12">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">12</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Samedi 12 décembre</p>
       <p class="marche-lieu">Marché de Noël<span>Le Pin-la-Garenne (61) · 14 h-18 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-13">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">13</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Dimanche 13 décembre</p>
       <p class="marche-lieu">Marché de Noël, Ferme des Gâtines<span>Rouge (28) · 10 h-18 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-18">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">18</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Vendredi 18 décembre</p>
       <p class="marche-lieu">Marché de Noël, Les délices du Potager<span>Poinville (28) · 16 h-21 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-19">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">19</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Samedi 19 décembre</p>
       <p class="marche-lieu">Marché de Noël<span>Bonneval (28) · 14 h-18 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li><li class="marche" data-date="2026-12-20">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">20</span><span class="marche-mois">DÉC.</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">Dimanche 20 décembre</p>
       <p class="marche-lieu">Marché de Noël<span>Boissy-Maugis (61) · 10 h-17 h</span></p>
-      <p class="marche-statut" data-statut></p>
     </li></ol>
     <div class="marches-fixes" data-anime="cascade">
       <div><h3>Toute l&#39;année au Chardon</h3><p>Boutique des producteurs bio du Perche, 1 place Saint-Pol à Nogent-le-Rotrou : mardi, mercredi et vendredi 9 h 30-13 h et 14 h 30-19 h, samedi 9 h 30-14 h 30.</p></div>
@@ -403,20 +414,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/produit-sirops-1600.webp" srcset="/assets/images/produit-sirops-480.webp 480w, /assets/images/produit-sirops-640.webp 640w, /assets/images/produit-sirops-1600.webp 1600w" sizes="(max-width: 760px) 90vw, 34vw" alt="Sirops de plantes du Jardin Solstice au soleil sur une terrasse en bois" width="1600" height="2000" loading="lazy" decoding="async">
   </picture>
 </figure>
-</section>
-<section class="maison" id="maison">
-  <figure class="media maison-media" data-fx="parallaxe" data-fx-force="12" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/terres-cuites-1280.webp" srcset="/assets/images/terres-cuites-640.webp 640w, /assets/images/terres-cuites-1280.webp 1280w, /assets/images/terres-cuites-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Terres cuites de récupération empilées" width="1280" height="853" loading="lazy" decoding="async">
-  </picture>
-</figure>
-  <div class="maison-texte">
-    <p class="surtitre" data-anime>Démarche écologique</p>
-    <h2 data-anime="lignes">Une maison <em>qui respire</em></h2>
-    <p data-anime>Les chambres ont été rénovées avec des matériaux simples et locaux : silex, chaux, chanvre, terres cuites de récupération et peintures sans COV.</p>
-    <ul class="maison-liste" data-anime="cascade"><li><strong>Silex et chaux</strong><span>Une maison sans fondations, aux enduits à la chaux qui laissent respirer les murs.</span></li><li><strong>Chanvre et ouate</strong><span>Laine de chanvre dans la maison, ouate de cellulose sous le toit des chambres.</span></li><li><strong>Soleil et granulés</strong><span>Eau chaude solaire ; chaudière et poêle à granulés de sciure de la région.</span></li><li><strong>Roseaux, iris et menthes</strong><span>Deux bacs plantés épurent les eaux des chambres Rubus et Tilia.</span></li><li><strong>Nuits noires</strong><span>Un éclairage extérieur tourné vers le sol, pour garder le ciel étoilé.</span></li></ul>
-    <p data-anime><a href="/la-ferme#maison" class="lien-fleche" data-libelle="La ferme">La démarche en détail</a></p>
-  </div>
 </section>
 <section class="fin fin--photo" id="venir">
   <figure class="media fin-media" data-grok data-fx="zoom" data-fx-force="10" style="--cadrage:60% 50%;--cadrage-mobile:50% 70%">
@@ -440,6 +437,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="Jardin Solstice" width="567" height="89" loading="lazy">
       <p>Micro-ferme bio, chambres d&#39;hôtes écologiques et plantes médicinales dans le Perche. GAEC Jardin Solstice.</p>
       <p>La Floudière, 5 rue de l&#39;Hêtre, 28240 Vaupillon<br><a href="tel:+33237811582">02 37 81 15 82</a><br><a href="mailto:jardinsolstice@orange.fr">jardinsolstice@orange.fr</a></p>
+      <p class="pied-soleil" data-pied-soleil hidden><span class="pied-soleil-disque" aria-hidden="true"></span><span data-pied-soleil-texte></span></p>
     </div>
     <nav aria-label="Sommaire">
       <p class="pied-titre">Sommaire</p>
@@ -461,5 +459,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <a class="bouton bouton--contour" href="tel:+33237811582">Appeler</a>
   <a class="bouton" href="/contact?sujet=sejour#demande" data-libelle="Contact">Réserver</a>
 </div>
+<div class="fil-soleil" data-fil-soleil data-grille="fil" aria-hidden="true"><span class="fil-soleil-trait"></span><span class="fil-soleil-disque"></span></div>
 </body>
 </html>

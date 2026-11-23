@@ -96,6 +96,7 @@ function pied(c) {
       <img class="pied-logo" src="/assets/images/logo-solstice-clair.png" alt="${c.site.nom}" width="567" height="89" loading="lazy">
       <p>${c.t('commun.piedAccroche')}</p>
       <p>${c.site.contact.adresse}<br><a href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a><br><a href="mailto:${c.site.contact.email}">${c.site.contact.email}</a></p>
+      <p class="pied-soleil" data-pied-soleil hidden><span class="pied-soleil-disque" aria-hidden="true"></span><span data-pied-soleil-texte></span></p>
     </div>
     <nav aria-label="${c.s('commun.sommaire')}">
       <p class="pied-titre">${c.t('commun.sommaire')}</p>
@@ -154,6 +155,7 @@ ${contenu}
 </main>
 ${pied(c)}
 ${barre(c)}
+<div class="fil-soleil" data-fil-soleil data-grille="fil" aria-hidden="true"><span class="fil-soleil-trait"></span><span class="fil-soleil-disque"></span></div>
 </body>
 </html>`;
 }

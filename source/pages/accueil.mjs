@@ -1,5 +1,5 @@
 /* Accueil : la saison du jour et le soleil réel de Vaupillon (lever, coucher, jours avant le solstice),
-   puis la ferme, les chambres, la table, les tisanes, la roue de l'année, les marchés, la maison et l'appel final. */
+   puis la ferme, les chambres, la table, les tisanes, la roue de l'année, le calendrier des marchés et l'appel final. */
 import { html } from '../../outils/gabarit.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'accueil-ouverture-1280.webp' };
@@ -9,6 +9,7 @@ const euros = (n) => (Number.isInteger(n) ? `${n} €` : `${n.toFixed(2).replace
 export default (c) => html`
 <section class="ouv ecran" id="debut" data-boucle-css>
   ${c.media({ nom: 'accueil-ouverture', alt: c.s('accueil.ouv.alt'), cadrage: '30% 45%', cadrageMobile: '40% 40%', priorite: true, classe: 'ouv-media', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
+  <div class="ouv-lueur" aria-hidden="true"></div>
   <div class="ouv-contenu">
     <div class="ciel" data-ciel data-effet="soleil">
       <div class="ciel-zone">
@@ -17,7 +18,7 @@ export default (c) => html`
         <path class="ciel-trajet" d="M24 196 A176 176 0 0 1 376 196" pathLength="1"/>
         <path class="ciel-parcouru" d="M24 196 A176 176 0 0 1 376 196" pathLength="1"/>
       </svg>
-      <span class="ciel-soleil" data-iris-centre="disque" style="--sx:34%;--sy:30%"></span>
+      <span class="ciel-soleil" data-iris-centre="disque" data-grille="manipuler" style="--sx:34%;--sy:30%"></span>
       </div>
       <div class="ciel-legende">
         <p class="ciel-lever"><span>${c.t('accueil.ouv.lever')}</span> <strong data-ciel-lever>–</strong></p>
@@ -146,10 +147,12 @@ export default (c) => html`
   <div class="marches-texte">
     <p class="surtitre" data-anime>${c.t('accueil.marches.sur')}</p>
     <h2 data-anime="lignes">${c.tb('accueil.marches.titre')}</h2>
-    <ol class="marches-liste" data-anime="cascade" data-marches>${c.donnees.marches.map((m) => html`<li class="marche" data-date="${m.date}">
+    <p class="marches-compte" data-anime><span class="ouv-info-pastille" aria-hidden="true"></span><span data-marches-compte>${c.t('accueil.marches.compte')}</span></p>
+    <ol class="marches-tuiles" data-anime="cascade" data-marches>${c.donnees.marches.map((m) => html`<li class="marche" data-date="${m.date}">
+      <p class="marche-date" aria-hidden="true"><span class="marche-num">${+m.date.slice(8)}</span><span class="marche-mois">${c.donnees.moisCourts[+m.date.slice(5, 7) - 1]}</span></p>
+      <p class="marche-statut" data-statut></p>
       <p class="marche-jour">${m.jour}</p>
       <p class="marche-lieu">${m.lieu}<span>${m.ville} · ${m.horaires}</span></p>
-      <p class="marche-statut" data-statut></p>
     </li>`)}</ol>
     <div class="marches-fixes" data-anime="cascade">
       <div><h3>${c.t('accueil.marches.chardonTitre')}</h3><p>${c.t('accueil.marches.chardonTexte')}</p></div>
@@ -158,17 +161,6 @@ export default (c) => html`
     <p data-anime>${c.lien('tisanes', { ancre: 'trouver', classe: 'lien-fleche', texte: c.t('accueil.marches.lien') })}</p>
   </div>
   ${c.media({ nom: 'produit-sirops', alt: c.s('accueil.marches.alt'), classe: 'marches-media', sizes: '(max-width: 760px) 90vw, 34vw', attrs: 'data-fx="parallaxe"' })}
-</section>
-
-<section class="maison" id="maison">
-  ${c.media({ nom: 'terres-cuites', alt: c.s('accueil.maison.alt'), classe: 'maison-media', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-fx="parallaxe" data-fx-force="12"' })}
-  <div class="maison-texte">
-    <p class="surtitre" data-anime>${c.t('accueil.maison.sur')}</p>
-    <h2 data-anime="lignes">${c.tb('accueil.maison.titre')}</h2>
-    <p data-anime>${c.t('accueil.maison.texte')}</p>
-    <ul class="maison-liste" data-anime="cascade">${c.donnees.maison.map((m) => html`<li><strong>${m.titre}</strong><span>${m.texte}</span></li>`)}</ul>
-    <p data-anime>${c.lien('la-ferme', { ancre: 'maison', classe: 'lien-fleche', texte: c.t('accueil.maison.lien') })}</p>
-  </div>
 </section>
 
 <section class="fin fin--photo" id="venir">

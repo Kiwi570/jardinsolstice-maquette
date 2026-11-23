@@ -21,12 +21,17 @@ export default async function ({ contexte, attendrePret, attendre, BASE, R, T })
     await page.evaluate(() => localStorage.removeItem('jardinsolstice:panier'));
     await page.reload({ waitUntil: 'load' });
     await attendrePret(page);
+    /* v3 : une douzaine de tisanes d'abord, le reste derrière « Voir les autres tisanes ». */
+    if (await page.locator('[data-voir-plus]').isVisible()) { await page.locator('[data-voir-plus]').click(); await attendre(400); }
+    const toutes = await page.evaluate(() => [...document.querySelectorAll('.tisane')].filter((c) => !c.hidden).length);
+    if (toutes !== 35) R.echec('catalogue', `${toutes} tisanes visibles après « Voir les autres » au lieu de 35`, { page: '/tisanes' });
     for (let i = 0; i < 3; i++) { await page.locator('[data-ajouter="coup-de-froid"]').click(); await attendre(150); }
     const t = await page.evaluate(() => document.querySelector('[data-panier-total]').textContent.replace(/\s/g, ''));
     if (t !== '23,25€') R.echec('panier', `total ${t} au lieu de 23,25 €`, { page: '/tisanes', taille: '1366×768' });
     const autre = await ctx.newPage();
     await autre.goto(BASE + '/tisanes', { waitUntil: 'load' });
     await attendrePret(autre);
+    if (await page.locator('[data-voir-plus]').isVisible()) await page.locator('[data-voir-plus]').click();
     await page.locator('[data-ajouter="festive"]').click();
     await attendre(400);
     const n = await autre.evaluate(() => document.querySelector('[data-panier-nombre]').textContent.trim());
@@ -49,6 +54,13 @@ export default async function ({ contexte, attendrePret, attendre, BASE, R, T })
     await attendre(500);
     const tilleul = await page.evaluate(() => [...document.querySelectorAll('.tisane')].filter((c) => !c.hidden).length);
     if (tilleul < 5) R.echec('recherche', `« Tilleuls » ne trouve que ${tilleul} tisanes`, { page: '/tisanes' });
+
+    /* v3 : le hasard choisit une tisane, qui se signale. */
+    await page.locator('[data-recherche]').fill('');
+    await page.locator('[data-piocher]').click();
+    await attendre(900);
+    const tiree = await page.evaluate(() => { const c = document.querySelector('.tisane.est-pioche'); return c && !c.hidden ? c.dataset.cle : null; });
+    if (!tiree) R.echec('hasard', 'le bouton « Laisser le hasard choisir » ne signale aucune tisane visible', { page: '/tisanes' });
 
     /* Demande préremplie depuis l'adresse. */
     await page.goto(BASE + '/contact?sujet=table#demande', { waitUntil: 'load' });

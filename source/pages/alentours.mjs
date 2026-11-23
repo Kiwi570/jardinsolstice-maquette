@@ -17,6 +17,10 @@ export default (c) => html`
   </div>
 </section>
 
+<nav class="ale-sommaire" aria-label="${c.s('alentours.sommaire')}" data-sommaire>
+  <ul>${c.donnees.alentours.map((r) => html`<li><a href="#${r.cle}" data-sans-transition>${r.nav}</a></li>`)}<li><a href="#coups-de-coeur" data-sans-transition>${c.t('alentours.coups.nav')}</a></li></ul>
+</nav>
+
 ${c.donnees.alentours.map((r, i) => html`<section class="rubrique conteneur${i % 2 ? ' rubrique--inverse' : ''}" id="${r.cle}">
   <div class="rubrique-texte">
     <p class="surtitre" data-anime>${r.nav}</p>
@@ -34,8 +38,8 @@ ${c.donnees.alentours.map((r, i) => html`<section class="rubrique conteneur${i %
       <p class="surtitre" data-anime>${c.t('alentours.coups.sur')}</p>
       <h2 data-anime="lignes">${c.tb('alentours.coups.titre')}</h2>
     </div>
-    <ul class="coups-liste" data-anime="cascade">${c.donnees.coupsDeCoeur.map((x) => html`<li>
-      ${x.image ? c.media({ nom: x.image, alt: x.alt, classe: 'coup-media', sizes: '(max-width: 760px) 90vw, 26vw' }) : ''}
+    <ul class="coups-liste" data-anime="cascade">${c.donnees.coupsDeCoeur.map((x, i) => html`<li data-survol="incline" data-survol-force="3">
+      ${x.image ? c.media({ nom: x.image, alt: x.alt, classe: 'coup-media', sizes: '120px' }) : html`<span class="coup-dessin" aria-hidden="true">${i === 0 ? html`<svg viewBox="0 0 64 64" fill="none"><path d="M18 46c-4 0-7 3-7 7 5 0 11-1 13-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M24 44 50 14c2-2 5 1 3 3L26 47" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="46" cy="44" r="4" fill="currentColor"/><circle cx="36" cy="52" r="3" fill="currentColor" opacity=".6"/></svg>` : html`<svg viewBox="0 0 64 64" fill="none"><path d="M10 34c8-10 16-10 22 0s14 10 22 0" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M10 44c8-10 16-10 22 0s14 10 22 0" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity=".6"/><circle cx="32" cy="18" r="6" fill="currentColor"/></svg>`}</span>`}
       <h3>${x.nom}</h3><p class="coup-lieu">${x.lieu}</p><p>${x.texte}</p></li>`)}</ul>
   </div>
 </section>
